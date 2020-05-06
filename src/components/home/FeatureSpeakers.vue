@@ -4,7 +4,7 @@
             <v-flex xs12 md12 class="pa-5">
                <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">
                    <b>
-                       Our lineup of<span style="color: #1a73e8;"> big thinkers and </span> and <span style="color: #1a73e8;">even bigger doers</span>
+                       Our lineup of<span style="color: #0097a7;"> big thinkers and </span> and <span style="color: #0097a7;">even bigger doers</span>
                    </b> 
                 </p>
                 <p class="google-font mt-1">

@@ -3,7 +3,7 @@
         <v-layout wrap align-start justify-start row fill-heights>
 
             <v-flex xs12 sm12 md8 lg8 xl8 class="pa-5">
-                <p class="google-font" style="font-size:180%;color:#0277bd">Community Guidelines</p>
+                <p class="google-font" style="font-size:180%;color:#0097a7">Community Guidelines</p>
                 <v-expansion-panels accordion>
                     <v-expansion-panel
                     v-for="(item,i) in cgdata.communityGuideline"

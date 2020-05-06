@@ -1,10 +1,6 @@
 {
     "AboutSession":[
         {
-            "LinkName":"GDG Jalandhar",
-            "Link":"https://meetup.com/GDG-Jalandhar/"
-        },
-        {
             "LinkName":"Google Developers Groups",
             "Link":"https://developers.google.com/programs/community/gdg/"
         },
@@ -15,16 +11,8 @@
     ],
     "ChapterResourcesSession":[
         {
-            "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:contact@gdgjalandhar.com"
-        },
-        {
-            "LinkName" : "Call for Speaker",
-            "Link" : "mailto:contact@gdgjalandhar.com"
-        },
-        {
-            "LinkName" : "Media Kit",
-            "Link" : "#"
+            "LinkName" : "Become a Member",
+            "Link" : "https://www.womentechmakers.com/membership"
         }
     ],
     "DevConsole":[

@@ -1,24 +1,18 @@
 <template>
     <v-container class="px-3">
         <v-layout wrap align-start justify-start row fill-heights>
-
             <v-flex xs12 sm12 md8 lg8 xl8 class="pa-5">
-
-                 <p class="google-font" style="font-size:180%;color:#0277bd">Anti-Harassment Policy</p>
-
+                <p class="google-font" style="font-size:180%;color:#0097a7">Anti-Harassment Policy</p>
                 <p class="google-font" style="font-size:100%">
                     <b style="font-size:120%;color: #2E2E2E;">Why do we have an official Anti-Harassment policy for {{cgdata.ChapterName}} events?</b>
-
                     <ul class="mt-2" style="font-size:100%">
                         <li class="google-font">It sets expectations for behavior at the event. Simply having an anti-harassment policy can prevent harassment.</li>
                         <li class="google-font">It encourages people to attend who have had bad experiences at other events</li>
                         <li class="google-font">It gives event staff/volunteers instructions on how to handle harassment quickly, with minimum amount of disruption for the event.</li>
                     </ul>
                 </p>
-
                 <p class="google-font" style="font-size:100%">
                     <b style="font-size:120%;color: #2E2E2E;">{{cgdata.ChapterName}} is dedicated to providing a harassment-free event experience for everyone, regardless of: </b>
-
                     <ul class="mt-2" style="font-size:100%">
                         <li class="google-font">Gender</li>
                         <li class="google-font">Sexual Orientation</li>
@@ -56,12 +50,8 @@
                     <br><br>
                     Though we hope that we never have to invoke this policy, we believe that having this document helps everyone think a little more about how their actions and words affect the whole community, as well as individuals in the community.
                 </p>
-            </v-flex> 
-
-        
+            </v-flex>         
         </v-layout>
-
-
     </v-container>
 </template>
 

@@ -5,8 +5,8 @@
         <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">
           <b>
             On the edge of
-            <span style="color: #1a73e8;">Android, ML, Web</span> and
-            <span style="color: #1a73e8;">Cloud</span>
+            <span style="color: #0097a7;">Android, ML, Web</span> and
+            <span style="color: #0097a7;">Cloud</span>
           </b>
         </p>
         <p
@@ -15,7 +15,7 @@
 
         <v-btn
           href="https://www.youtube.com/watch?v=YV_sYKDsyPw"
-          color="#1a73e8"
+          color="#0097a7"
           target="_blank"
           rounded
           style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;"
@@ -30,7 +30,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #1a73e8;">200+</span>
+                <span style="color: #0097a7;">220+</span>
               </b>
             </p>
             <p class="google-font">Attendees</p>
@@ -39,7 +39,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #1a73e8;">2+</span>
+                <span style="color: #0097a7;">2+</span>
               </b>
             </p>
             <p class="google-font">Workshops</p>
@@ -47,7 +47,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #1a73e8;">7+</span>
+                <span style="color: #0097a7;">7+</span>
               </b>
             </p>
             <p class="google-font">Sessions</p>
@@ -55,7 +55,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #1a73e8;">10+</span>
+                <span style="color: #0097a7;">10+</span>
               </b>
             </p>
             <p class="google-font">Speakers</p>

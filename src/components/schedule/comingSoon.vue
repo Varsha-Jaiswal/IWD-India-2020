@@ -4,7 +4,7 @@
             <v-flex xs12 sm12 md12 lg12 xl12 class="px-5">
                 <!-- <v-icon>mdi-hexagon-multiple mdi-spin</v-icon> -->
                <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>   
-                    <span style="color: #1a73e8;">Coming Soon...</span></b> 
+                    <span style="color: #0097a7;">Coming Soon...</span></b> 
                 </p>
                 <p class="google-font">
                     This year’s program has been designed to help you sharpen your skills, expand your network, and accelerate your personal development.

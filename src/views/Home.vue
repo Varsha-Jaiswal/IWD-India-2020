@@ -1,5 +1,7 @@
 <template>
   <v-content class="pa-0">
+    <!-- <comingSoon/> -->
+    <!-- <card /> -->
     <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
@@ -52,13 +54,13 @@
       </v-layout>
     </v-container>
 
-    <!-- <v-container fluid class="my-0 py-3 d-none d-sm-block ">
+    <v-container fluid class="my-0 py-3 d-none d-sm-block ">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <FeatureSessions />
         </v-flex>
       </v-layout>
-    </v-container> -->
+    </v-container>
 
     <v-container fluid class="d-none d-sm-block " >
       <v-layout wrap align-center justify-center row fill-height>
@@ -78,7 +80,7 @@
   import whatToDo from '@/components/home/whatToDo'
   import stats from '@/components/home/stats'
   import FeatureSpeakers from '@/components/home/FeatureSpeakers'
-  // import FeatureSessions from '@/components/home/FeatureSessions'
+  import FeatureSessions from '@/components/home/FeatureSessions'
   import partners from '@/components/home/partners'
   // import comingSoon from '@/components/common/comingSoon'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
@@ -96,7 +98,7 @@
       stats,
       // comingSoon,
       FeatureSpeakers,
-      // FeatureSessions,
+      FeatureSessions,
       partners,
       // card,
       HomeStartScreenMobileView,

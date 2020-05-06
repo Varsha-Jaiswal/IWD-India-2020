@@ -1,7 +1,6 @@
 <template>
   <v-app-bar app
-    color="primary"
-    dark
+    color="white"
     hide-on-scroll
     scroll-off-screen
   >
@@ -64,7 +63,7 @@ export default {
       //     }).then(()=>{
       //       // console.log('Thanks for sharing')
       //     }).catch(e=>{
-      //       console.log(e)
+      //       // console.log(e)
       //     })
       //   }
       // }
