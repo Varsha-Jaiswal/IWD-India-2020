@@ -6,12 +6,11 @@
         <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:150%">
           <b>
             About
-            <span style="color: #1a73e8;">IWD Jalandhar 2020</span>
+            <span style="color: #1a73e8;">IWD India 2020</span>
           </b>
         </p>
-        <p
-          class="google-font mt-3"
-        >IWDs are community-led, developer events hosted by WTM chapters around the globe focused on community building and learning about Google’s technologies and celebrating the accomplishments of women with inspiring career.</p>
+        <p class="google-font mt-3">
+        IWDs are community-led, developer events hosted by WTM chapters around the globe focused on community building and learning about Google’s technologies and celebrating the accomplishments of women with inspiring career.</p>
         <!-- <p class="google-font mt-2">* Check back often as we continue to add new sessions</p> -->
       </v-flex>
     </v-layout>

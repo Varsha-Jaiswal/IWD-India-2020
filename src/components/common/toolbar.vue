@@ -7,7 +7,7 @@
   >
     <v-app-bar-nav-icon @click="toggleDrawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
 
-    <v-toolbar-title class="google-font pa-0">IWD Jalandhar 2020</v-toolbar-title>
+    <v-toolbar-title class="google-font pa-0">IWD India 2020</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
