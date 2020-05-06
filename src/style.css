@@ -1,0 +1,10 @@
+@import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
+
+@font-face {
+    font-family: google-sans;
+    font-display: auto;
+    src: url(assets/fonts/google-font.woff2);
+}
+.google-font{
+    font-family: google-sans
+};

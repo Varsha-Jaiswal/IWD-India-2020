@@ -1,0 +1,27 @@
+<template>
+    <v-container class="mb-0 pb-0">
+        <v-layout wrap align-center justify-center row fill-height>
+            <v-flex xs12 sm12 md12 lg12 xl12 class="px-5">
+                <!-- <v-icon>mdi-hexagon-multiple mdi-spin</v-icon> -->
+               <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>   
+                    <span style="color: #1a73e8;">Coming Soon...</span></b> 
+                </p>
+                <p class="google-font">
+                    This year’s program has been designed to help you sharpen your skills, expand your network, and accelerate your personal development.
+                </p>
+                <p class="google-font mt-0">
+                    We'll update the schedule by 10th March, 2020.
+                </p>
+            </v-flex> 
+        </v-layout>
+    </v-container>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+        }
+    },
+}
+</script>
