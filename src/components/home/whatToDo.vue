@@ -23,7 +23,7 @@
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
                     <v-card class="pa-3" :elevation="hover ? 0 : 0">
-                        <v-icon size="50px">mdi-lock-pattern</v-icon>
+                        <v-icon size="50px">mdi-access-point-network</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Fireside Chat</p>
                         <p class="google-font" style="font-size:100%;color:#9e9e9e">Explanation</p>
                     </v-card>
@@ -32,7 +32,7 @@
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
                     <v-card class="pa-3" :elevation="hover ? 0 : 0">
-                        <v-icon size="50px">mdi-lock-pattern</v-icon>
+                        <v-icon size="50px">mdi-nfc-tap</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Panel Discussions</p>
                         <p class="google-font" style="font-size:100%;color:#9e9e9e">Explanation</p>
                     </v-card>

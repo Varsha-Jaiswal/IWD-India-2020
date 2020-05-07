@@ -27,7 +27,6 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      console.log(pic);
       if (pic.length > 0) {
         return require("@/assets/img/iwd19/" + pic);
       } else {

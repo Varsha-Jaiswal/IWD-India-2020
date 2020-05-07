@@ -11,19 +11,11 @@
         <!-- <v-toolbar-title class="google-font pa-0 ma-0">{{title}}</v-toolbar-title> -->
 
         <v-spacer></v-spacer>
-
-
-        <share/>
-
-        <v-btn icon v-on:click="shareMe" class="hidden-sm-and-up">
-            <v-icon>mdi-share-variant</v-icon>
-        </v-btn>
     </v-app-bar> 
 </template>
 
 
 <script>
-import share from '@/components/common/share'
 import {
     mapGetters,
     mapMutations
@@ -31,9 +23,6 @@ import {
 export default {
     props:{
         title:String
-    },
-    components:{
-      share
     },
     computed: {
       ...mapGetters(['links'])
@@ -44,18 +33,6 @@ export default {
         e.stopPropagation()
         if (item.to || !item.href) return
         this.$vuetify.goTo(item.href)
-      },
-      shareMe(e){
-        if(navigator.share){
-          navigator.share({
-            title:"DevFest Punjab 2019",
-            url:''
-          }).then(()=>{
-            // console.log('Thanks for sharing')
-          }).catch(e=>{
-            // console.log(e)
-          })
-        }
       }
     }
 }

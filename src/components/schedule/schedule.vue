@@ -187,7 +187,6 @@ export default {
   }),
   methods: {
     getBorderColor(data){
-      console.log(data)
       if(data == 'Main Hall'){
         return '5px solid #1E88E5'
       }
@@ -198,7 +197,6 @@ export default {
       }
     },
     getColor(data){
-      console.log(data)
       if(data == 'Main Hall'){
         return '#1E88E5'
       }

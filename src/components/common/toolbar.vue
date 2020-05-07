@@ -22,51 +22,28 @@
       >
         {{ link.text }}
     </v-btn>
-
-    <!-- <share/> -->
-
-    <v-btn aria-label="Share Button" icon v-on:click="shareMe" class="hidden-sm-and-up">
-      <v-icon>mdi-share-variant</v-icon>
-    </v-btn>
-
   </v-app-bar>
 </template>
 
 <script>
-// import share from '@/components/common/share'
 import {
     mapGetters,
-    // mapMutations
+    mapMutations
   } from 'vuex'
 export default {
     props:{
       color:String
     },
-    components:{
-      // share
-    },
     computed: {
       ...mapGetters(['links'])
     },
     methods: {
-      // ...mapMutations(['toggleDrawer']),
-      // onClick (e, item) {
-      //   e.stopPropagation()
-      //   if (item.to || !item.href) return
-      //   this.$vuetify.goTo(item.href)
-      // },
-      // shareMe(e){
-      //   if(navigator.share){
-      //     navigator.share({
-      //       title:"DevFest Punjab 2019",
-      //       url:''
-      //     }).then(()=>{
-      //       // console.log('Thanks for sharing')
-      //     }).catch(e=>{
-      //       // console.log(e)
-      //     })
-      //   }
-      // }
+      ...mapMutations(['toggleDrawer']),
+      onClick (e, item) {
+        e.stopPropagation()
+        if (item.to || !item.href) return
+        this.$vuetify.goTo(item.href)
+      }
     }
 }
 </script>
