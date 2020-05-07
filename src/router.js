@@ -93,15 +93,6 @@ const  router =  new Router({
         title:'Community Guidelines | IWD Jalandhar 2019',
         color:'red'
       }
-    },
-    {
-      path:'/sponsors',
-      name:'sponsors',
-      component: () => import('./views/Sponsors.vue'),
-      meta:{
-        title:'Sponsors | IWD Jalandhar 2019',
-        color:'red'
-      }
     }
   ],
 })

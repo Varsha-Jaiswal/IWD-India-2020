@@ -12,7 +12,6 @@ export default new Vuex.Store({
       { text: 'Sessions', to: '/sessions', icon: 'mdi-format-list-checks',visible:true},
       { text: 'Speakers', to: '/speakers', icon:'mdi-account-switch',visible:true},
       { text: 'Team', to: '/team', icon:'mdi-account-settings',visible:true},
-      { text: 'Sponsors', to: '/sponsors', icon:'mdi-altimeter',visible:false},
       // { text: 'About', to: '/about', icon: 'mdi-note-multiple-outline',visible:true},
       // { text: 'Contact', to: '/contact', icon:'mdi-contacts'},
       { text: 'Community Guidelines', to: '/community-guidelines', icon:'mdi-format-align-justify',visible:false}

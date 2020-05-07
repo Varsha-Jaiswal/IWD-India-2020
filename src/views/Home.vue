@@ -61,15 +61,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-
-    <v-container fluid class="d-none d-sm-block " >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <partners />
-        </v-flex>
-      </v-layout>
-    </v-container>
-
     <!-- FeatureSpeakers -->
   </v-content>
   
@@ -81,14 +72,12 @@
   import stats from '@/components/home/stats'
   import FeatureSpeakers from '@/components/home/FeatureSpeakers'
   import FeatureSessions from '@/components/home/FeatureSessions'
-  import partners from '@/components/home/partners'
   // import comingSoon from '@/components/common/comingSoon'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
   // import mobileAnnouncement from '@/components/home/mobile-announcement'
   // import AboutGDGChapter from '@/components/home/AboutGDGChapter'
   // import eventshowcase from '@/components/home/eventshowcase'
   // // import wtmInfo from '@/components/home/wtmInfo'
-  // import partners from '@/components/home/partners'
   // import featureEvent from '@/components/home/featureEvent'
   
   export default {
@@ -99,7 +88,7 @@
       // comingSoon,
       FeatureSpeakers,
       FeatureSessions,
-      partners,
+    
       // card,
       HomeStartScreenMobileView,
       // mobileAnnouncement,
@@ -107,7 +96,7 @@
       // AboutGDGChapter,
       // eventshowcase,
       // // wtmInfo,
-      // partners,
+  
       // featureEvent
     }
   }
