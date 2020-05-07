@@ -1,68 +1,30 @@
 [
     {
-        "id":"112",
-        "name":"Vrijraj Singh",
-        "designation":"GDE for Web & Frontend Developer",
-        "company":{
-            "name":"GDE For Web",
-            "url":""
+        "id": "113",
+        "name": "Varsha Jaiswal",
+        "community": {
+            "name": "GDG & WTM Jalandhar",
+            "designation": "#IamRemarkable Facilitator, Co-Organizer & WTM Ambassador"
         },
-        "bio":"Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
-        "city":"Gurugram",
-        "country":"India",
-        "image":"vrij.webp",
-        "sessionId": [212],
-        "social":{
-            "facebook":"https://www.facebook.com/vrijrajsingh",
-            "twitter":"https://twitter.com/VrijrajSingh",
-            "linkedin":"https://www.linkedin.com/in/vrijraj/",
-            "github":"https://github.com/vrijraj",
-            "website":"https://vrijraj.xyz/",
-            "medium": "https://medium.com/@vrijraj"
-        }
-    },
-    {
-        "id":"113",
-        "name":"Varsha Jaiswal",
-        "designation":"#IamRemarkable Facilitator & GDG-WTM Lead & Software Engineer",
-        "company":{
-            "name":"Edfora Infotech",
-            "url":""
+        "company": {
+            "name": "Edfora Infotech",
+            "designation": "Software Engineer"
         },
-        "bio":"Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
-        "city":"New Delhi",
-        "country":"India",
-        "image":"varsha.webp",
-        "sessionId": [213, 216],
-        "social":{
-            "facebook":"https://www.facebook.com/varsha2716",
-            "twitter":"https://twitter.com/varsha2716",
-            "linkedin":"https://www.linkedin.com/in/varsha2716/",
-            "github":"https://github.com/Varsha-Jaiswal",
-            "website":"http://varsha-jaiswal.firebaseapp.com/",
-            "medium": "https://medium.com/@varsha2716"
-        }
-    },
-    {
-        "id":"114",
-        "name":"Sonakshi Shukla",
-        "designation":"WTM Ambassador",
-        "company":{
-            "name":"Women Techmakers",
-            "url":""
-        },
-        "bio": "As a tech enthusiast, new technologies has always fascinated me. Belonging to a non technical background, it was hard for me to get any idea that how I should start my technical journey. Then after joining GDG I learnt about new technologies and now I have good experience with Firebase, web development and also on Cloud. I have also made application on Google Assistance. I have managed many events with my team like DevFest, IWD, Tensorflow DevSummit and many more. Managing these events developed my interpersonal skills and made me help my community more and more. I like to take sessions on different technologies so that I can make my community well aware about the same. Whether its about using cloud APIs of creating a Firebase login form on web, I love to deliver sessions on different technologies. In my free time, i like to explore new technologies and sometimes exploring new places.",
-        "city":"New Delhi",
-        "country":"India",
-        "image":"sonakshi.webp",
-        "sessionId": [214,215],
-        "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/Sonakshishukla1",
-            "linkedin":"https://www.linkedin.com/in/sonakshi15/",
-            "github":"",
-            "website":"",
-            "medium": ""
+        "bio": "Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
+        "city": "New Delhi",
+        "country": "India",
+        "image": "varsha.webp",
+        "sessionId": [
+            213,
+            216
+        ],
+        "social": {
+            "facebook": "https://www.facebook.com/varshajaiswal.27",
+            "twitter": "https://twitter.com/_varshajaiswal_",
+            "linkedin": "https://www.linkedin.com/in/varshajaiswal/",
+            "github": "https://github.com/Varsha-Jaiswal",
+            "website": "https://varsha-jaiswal.web.app/",
+            "medium": "https://medium.com/@_varshajaiswal_"
         }
     }
 ]

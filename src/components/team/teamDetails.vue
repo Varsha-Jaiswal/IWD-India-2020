@@ -49,7 +49,7 @@
                 </v-flex>
                 <v-flex xs8 class="pa-2">
                   <p class="mt-3 mb-0 google-font" style="font-size:120%">{{data.vdata.name}}</p>
-                  <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.designation}}</p>
+                  <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.community.designation}}</p>
                   <socialMediaDetails :data="{vdata:data.vdata.social}"/>
                 </v-flex>
               </v-layout>
@@ -65,7 +65,8 @@
         </v-card-title>
 
         <v-card-text class="pa-5">
-            <p class="google-font">{{data.vdata.designation}}</p>
+            <p class="google-font">{{data.vdata.community.designation}} at {{data.vdata.community.name}}</p>
+            <p class="google-font">{{data.vdata.company.designation}}, {{data.vdata.company.name}}</p>
             <p class="google-font">{{data.vdata.bio}}</p>
 
             <socialMediaDetails :data="{vdata:data.vdata.social}"/>
