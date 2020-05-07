@@ -9,7 +9,7 @@
             "name": "Edfora Infotech",
             "designation": "Software Engineer"
         },
-        "image": "varsha.jpg",
+        "image": "varsha.webp",
         "bio": "Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
         "social": {
             "twitter": "https://twitter.com/_varshajaiswal_",
@@ -26,7 +26,7 @@
             "name": "Sony India Software Center",
             "designation": "Software Engineer"
         },
-        "image": "supriya.jpg",
+        "image": "supriya.webp",
         "bio": "Supriya is a huge tech enthusiast who loves to learn new technologies. Working with fellow members of the community to build a thriving tech community is the ultimate joy she believes. Her tech forte is Reactjs and frontend technologies. She loves to code, read books, travel, play badminton and is always up for anything thrown her way.",
         "social": {
             "twitter": "https://twitter.com/s_omeal",
@@ -43,7 +43,7 @@
             "name": "All Events",
             "designation": "Associate Executive"
         },
-        "image": "dhruva.jpg",
+        "image": "dhruva.webp",
         "bio": "Her interests as an inquisitive #WomenInTech is to learn new every day. Being developer by heart, she continually look out for areas that interest her to work on. Apart from that, Being a facilitator for #IamRemarkable initiative and community lover, playing a role as an Ambassador at WTM Ahmedabad, enthusiast about emboldening women in every sphere of their life and enjoys people’s synergy.",
         "social": {
             "twitter": "https://twitter.com/dhruvashastri12",
@@ -60,7 +60,7 @@
             "name": "Cofiato",
             "designation": "CEO and Founder"
         },
-        "image": "savvy.jpg",
+        "image": "savvy.webp",
         "bio": "Savvy loves data and everything around it. She used to be a data scientist and has experience working in various domains. She is currently CEO and Founder of Cofiato, which is a Hardware Intelligence firm. Her second love is community evangelism. She's associated with many technical and networking communities like GDG, GCDC, WTM, Linkedin Local, BNI etc. She is also Women in Data Science Regional Ambassador. She likes innovation, creativity, and coffee",
         "social": {
             "twitter": "twitter.com/savvyjain",
@@ -77,7 +77,7 @@
             "name": "Consultadd Inc.",
             "designation": "Software Engineer"
         },
-        "image": "aditi.jpg",
+        "image": "aditi.webp",
         "bio": "Aditi is a community lover and a passionate developer. She keeps contributing to various technical communities as an organizer or a speaker. As a personal interest, she develops mobile Applications. She is also a Google India Udacity Android Developers Nanodegree 2018 Scholar. Reading about new inventions and breakthroughs keeps her motivated. She always tries to empower women with the power of community to help women achieve the things they aim for. Happiness is a choice and she strongly believes that one should always keep the child inside them alive.",
         "social": {
             "twitter": "https://twitter.com/soniaditi380",
@@ -94,7 +94,7 @@
             "name": "Vakilsearch",
             "designation": "Writer"
         },
-        "image": "dhivya.jpg",
+        "image": "dhivya.webp",
         "bio": "Writer | TEDxSKCET - Licensee and Organizer | Google Developers Group organizer | WTM Coimbatore Ambassador | Digital marketer | Public speaker | Psychologist | An IT student | Social Activist | SEO Specialist | Content marketing",
         "social": {
             "twitter": "https://twitter.com/Dhivya_nk",
@@ -111,7 +111,7 @@
             "name": "EngineerBabu",
             "designation": "Web Developer"
         },
-        "image": "priyal.jpg",
+        "image": "priyal.webp",
         "bio": "Achiever | Tech Lover | Dreamer",
         "social": {
             "twitter": "https://twitter.com/priyaljain919",
@@ -145,8 +145,8 @@
             "name": "LBS Institute of Technology for Women",
             "designation": "Student"
         },
-        "image": "ananya.jpg",
-        "bio": "#",
+        "image": "ananya.webp",
+        "bio": "Ananya is an enthusiastic and inquisitive learner .She has a passionate enthusiasm for technology  .She is WTM Ambassador for GDG Trivandrum. She is very much interested to volunteer and take part in different community programs with aplomb and take charge personality .She has also conferred the award for  Outstanding Women in Engineering student volunteer from IEEE Kerala Section in  2018 for the contribution to women student engineering community.She considers everything that comes out to her as an opportunity to learn and try out something new & different.",
         "social": {
             "twitter": "https://twitter.com/AnanyaR15",
             "linkedin": "www.linkedin.com/in/ananya-r"
@@ -162,7 +162,7 @@
             "name": "Kubric.io",
             "designation": "Developer Experience Engineer"
         },
-        "image": "aananya.jpeg",
+        "image": "aananya.webp",
         "bio": "Aananya is a Developer Experience Engineer at Kubric. She is a strong believer of the principle “Lift as you climb”. Loves Idlis and is driven by empathy. Talk to her about Code, Community & Creativity",
         "social": {
             "twitter": "https://twitter.com/py_anan",
@@ -173,14 +173,14 @@
         "name": "Akanshi Srivastava",
         "community": {
             "name": "WTM VIT Vellore, DSC-VIT Vellore",
-            "designation": "#"
+            "designation": "WTM Ambassador, GDG Organizer (2017-18)"
         },
         "company": {
             "name": "Gojek",
             "designation": "Product Engineer (UXE - Android)"
         },
-        "image": "",
-        "bio": "Akanshi is an Android developer, currently work at Gojek in the UX Engineering team.",
+        "image": "akanshi.webp",
+        "bio": "Akanshi is a Product Engineer (Android developer), currently working at Gojek in the UX Engineering team. She likes to work on UI/UX design and development. She is interested in public speaking and is active on Stack Overflow. She has also been a mentor in different communities and events. She likes empowering women, creative UIs, problem solving and logical reasoning along with good music.",
         "social": {
             "twitter": "https://twitter.com/akanshi_s",
             "linkedin": "https://www.linkedin.com/in/akanshi32/"
@@ -213,7 +213,7 @@
             "name": "Women Techmakers",
             "designation": "Program Manager"
         },
-        "image": "lakshya.jpg",
+        "image": "lakshya.webp",
         "bio": "Lakshya manages the Women Techmakers Program in India. She is a data science enthusiast building tech expertise in Machine Learning and Google Cloud. She enjoys nurturing communities and empowering more women to join, thrive and lead in the tech industry.",
         "social": {
             "twitter": "https://twitter.com/lakshyas90/",
