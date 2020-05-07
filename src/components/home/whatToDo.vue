@@ -4,10 +4,10 @@
         <v-layout wrap align-center justify-center row fill-height class="hidden-sm-and-down ma-2" style="">
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
-                    <v-card class="pa-3" :elevation="hover ? 0 : 0" style="min-height:200px">
+                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-microphone</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Sessions</p>
-                        <p class="google-font" style="font-size:100%;color:#9e9e9e">2 parallel tracks, dedicated to tech and non-tech topics.</p>
+                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Sessions explanation</p>
                     </v-card>
                 </v-hover>
             </v-flex> 
@@ -15,17 +15,8 @@
                 <v-hover v-slot:default="{ hover }">
                     <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-lightbulb-on</v-icon>
-                        <p class="google-font my-0" style="font-size:150%;color:#424242">Showcases</p>
-                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Demo zone with the latest of Google tech: GCP, Firebase, VR, IoT - all in one place</p>
-                    </v-card>
-                </v-hover>
-            </v-flex> 
-            <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
-                <v-hover v-slot:default="{ hover }">
-                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
-                        <v-icon size="50px">mdi-account-switch</v-icon>
-                        <p class="google-font my-0" style="font-size:150%;color:#424242">Workshops</p>
-                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Workshops to get your hands dirty and create a working prototype right during the conference</p>
+                        <p class="google-font my-0" style="font-size:150%;color:#424242">Ice Breakers</p>
+                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Ice Breakers explanation</p>
                     </v-card>
                 </v-hover>
             </v-flex> 
@@ -33,8 +24,17 @@
                 <v-hover v-slot:default="{ hover }">
                     <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-lock-pattern</v-icon>
-                        <p class="google-font my-0" style="font-size:150%;color:#424242">Networking</p>
-                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Work hard and enjoy, IWD will be the best place to meet new people and share your experiences, this March</p>
+                        <p class="google-font my-0" style="font-size:150%;color:#424242">Fireside Chat</p>
+                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Explanation</p>
+                    </v-card>
+                </v-hover>
+            </v-flex> 
+            <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
+                <v-hover v-slot:default="{ hover }">
+                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
+                        <v-icon size="50px">mdi-lock-pattern</v-icon>
+                        <p class="google-font my-0" style="font-size:150%;color:#424242">Panel Discussions</p>
+                        <p class="google-font" style="font-size:100%;color:#9e9e9e">Explanation</p>
                     </v-card>
                 </v-hover>
             </v-flex> 

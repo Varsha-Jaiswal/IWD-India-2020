@@ -46,22 +46,13 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 d-none d-sm-block ">
+    <v-container fluid class="my-0 py-3 d-none d-sm-block">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
-          <FeatureSpeakers />
+          <pastEvents />
         </v-flex>
       </v-layout>
     </v-container>
-
-    <v-container fluid class="my-0 py-3 d-none d-sm-block ">
-      <v-layout wrap align-center justify-center row fill-height class="mt-0">
-        <v-flex xs12 md10 >
-          <FeatureSessions />
-        </v-flex>
-      </v-layout>
-    </v-container>
-    <!-- FeatureSpeakers -->
   </v-content>
   
 </template>
@@ -70,34 +61,16 @@
   import HomeStartScreen from '@/components/home/HomeStartScreen'
   import whatToDo from '@/components/home/whatToDo'
   import stats from '@/components/home/stats'
-  import FeatureSpeakers from '@/components/home/FeatureSpeakers'
-  import FeatureSessions from '@/components/home/FeatureSessions'
-  // import comingSoon from '@/components/common/comingSoon'
+  import pastEvents from '@/components/home/pastEvents'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
-  // import mobileAnnouncement from '@/components/home/mobile-announcement'
-  // import AboutGDGChapter from '@/components/home/AboutGDGChapter'
-  // import eventshowcase from '@/components/home/eventshowcase'
-  // // import wtmInfo from '@/components/home/wtmInfo'
-  // import featureEvent from '@/components/home/featureEvent'
-  
+
   export default {
     components: {
       HomeStartScreen,
       whatToDo,
       stats,
-      // comingSoon,
-      FeatureSpeakers,
-      FeatureSessions,
-    
-      // card,
+      pastEvents,
       HomeStartScreenMobileView,
-      // mobileAnnouncement,
-      // whatWeDo,
-      // AboutGDGChapter,
-      // eventshowcase,
-      // // wtmInfo,
-  
-      // featureEvent
     }
   }
 </script>

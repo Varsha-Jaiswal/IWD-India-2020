@@ -6,12 +6,6 @@
             </v-flex>
             <v-flex xs12 class="px-1 mt-2" v-for="(item,i) in announcementData" :key="i" >
                     <v-card class="elevation-0 pa-1" style="border:1px solid #EEEEEE;border-radius:8px;min-height:150px;max-height:150px">
-                        <!-- <v-img
-                            height="30"
-                            :src="require('@/assets/img/main.webp')"
-                            :lazy-src="require('@/assets/img/main.webp')" 
-                            >
-                        </v-img> -->
                         <v-card-text class="pa-0">
                             <p class="google-font">{{item.title}}</p>
                         </v-card-text>

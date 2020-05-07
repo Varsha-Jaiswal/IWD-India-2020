@@ -10,19 +10,8 @@
           </b>
         </p>
         <p
-          class="google-font mt-3"
-        >IWD Jalandhar is a celebration which will bring the women together who have accomplished and willing to have a career under a roof. It will be a gathering of learners and leaders to communicate with each other with a motive of solving the gender gap in professional field.</p>
-
-        <v-btn
-          href="https://www.youtube.com/watch?v=YV_sYKDsyPw"
-          color="#0097a7"
-          target="_blank"
-          rounded
-          style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;"
-          outlined
-          class="ml-0 google-font mt-3"
-          dark
-        >How it was in 2019</v-btn>
+          class="google-font mt-3 justify"
+        >From Ada Lovelace to Grace Hopper (and thousands of Googlers), we're proud of the contributions women in technology make across our industry and across our company. Google supports and celebrates women in technology through numerous initiatives, including the Small Business Supplier Diversity and Accelerate with Google programs, the Google Cultural Institute, our Women@ employee resource group, and more. International Women's Day is an important moment to recognize how women have influenced the tech industry and beyond.</p>
       </v-flex>
 
       <v-flex xs12 sm5 md6 lg6 xl6 class="pa-5">
@@ -30,7 +19,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">220+</span>
+                <span style="color: #0097a7;">1000+</span>
               </b>
             </p>
             <p class="google-font">Attendees</p>
@@ -39,7 +28,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">2+</span>
+                <span style="color: #0097a7;">5+</span>
               </b>
             </p>
             <p class="google-font">Workshops</p>
@@ -47,7 +36,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">7+</span>
+                <span style="color: #0097a7;">10+</span>
               </b>
             </p>
             <p class="google-font">Sessions</p>
@@ -55,7 +44,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">10+</span>
+                <span style="color: #0097a7;">30+</span>
               </b>
             </p>
             <p class="google-font">Speakers</p>
