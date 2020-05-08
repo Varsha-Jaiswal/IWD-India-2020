@@ -128,8 +128,8 @@
             "name": "Glaubetech",
             "designation": "Business executive & Software engineer"
         },
-        "image": "",
-        "bio": "#",
+        "image": "poornima.jpg",
+        "bio": "Poornima is a passionate software engineer, Data science enthusiast, Currently working as a business executive at Glaubetech. She loves to organize tech events and lead the community. Being an #IamRemarkable facilitator she enjoys to help others to be confident and passionate about what they are. Apart from tech, she is a lover of books, enjoys travelling.",
         "social": {
             "twitter": "https://twitter.com/_poornima_sudha",
             "linkedin": "https://www.linkedin.com/in/poornima-s-350704130"
@@ -146,7 +146,7 @@
             "designation": "Student"
         },
         "image": "ananya.webp",
-        "bio": "Ananya is an enthusiastic and inquisitive learner .She has a passionate enthusiasm for technology  .She is WTM Ambassador for GDG Trivandrum. She is very much interested to volunteer and take part in different community programs with aplomb and take charge personality .She has also conferred the award for  Outstanding Women in Engineering student volunteer from IEEE Kerala Section in  2018 for the contribution to women student engineering community.She considers everything that comes out to her as an opportunity to learn and try out something new & different.",
+        "bio": "Ananya is an enthusiastic and inquisitive learner .She is a techie and is the  WTM Ambassador of GDG Trivandrum. She is a responsible volunteer who takes part in different community programs with aplomb.She has been  awarded' Outstanding Women in Engineering student volunteer' from IEEE Kerala Section in  2018 for the contribution to women student engineering community.She is an opportunist & optimistic personality who loves to explore & learn.",
         "social": {
             "twitter": "https://twitter.com/AnanyaR15",
             "linkedin": "www.linkedin.com/in/ananya-r"
@@ -196,7 +196,7 @@
             "name": "Johnson Controls",
             "designation": "Associate Software Engineer"
         },
-        "image": "",
+        "image": "riya.jpg",
         "bio": "Associate Engineer, Johnson Controls | Ambassador, WTM Kolkata | Intel Software Innovator | Co-host, NinjaTalks Podcast | Blogger | IoT & DevOps specialist",
         "social": {
             "twitter": "https://twitter.com/RiyaThakurta",
@@ -235,6 +235,109 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/pranoti-nandurkar-170021b",
             "twitter": "https://twitter.com/PranotiNandurka"
+        }
+    },
+    {
+        "name": "Usha Ramani Vemuru",
+        "community": {
+            "name": "GDG/WTM Vizag",
+            "designation": "GDG VIZAG Co organiser, WTM VIZAG Ambassador, #Iamremarkable facilitator"
+        },
+        "company": {
+            "designation": "CEO and Co founder",
+            "name": "Gurujada"
+        },
+        "image": "",
+        "bio": "Usha is a tech entrepreneur passionate about UX/UI and leadership and everything around it. She's the CEO and founder of GURUJADA, a conferencing platform. She is the co organiser of GDG Vizag and WTM Vizag ambassador. She is also a Goldman Sachs entrepreneur ambassador.She loves community building. Being an ex- professor, she adores the student community and is passionate about increasing the impact of tech communities on their careers. She believes in being a learner for life and enjoys learning about new technology, business and parenting.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/mwlite/in/usha-ramani-vemuru-66286723",
+            "twitter": "#"
+        }
+    },
+
+    {
+        "name": "Aarshiya Guneja",
+        "community": {
+            "name": "WTM Ambassador, GDG Co-Organizer",
+            "designation": "GDG/WTM Jaipur"
+        },
+        "company": {
+            "designation": "Software Engineer",
+            "name": "NAV Consulting, Inc."
+        },
+        "image": "aarshiya.jpg",
+        "bio": "Aarshiya is a Software Developer who has a keen interest in developing softwares using core principles and methodologies. Besides being a co-organizer in Google Developer Group and Women TechMakers Jaipur Ambassador- she enjoys voluntarily organizing and speaking at developer events and believes in sharing knowledge.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/aarshiyaguneja/",
+            "twitter": "https://twitter.com/aarshiyaguneja"
+        }
+    },
+    {
+        "name": "Remya Vava",
+        "community": {
+            "name": "GDG/WTM Trivandrum",
+            "designation": "WTM Ambassador, GDG Co-Organizer, #IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Solutions Architect",
+            "name": "QBurst Technologies"
+        },
+        "image": "remya.jpeg",
+        "bio": "She’s a solution Architect, a techincal speaker, a passionate developer and always a learner. Also a WTM Ambassador, GDG Co-Organizer & an #IamRemarkable Facilitator",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/remyapvava/",
+            "twitter": "https://twitter.com/remyapvava"
+        }
+    },
+    {
+        "name": "Amalu Susan Santhosh",
+        "community": {
+            "name": "WTM Ambassador, GDG Co-Organizer, #IamRemarkable Facilitator",
+            "designation": "GDG/WTM Cochin"
+        },
+        "company": {
+            "designation": "Student",
+            "name": "College of Engineering Chengannur"
+        },
+        "image": "amalu.jpeg",
+        "bio": "Amalu is an enthusiastic learner who thrives to help others in the best possible way. #IamRemarkable Facilitator | WTM Ambassador ",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/amalu-susan-santhosh/",
+            "twitter": ""
+        }
+    },
+    {
+        "name": "Annapurna Agrawal",
+        "community": {
+            "name": "GDG/WTM Bhubaneswar",
+            "designation": "WTM Ambassador, GDG Organizer, #IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Author",
+            "name": "Pluralsight"
+        },
+        "image": "annapurana.jpg",
+        "bio": "Full Stack Developer | Video Content Creator | #IamRemarkable Facilitator |WTM Ambassador",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/annapurna-agrawal/",
+            "twitter": "https://twitter.com/annapurna_23"
+        }
+    },
+    {
+        "name": "Dhruti Joshi",
+        "community": {
+            "name": "GDG / WTM Gandhinagar",
+            "designation": "WTM Ambassador, GDG Co-Organizer"
+        },
+        "company": {
+            "designation": "Sr. Software Engineer",
+            "name": "Tatvasoft PVT LTD"
+        },
+        "image": "dhruti.jpg",
+        "bio": "Dhruti is a Team Leader and Senior Software Engineer, building my career as a Full Stack Developer with experience of more than half a decade. Always fascinated by maths and logic. Especially she would love to work on C# MVC, EF, Angular, Node.js, React.js and Express.\nApart from development, she would like to do something from which she can connect with people and people can know her as well. So for this, she is doing public speaking on Technical topics and like to share knowledge.\nWTM Ambassador | GDG Co-Organizer ",
+        "social": {
+            "linkedin": "http://linkedin.com/in/dhruti-shah-85b38739",
+            "twitter": "https://twitter.com/DhrutiJoshi4?s=20"
         }
     },
     {
