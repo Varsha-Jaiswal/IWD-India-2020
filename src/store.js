@@ -8,12 +8,9 @@ export default new Vuex.Store({
     drawer: false,
     items: [ 
       { text: 'Home', to: '/', icon:'mdi-home', visible:true},
-      { text: 'Schedule', to: '/schedule', icon: 'mdi-format-float-left',visible:true},
-      { text: 'Sessions', to: '/sessions', icon: 'mdi-format-list-checks',visible:true},
+      { text: 'Agenda', to: '/agenda', icon: 'mdi-format-float-left',visible:true},
       { text: 'Speakers', to: '/speakers', icon:'mdi-account-switch',visible:true},
-      { text: 'Team', to: '/team', icon:'mdi-account-settings',visible:true},
-      // { text: 'About', to: '/about', icon: 'mdi-note-multiple-outline',visible:true},
-      // { text: 'Contact', to: '/contact', icon:'mdi-contacts'},
+      { text: 'Team', to: '/team', icon:'mdi-account-settings',visible:true}
     ]
   },
   getters:{
