@@ -4,96 +4,39 @@
       fluid
       style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-bottom: 0"
     >
-      <v-layout wrap align-center justify-center row fill-height class="my-0 py-0">
-        <v-flex xs12 md10 sm10 lg10 class="py-0 my-0">
-          <p class="google-font" style="font-size:130%">
-            Follow Us:
-            <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
-              <v-tooltip top>
-                <template>
-                  <v-btn text icon :href="item.link" target="_blank" slot="activator">
-                    <v-icon>{{item.icon}}</v-icon>
-                  </v-btn>
-                </template>
-                <span>{{item.name}}</span>
-              </v-tooltip>
-            </span>
-          </p>
-          <v-divider></v-divider>
-        </v-flex>
-      </v-layout>
-
-      <v-layout wrap justify-center row>
-        <v-flex xs12 md10 lg10>
-          <v-layout wrap align-start justify-start row class="my-2">
-            <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;">
-                <b>About</b>
-              </p>
-              <div v-for="(item,i) in FooterData.AboutSession" :key="i" class="mt-1">
-                <a
-                  :href="item.Link"
-                  class="google-font"
-                  target="_blank"
-                  style="color: #3E4551;text-decoration: none;font-size:110%"
-                >{{item.LinkName}}</a>
-                <br />
-              </div>
-            </v-flex>
-
-            <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;">
-                <b>Resources</b>
-              </p>
-              <div v-for="(item,i) in FooterData.ChapterResourcesSession" :key="i" class="mt-1">
-                <a
-                  :href="item.Link"
-                  class="google-font"
-                  target="_blank"
-                  style="color: #3E4551;text-decoration: none;font-size:110%"
-                >{{item.LinkName}}</a>
-                <br />
-              </div>
-            </v-flex>
-
-            <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;">
-                <b>Developer Console</b>
-              </p>
-              <div v-for="(item,i) in FooterData.DevConsole" :key="i" class="mt-1">
-                <a
-                  :href="item.Link"
-                  target="_blank"
-                  class="google-font"
-                  style="color: #3E4551;text-decoration: none;font-size:110%"
-                >{{item.LinkName}}</a>
-                <br />
-              </div>
-            </v-flex>
-          </v-layout>
-        </v-flex>
-      </v-layout>
-
-      <v-layout wrap justify-center row class="mb-0">
-        <v-flex xs12 md10 lg10>
-          <v-divider></v-divider>
-          <v-toolbar text color="white" class="pa-0 mx-0 elevation-0" style="padding:0 !important">
-            <v-toolbar-title
-              class="google-font pl-0 ml-0 mr-3"
-              style="font-size:200%"
-            >{{ChapterDetails.ChapterName}}</v-toolbar-title>
-
-            <v-btn
-              v-for="(item,i) in FooterData.FooterEndSession"
-              :key="i"
-              :href="item.Link"
+      <v-layout wrap justify-center text-center row class="mb-0">
+        <v-flex xs12 md10 lg10 class="google-font mt-5">
+          <p style="font-size:130%" class="text-muted">
+            Organized by
+            <a
+              href="https://www.womentechmakers.com/ambassadors"
               target="_blank"
-              class="ml-0 google-font hidden-sm-and-down"
-              style="text-transform: capitalize;font-size:110%"
-              text
-              aria-label="Footer Bottom Button"
-            >{{ item.LinkName }}</v-btn>
-          </v-toolbar>
+            >Women Techmakers Ambassadors</a> from India
+          </p>
+          <p>For concerns and queries, contact us at wtmindia2020@gmail.com</p>
+        </v-flex>
+      </v-layout>
+      <v-layout wrap justify-center text-center row class="mb-0">
+        <v-flex xs12 md10 lg10>
+          <v-img
+            width="20%"
+            :src="require('@/assets/img/common/wtm-footer-logo.png')"
+            :lazy-src="require('@/assets/img/common/wtm-footer-logo.png')"
+          >
+            <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+              <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+            </v-layout>
+          </v-img>
+        </v-flex>
+        <v-flex xs12 md2 lg2 class="google-font mt-5">
+          <router-link to="/faq" tag="v-btn">
+            <v-btn color="white" flat value="faq" class="mr-3">
+              <span class="google-font">FAQ</span>
+            </v-btn>
+          </router-link>
+          <v-btn color="white" flat value="top" class="mr-3" @click="toTop">
+            <span class="google-font">Back to Top</span>
+          </v-btn>
         </v-flex>
       </v-layout>
     </v-container>
@@ -109,6 +52,11 @@ export default {
       ChapterDetails: ChapterDetails,
       FooterData: FooterData
     };
+  },
+  methods: {
+    toTop() {
+      this.$vuetify.goTo(0);
+    }
   }
 };
 </script>

@@ -77,11 +77,11 @@ const  router =  new Router({
       }
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('./views/Contact.vue'),
+      path: '/faq',
+      name: 'faq',
+      component: () => import('./views/FAQ.vue'),
       meta:{
-        title:'Contact | IWD India Summit 2020',
+        title:'FAQ | IWD India Summit 2020',
         color:'red'
       }
     }

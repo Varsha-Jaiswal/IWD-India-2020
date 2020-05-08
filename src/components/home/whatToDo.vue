@@ -18,7 +18,7 @@
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
-            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsa quia ea praesentium est voluptatum expedita, alias recusandae, illum eum vero fugiat numquam atque quos et in voluptate neque! Non?</p>
+            >A plethora of talks ranging from technologies like ML, Cloud, Android and Web to Design to Entrepreneurship.</p>
           </v-card>
         </v-hover>
       </v-flex>
@@ -30,7 +30,7 @@
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
-            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsa quia ea praesentium est voluptatum expedita, alias recusandae, illum eum vero fugiat numquam atque quos et in voluptate neque! Non?</p>
+            >A series of engaging online activities in between the sessions to combine learning and fun.</p>
           </v-card>
         </v-hover>
       </v-flex>
@@ -38,11 +38,11 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-access-point-network</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Fireside Chat</p>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Stories</p>
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
-            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsa quia ea praesentium est voluptatum expedita, alias recusandae, illum eum vero fugiat numquam atque quos et in voluptate neque! Non?</p>
+            >Hear from the community champions about their stories, experiences and learnings.</p>
           </v-card>
         </v-hover>
       </v-flex>
@@ -50,17 +50,17 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-nfc-tap</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Panel Discussions</p>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Discussions</p>
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
-            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsa quia ea praesentium est voluptatum expedita, alias recusandae, illum eum vero fugiat numquam atque quos et in voluptate neque! Non?</p>
+            >A variety of discussions through a panel, fireside chat and many online conversations.</p>
           </v-card>
         </v-hover>
       </v-flex>
     </v-layout>
 
-    <v-layout
+    <!-- <v-layout
       wrap
       align-center
       justify-center
@@ -112,7 +112,7 @@
           style="font-size:100%;color:#9e9e9e"
         >Work hard and enjoy DevFest is the best place to meet new people</p>
       </v-flex>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
