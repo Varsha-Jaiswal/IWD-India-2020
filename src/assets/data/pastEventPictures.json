@@ -22,5 +22,9 @@
     {
         "img": "wtm-jodhpur.jpg",
         "name": "WTM Jodhpur"
+    },
+    {
+        "img": "wtm-vizag.jpg",
+        "name": "WTM Vizag"
     }
 ]
