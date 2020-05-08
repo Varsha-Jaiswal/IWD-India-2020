@@ -68,12 +68,10 @@
 
 <script>
 import sessionsData from "@/assets/data/sessions.json";
-import sessionDialog from "@/components/common/sessionDialog";
-// import sessionDialogMobile from "@/components/common/sessionDialogMobile";
 export default {
   components: {
-    sessionDialog,
-    // sessionDialogMobile
+    sessionDialog:()=>import("@/components/common/sessionDialog"),
+    // sessionDialogMobile: ()=> import("@/components/common/sessionDialogMobile")
   },
   data: () => ({
     sessionsData: sessionsData,

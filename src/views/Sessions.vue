@@ -18,15 +18,11 @@
     </v-content>
 </template>
 
-<script>
-import SessionsHeader from '@/components/sessions/header'
-// import comingSoon from '@/components/schedule/comingSoon'
-import SessionsData from '@/components/sessions/sessions'
+<script> 
 export default {
     components:{
-        SessionsHeader,
-        SessionsData,
-        // comingSoon
+        SessionsHeader:() => import('@/components/sessions/header'),
+        SessionsData: ()=> import('@/components/sessions/sessions')
     }
 }
 </script>

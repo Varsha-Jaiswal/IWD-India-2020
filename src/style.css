@@ -7,4 +7,23 @@
 }
 .google-font{
     font-family: google-sans
-};
+}
+.speaker-company-text,
+.team-name-text {
+    /* white-space: nowrap; */
+    white-space: inherit;
+    margin: 0 10px !important;
+    min-height: 44px;
+}
+
+.team-wrapper,
+.speakers-wrapper {
+    max-width: none !important;
+    flex-basis: 22.666667% !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.team-wrapper .elevation-0 {
+    border: 1px solid rgb(230, 231, 232) !important;
+}
