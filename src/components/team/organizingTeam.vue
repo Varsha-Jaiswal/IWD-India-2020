@@ -7,7 +7,7 @@
         lg2
         v-for="(item,i) in ShuffleData(TeamDetails)"
         :key="i"
-        class="text-xs-center team-wrapper"
+        class="text-xs-center team-wrapper team-mobile-card"
         style="text-align:center">
         <TeamDetailsDialog :data="{vdata:item}" />
       </v-flex>

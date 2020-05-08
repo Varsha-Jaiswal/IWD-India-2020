@@ -10,7 +10,7 @@
             lg2
             v-for="(item,i) in ShuffleData(speakerData)"
             :key="i"
-            class="pa-1"
+            class="speaker-card"
             style="text-align:center"
           >
             <speakerDetails class="d-none d-sm-block" :data="{vdata: item}" />

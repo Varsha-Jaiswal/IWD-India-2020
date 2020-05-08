@@ -6,7 +6,7 @@
         :class="`elevation-${hover ? 0 : 0}`"-->
         <div
           v-on="on"
-          class="text-xs-center ma-1 py-5 my-0 d-none d-sm-block"
+          class="text-xs-center ma-1 py-5 my-0 d-none d-sm-block team-card"
           style="text-align:center;border: 1px solid #f5f6f7;min-height:250px;border-radius:7px"
         >
           <v-avatar size="130">
@@ -24,7 +24,7 @@
           <socialMediaDetails :data="{vdata:data.vdata.social}" />
         </div>
         <div v-on="on" style="cursor: pointer;" class="hidden-sm-and-up px-3 my-0">
-          <v-layout row wrap class="px-0 ma-0" style="border:1px solid #EEEEEE;border-radius:8px">
+          <v-layout row wrap class="px-0 team-mobile-card" style="border:1px solid #EEEEEE;border-radius:8px">
             <v-flex xs4 class="pa-0">
               <v-img
                 style="height:100%"
