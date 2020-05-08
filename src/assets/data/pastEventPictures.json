@@ -1,10 +1,26 @@
 [
     {
+        "img": "wtm-india.jpg",
+        "name": "WTM India"
+    },
+    {
         "img": "wtm-jalandhar.jpg",
         "name": "GDG WTM Jalandhar"
     },
     {
-        "img": "wtm-india.jpg",
-        "name": "WTM India"
+        "img": "wtm-trivandrum.jpg",
+        "name": "WTM Trivandrum"
+    },
+    {
+        "img": "wtm-cochin.jpg",
+        "name": "WTM Cochin"
+    },
+    {
+        "img": "wtm-kozhikode.jpg",
+        "name": "WTM Kozhikode"
+    },
+    {
+        "img": "wtm-jodhpur.jpg",
+        "name": "WTM Jodhpur"
     }
 ]
