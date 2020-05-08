@@ -17,7 +17,7 @@ const  router =  new Router({
       name: 'home',
       component: Home,
       meta:{
-        title:'Home | IWD Jalandhar 2019',
+        title:'Home | IWD India Summit 2020',
         color:'white'
       }
     },
@@ -26,7 +26,7 @@ const  router =  new Router({
       name: 'home',
       component: Home,
       meta:{
-        title:'Home | IWD Jalandhar 2019',
+        title:'Home | IWD India Summit 2020',
         color:'white'
       }
     },
@@ -35,7 +35,7 @@ const  router =  new Router({
       name: 'about',
       component: () => import('./views/About.vue'),
       meta:{
-        title:'About | IWD Jalandhar 2019',
+        title:'About | IWD India Summit 2020',
         color:'green'
       }
     },
@@ -44,7 +44,7 @@ const  router =  new Router({
       name: 'team',
       component: () => import('./views/Team.vue'),
       meta: { 
-        title:"Team | IWD Jalandhar 2019",
+        title:"Team | IWD India Summit 2020",
         hideNavigation: true,
         color:'yellow'
       }
@@ -54,7 +54,7 @@ const  router =  new Router({
       name: 'speakers',
       component: () => import('./views/Speakers.vue'),
       meta:{
-        title:'Speakers | IWD Jalandhar 2019',
+        title:'Speakers | IWD India Summit 2020',
         color:'blue'
       }
     },
@@ -63,7 +63,7 @@ const  router =  new Router({
       name: 'schedule',
       component: () => import('./views/Schedule.vue'),
       meta:{
-        title:'Schedule | IWD Jalandhar 2019',
+        title:'Schedule | IWD India Summit 2020',
         color:'red'
       }
     },
@@ -72,7 +72,7 @@ const  router =  new Router({
       name: 'sessions',
       component: () => import('./views/Sessions.vue'),
       meta:{
-        title:'Sessions | IWD Jalandhar 2019',
+        title:'Sessions | IWD India Summit 2020',
         color:'indigo'
       }
     },
@@ -81,16 +81,7 @@ const  router =  new Router({
       name: 'contact',
       component: () => import('./views/Contact.vue'),
       meta:{
-        title:'Contact | IWD Jalandhar 2019',
-        color:'red'
-      }
-    },
-    {
-      path:'/community-guidelines',
-      name:'community-guidelines',
-      component: () => import('./views/CommunityGuidelines.vue'),
-      meta:{
-        title:'Community Guidelines | IWD Jalandhar 2019',
+        title:'Contact | IWD India Summit 2020',
         color:'red'
       }
     }

@@ -14,7 +14,6 @@ export default new Vuex.Store({
       { text: 'Team', to: '/team', icon:'mdi-account-settings',visible:true},
       // { text: 'About', to: '/about', icon: 'mdi-note-multiple-outline',visible:true},
       // { text: 'Contact', to: '/contact', icon:'mdi-contacts'},
-      { text: 'Community Guidelines', to: '/community-guidelines', icon:'mdi-format-align-justify',visible:false}
     ]
   },
   getters:{

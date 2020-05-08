@@ -128,7 +128,7 @@
             "name": "Glaubetech",
             "designation": "Business executive & Software engineer"
         },
-        "image": "poornima.jpg",
+        "image": "poornima.webp",
         "bio": "Poornima is a passionate software engineer, Data science enthusiast, Currently working as a business executive at Glaubetech. She loves to organize tech events and lead the community. Being an #IamRemarkable facilitator she enjoys to help others to be confident and passionate about what they are. Apart from tech, she is a lover of books, enjoys travelling.",
         "social": {
             "twitter": "https://twitter.com/_poornima_sudha",
@@ -196,7 +196,7 @@
             "name": "Johnson Controls",
             "designation": "Associate Software Engineer"
         },
-        "image": "riya.jpg",
+        "image": "riya.webp",
         "bio": "Associate Engineer, Johnson Controls | Ambassador, WTM Kolkata | Intel Software Innovator | Co-host, NinjaTalks Podcast | Blogger | IoT & DevOps specialist",
         "social": {
             "twitter": "https://twitter.com/RiyaThakurta",
@@ -254,7 +254,6 @@
             "twitter": "#"
         }
     },
-
     {
         "name": "Aarshiya Guneja",
         "community": {
@@ -265,7 +264,7 @@
             "designation": "Software Engineer",
             "name": "NAV Consulting, Inc."
         },
-        "image": "aarshiya.jpg",
+        "image": "aarshiya.webp",
         "bio": "Aarshiya is a Software Developer who has a keen interest in developing softwares using core principles and methodologies. Besides being a co-organizer in Google Developer Group and Women TechMakers Jaipur Ambassador- she enjoys voluntarily organizing and speaking at developer events and believes in sharing knowledge.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/aarshiyaguneja/",
@@ -282,7 +281,7 @@
             "designation": "Solutions Architect",
             "name": "QBurst Technologies"
         },
-        "image": "remya.jpeg",
+        "image": "remya.webp",
         "bio": "She’s a solution Architect, a techincal speaker, a passionate developer and always a learner. Also a WTM Ambassador, GDG Co-Organizer & an #IamRemarkable Facilitator",
         "social": {
             "linkedin": "https://www.linkedin.com/in/remyapvava/",
@@ -299,7 +298,7 @@
             "designation": "Student",
             "name": "College of Engineering Chengannur"
         },
-        "image": "amalu.jpeg",
+        "image": "amalu.webp",
         "bio": "Amalu is an enthusiastic learner who thrives to help others in the best possible way. #IamRemarkable Facilitator | WTM Ambassador ",
         "social": {
             "linkedin": "https://www.linkedin.com/in/amalu-susan-santhosh/",
@@ -316,7 +315,7 @@
             "designation": "Author",
             "name": "Pluralsight"
         },
-        "image": "annapurana.jpg",
+        "image": "annapurana.webp",
         "bio": "Full Stack Developer | Video Content Creator | #IamRemarkable Facilitator |WTM Ambassador",
         "social": {
             "linkedin": "https://www.linkedin.com/in/annapurna-agrawal/",
@@ -333,7 +332,7 @@
             "designation": "Sr. Software Engineer",
             "name": "Tatvasoft PVT LTD"
         },
-        "image": "dhruti.jpg",
+        "image": "dhruti.webp",
         "bio": "Dhruti is a Team Leader and Senior Software Engineer, building my career as a Full Stack Developer with experience of more than half a decade. Always fascinated by maths and logic. Especially she would love to work on C# MVC, EF, Angular, Node.js, React.js and Express.\nApart from development, she would like to do something from which she can connect with people and people can know her as well. So for this, she is doing public speaking on Technical topics and like to share knowledge.\nWTM Ambassador | GDG Co-Organizer ",
         "social": {
             "linkedin": "http://linkedin.com/in/dhruti-shah-85b38739",

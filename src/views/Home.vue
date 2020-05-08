@@ -52,6 +52,14 @@
         </v-flex>
       </v-layout>
     </v-container>
+
+    <v-container fluid class="my-0 py-3 d-none d-sm-block">
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10>
+          <communityGuidelinesSection class="pa-0" />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-content>
 </template>
 
@@ -62,6 +70,8 @@ export default {
     whatToDo: () => import("@/components/home/whatToDo"),
     stats: () => import("@/components/home/stats"),
     pastEvents: () => import("@/components/home/pastEvents"),
+    communityGuidelinesSection: () =>
+      import("@/components/communityGuidelines/guidelines"),
     HomeStartScreenMobileView: () =>
       import("@/components/home/HomeStartScreenMobileView")
   }
