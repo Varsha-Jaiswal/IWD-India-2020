@@ -16,9 +16,10 @@
           style="font-size:240%;color:#0097a7;font-weight:300"
         >International Women's Day 2020</p>
         <p class="google-font mb-3" style="font-size:150%;margin-top:-12px">#TogetherWeRise</p>
-        <p class="google-font mb-0" style="font-size:100%">
+        <p class="google-font mb-0" style="font-size:100%;text-align:justify">
           Women Techmakers community provides visibility, community and resources for women in tech to join, thrive and lead in the industry. As a part of our International Women’s Day celebrations, we invite women and allies to join us in this celebration along with their communities.
-          <br /> <br> For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you. The summit had industry leaders, Google Developer Experts, entrepreneurs and community leaders talking about the latest in tech, design, entrepreneurship and leadership.
+          <br />
+          <br />For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you. The summit had industry leaders, Google Developer Experts, entrepreneurs and community leaders talking about the latest in tech, design, entrepreneurship and leadership.
         </p>
 
         <p

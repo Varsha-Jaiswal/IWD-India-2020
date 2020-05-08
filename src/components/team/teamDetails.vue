@@ -24,7 +24,12 @@
           <socialMediaDetails :data="{vdata:data.vdata.social}" />
         </div>
         <div v-on="on" style="cursor: pointer;" class="hidden-sm-and-up px-3 my-0">
-          <v-layout row wrap class="px-0 team-mobile-card" style="border:1px solid #EEEEEE;border-radius:8px">
+          <v-layout
+            row
+            wrap
+            class="px-0 team-mobile-card"
+            style="border:1px solid #EEEEEE;border-radius:8px"
+          >
             <v-flex xs4 class="pa-0">
               <v-img
                 style="height:100%"
@@ -57,16 +62,35 @@
       </template>
 
       <v-card color>
-        <v-card-title class="px-5 google-font" primary-title>{{data.vdata.name}}</v-card-title>
+        <v-card-title
+          class="px-5 py-5 grey lighten-4 google-font"
+          primary-title
+          :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
+          style="background-position:right top"
+        >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
-        <v-card-text class="pa-5">
-          <p
-            class="google-font"
-          >{{data.vdata.community.designation}} at {{data.vdata.community.name}}</p>
-          <p class="google-font">{{data.vdata.company.designation}}, {{data.vdata.company.name}}</p>
-          <p class="google-font">{{data.vdata.bio}}</p>
+        <v-card-text class="px-5">
+          <v-layout row wrap class="my-3">
+            <v-flex xs12 md4 sm4 class="text-center pa-2">
+              <v-avatar size="100">
+                <v-img :src="getImgUrl(data.vdata.image)" :lazy-src="getImgUrl(data.vdata.image)">
+                  <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                  </v-layout>
+                </v-img>
+              </v-avatar>
+              <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
+              <p class="my-0">{{data.vdata.company.name}}</p>
+              <socialMediaDetails :data="{vdata:data.vdata.social}" />
+            </v-flex>
 
-          <socialMediaDetails :data="{vdata:data.vdata.social}" />
+            <v-flex xs12 md8 sm8 class="pa-2 pr-5" style="text-align:justify;">
+              <p
+                class="google-font"
+              >{{data.vdata.community.designation}}, {{data.vdata.community.name}}</p>
+              <p class="google-font">{{data.vdata.bio}}</p>
+            </v-flex>
+          </v-layout>
         </v-card-text>
 
         <v-divider></v-divider>

@@ -1,30 +1,50 @@
 [
     {
-        "id": "113",
+        "id": "101",
         "name": "Varsha Jaiswal",
-        "community": {
-            "name": "GDG & WTM Jalandhar",
-            "designation": "#IamRemarkable Facilitator, Co-Organizer & WTM Ambassador"
-        },
         "company": {
             "name": "Edfora Infotech",
             "designation": "Software Engineer"
         },
-        "bio": "Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
-        "city": "New Delhi",
-        "country": "India",
+        "bio": "Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Her love for the community led her to become the Co-Organizer and WTM Ambassador of GDG/WTM Jalandhar. Despite busy schedules, she never misses any chance to travel and eat.",
         "image": "varsha.webp",
         "sessionId": [
             213,
             216
         ],
         "social": {
-            "facebook": "https://www.facebook.com/varshajaiswal.27",
             "twitter": "https://twitter.com/_varshajaiswal_",
-            "linkedin": "https://www.linkedin.com/in/varshajaiswal/",
-            "github": "https://github.com/Varsha-Jaiswal",
-            "website": "https://varsha-jaiswal.web.app/",
-            "medium": "https://medium.com/@_varshajaiswal_"
+            "linkedin": "https://www.linkedin.com/in/varshajaiswal/"
         }
+    },
+    {
+        "id": "102",
+        "name": "Nishu Goel",
+        "company": {
+            "name": "IBM",
+            "designation": "Developer, UI Garage"
+        },
+        "bio": "Nishu Goel is a software developer working at IBM. She is recognized as a Google Developer Expert in Angular and web technologies from India and as Microsoft MVP. She loves to write blog posts and talk around the basic concepts of Angular at conferences. She is also the author of book 'Step-by-Step Angular Routing'. With her work to apply technology towards sustainable development goals (SDGs) by the United Nations living in the villages of Jharkhand, India for three months, she has been awarded by the Prime Minister of the UK. Read her writings here: nishugoel.wordpress.com",
+        "image": "nishu.jpg",
+        "sessionId": [],
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/nishu-goel-ab557041",
+            "twitter": "https://www.linkedin.com/in/nishu-goel-ab557041"
+        }
+    },
+    {
+        "id": "",
+        "name": "",
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "social": {
+            "linkedin": "",
+            "twitter": ""
+        },
+        "bio": "",
+        "image": "",
+        "sessionId": []
     }
 ]
