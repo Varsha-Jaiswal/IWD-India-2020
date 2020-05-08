@@ -1,30 +1,42 @@
 [
     {
-        "img": "wtm-india.jpg",
+        "img": "wtm-india.webp",
         "name": "WTM India"
     },
     {
-        "img": "wtm-jalandhar.jpg",
-        "name": "GDG WTM Jalandhar"
+        "img": "wtm-jalandhar.webp",
+        "name": "WTM Jalandhar"
     },
     {
-        "img": "wtm-trivandrum.jpg",
+        "img": "wtm-trivandrum.webp",
         "name": "WTM Trivandrum"
     },
     {
-        "img": "wtm-cochin.jpg",
+        "img": "wtm-cochin.webp",
         "name": "WTM Cochin"
     },
     {
-        "img": "wtm-kozhikode.jpg",
+        "img": "wtm-kozhikode.webp",
         "name": "WTM Kozhikode"
     },
     {
-        "img": "wtm-jodhpur.jpg",
+        "img": "wtm-jodhpur.webp",
         "name": "WTM Jodhpur"
     },
     {
-        "img": "wtm-vizag.jpg",
+        "img": "wtm-vizag.webp",
         "name": "WTM Vizag"
+    },
+    {
+        "img": "wtm-pune.webp",
+        "name": "WTM Pune"
+    },
+    {
+        "img": "wtm-ahmedabad.webp",
+        "name": "WTM Ahmedabad"
+    },
+    {
+        "img": "wtm-coimbatore.webp",
+        "name": "WTM Coimbatore"
     }
 ]
