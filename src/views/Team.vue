@@ -21,11 +21,9 @@
           <p
             class="google-font mt-2"
             style="color:#37474F;font-size:150%"
-          >Our goal as a team is to see every single woman flourish in whatever technology they wish.</p>
+          >Our goal as a team is to empower women to thrive in tech and nurture communities.</p>
           <p class="mt-0 google-font subheading">
-            We know that
-            <b>when women support each other, incredible things happen,</b> so our major objective is to encourage,elevate and support each and every woman in technology and boost the amount of female participation.
-            We have this dedicated core team, competent enough, to take the responsibility for the accomplishment of this event.
+           We know that when women support each other, incredible things happen. We volunteer to encourage,elevate and support women and underrepresented groups in the tech industry.
           </p>
           <v-divider></v-divider>
         </v-flex>
