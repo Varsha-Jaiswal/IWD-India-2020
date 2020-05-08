@@ -7,12 +7,6 @@
   >
     
     <v-flex xs12 class="pa-0">
-      <!-- <v-img
-        height="170"
-        :src="require('@/assets/img/main.webp')"
-        :lazy-src="require('@/assets/img/main.webp')"
-      ></v-img> -->
-      <!-- <p class="google-font mt-2" style="font-size:130%">DevFest Punjab</p> -->
     </v-flex>
 
     <v-list dense nav shaped>
@@ -38,8 +32,6 @@
 </template>
 
 <script>
-// import ChapterDetails from '@/assets/data/chapterDetails.json'
-  // Utilities
   import {
     mapGetters,
     mapMutations

@@ -1,9 +1,9 @@
 <template>
-  <v-card class="elevation-0">
-    <v-card flat class="px-4 elevation-0 mb-4">
+  <!-- <v-card class="elevation-0"> -->
+    <!-- <v-card flat class="px-4 elevation-0 mb-4"> -->
       <organizingTeam />
-    </v-card>
-  </v-card>
+    <!-- </v-card> -->
+  <!-- </v-card> -->
 </template>
 
 <script>

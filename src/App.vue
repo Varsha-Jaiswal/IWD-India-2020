@@ -38,23 +38,18 @@
 </template>
 
 <script>
-
-import CoreToolbar from '@/components/common/toolbar'
-import CoreView from '@/components/common/view'
 // import mobileToolbar from '@/components/common/mobileToolbar'
 // import CoreBottonNav from '@/components/common/bottomNav'
-import CoreDrawer from '@/components/common/drawer'
-import CoreFooter from '@/components/common/footer'
 
 export default {
   name: 'App',
   components: {
-    CoreToolbar,
-    CoreView,
+    CoreToolbar:()=>import('@/components/common/toolbar'),
+    CoreView:()=>import('@/components/common/view'),
     // mobileToolbar,
     // CoreBottonNav,
-    CoreFooter,
-    CoreDrawer
+    CoreFooter:()=>import('@/components/common/footer'),
+    CoreDrawer:()=> import('@/components/common/drawer')
   },
   data: () => ({
     refreshing: false,
