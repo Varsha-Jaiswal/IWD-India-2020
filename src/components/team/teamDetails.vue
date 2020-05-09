@@ -2,8 +2,6 @@
   <v-hover>
     <v-dialog v-model="dialog" width="600">
       <template v-slot:activator="{ on }">
-        <!-- slot-scope="{ hover }"
-        :class="`elevation-${hover ? 0 : 0}`"-->
         <div
           v-on="on"
           class="text-xs-center ma-1 py-5 my-0 d-none d-sm-block team-card"

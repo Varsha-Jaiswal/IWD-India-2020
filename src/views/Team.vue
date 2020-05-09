@@ -14,10 +14,6 @@
           </v-img>
         </v-flex>
         <v-flex xs12 md8 lg8 class>
-          <span
-            class="pa-2 google-font"
-            style="    border-radius: 8px;background-color: rgb(86, 184, 251);color: rgb(255, 255, 255);font-size: 150%;"
-          >Team</span>
           <p
             class="google-font mt-2"
             style="color:#37474F;font-size:150%"

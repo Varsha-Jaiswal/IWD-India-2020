@@ -3,7 +3,7 @@
     <v-layout wrap align-center justify-center row fill-height>
       <v-flex xs12 sm5 md8 lg8 xl6 class="pa-5">
         <p class="google-font mb-1" style="font-weight: 350;color: #4285F4;font-size:200%">
-          <b>Everyone is welcome here</b>
+          <b class="google-font">Everyone is welcome here</b>
         </p>
         <p class="google-font mt-3" style="text-align:justify;">
           Inviting women and allies from India and abroad who wish to celebrate and recognize the women who have influenced the tech industry and beyond. Together let’s celebrate the super-women in our lives. Together let’s create a new narrative for our industry.
