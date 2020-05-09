@@ -247,11 +247,11 @@
             "designation": "CEO and Co founder",
             "name": "Gurujada"
         },
-        "image": "",
+        "image": "usha.jpg",
         "bio": "Usha is a tech entrepreneur passionate about UX/UI and leadership and everything around it. She's the CEO and founder of GURUJADA, a conferencing platform. She is the co organiser of GDG Vizag and WTM Vizag ambassador. She is also a Goldman Sachs entrepreneur ambassador.She loves community building. Being an ex- professor, she adores the student community and is passionate about increasing the impact of tech communities on their careers. She believes in being a learner for life and enjoys learning about new technology, business and parenting.",
         "social": {
             "linkedin": "https://www.linkedin.com/mwlite/in/usha-ramani-vemuru-66286723",
-            "twitter": "#"
+            "twitter": ""
         }
     },
     {
@@ -302,7 +302,7 @@
         "bio": "Amalu is an enthusiastic learner who thrives to help others in the best possible way. #IamRemarkable Facilitator | WTM Ambassador ",
         "social": {
             "linkedin": "https://www.linkedin.com/in/amalu-susan-santhosh/",
-            "twitter": ""
+            "twitter": "https://twitter.com/susan_amalu"
         }
     },
     {
@@ -337,6 +337,23 @@
         "social": {
             "linkedin": "http://linkedin.com/in/dhruti-shah-85b38739",
             "twitter": "https://twitter.com/DhrutiJoshi4?s=20"
+        }
+    },
+    {
+        "name": "Nivetha Maran",
+        "community": {
+            "designation": "",
+            "name": ""
+        },
+        "company": {
+            "designation": "Frontend Engineer",
+            "name": "Fourkites"
+        },
+        "image": "nivetha.jpg",
+        "bio": "Nivetha Maran is a frontend engineer, technical speaker and a community leader . She is skilled in frontend technologies like Angular, React , Javascript, etc. She manages Google Developers Group and Womentechmakers Chennai. She loves to give tech talks around Angular and other web technologies at conferences. And most importantly she loves coffee :P",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/nivetha-maran-54959b110/",
+            "twitter": "https://twitter.com/NivethaMaran"
         }
     },
     {
