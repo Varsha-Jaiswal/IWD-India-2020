@@ -16,7 +16,7 @@
           </v-avatar>
           <p
             class="mt-3 mb-0 google-font team-name-text"
-            style="font-size:140%; margin:0 5px"
+            style="font-size:100%; margin:0 5px"
           >{{data.vdata.name}}</p>
           <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.designation}}</p>
           <socialMediaDetails :data="{vdata:data.vdata.social}" />
