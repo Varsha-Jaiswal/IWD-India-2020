@@ -55,7 +55,7 @@ export default {
   }),
   methods: {
     getImgUrl(pic) {
-      if (pic > 0) {
+      if (pic) {
         return require("@/assets/img/speakers/" + pic);
       } else {
         return require("@/assets/img/common/avatar.png");
