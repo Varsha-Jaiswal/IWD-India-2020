@@ -23,6 +23,11 @@
         "name": "WTM Jodhpur"
     },
     {
+
+        "img": "wtm-indore.jpg",
+        "name": "WTM Indore"
+    },
+    {
         "img": "wtm-vizag.png",
         "name": "WTM Vizag"
     },
@@ -34,15 +39,7 @@
         "img": "wtm-ahmedabad.jpg",
         "name": "WTM Ahmedabad"
     },
-    {
-        "img": "wtm-coimbatore.JPG",
-        "name": "WTM Coimbatore"
-    },
-    {
 
-        "img": "wtm-indore.jpg",
-        "name": "WTM Indore"
-    },
     {
         "img": "wtm-coimbatore.jpg",
         "name": "WTM Coimbatore"

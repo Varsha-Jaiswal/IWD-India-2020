@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "201",
         "title": "Keynote",
         "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
@@ -61,9 +60,7 @@
         "track": "Leadership",
         "format": "AMA & Closing",
         "timeDuration": "30",
-        "speakers": [
-            106
-        ]
+        "speakers": []
     },
     {
         "id": "207",
@@ -153,8 +150,7 @@
         "track": "Design and Entrepreneurship",
         "format": "Design Talk",
         "timeDuration": "30",
-        "speakers": [
-        ]
+        "speakers": []
     },
     {
         "id": "216",
@@ -164,7 +160,7 @@
         "format": "Design Talk",
         "timeDuration": "30",
         "speakers": [
-        
+
         ]
     },
     {
@@ -186,7 +182,7 @@
         "format": "Talk",
         "timeDuration": "30",
         "speakers": [
-       
+            108
         ]
     },
     {
@@ -197,7 +193,7 @@
         "format": "Lightning Talk",
         "timeDuration": "30",
         "speakers": [
-        
+            108
         ]
     },
     {
@@ -229,7 +225,9 @@
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "timeDuration": "30",
-        "speakers": []
+        "speakers": [
+            108
+        ]
     },
     {
         "id": "223",
