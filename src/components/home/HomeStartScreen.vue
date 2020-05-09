@@ -45,11 +45,10 @@
         <v-btn
           target="_blank"
           rounded
-          color="#4285F4 google-font"
-          style="text-transform: capitalize;border-radius:5px"
+          color="#4285F4"
+          style="text-transform: capitalize;border-radius:5px;"
           outlined
-          class="ml-0"
-          dark
+          class="ml-0 google-font"
         >Become a Member</v-btn>
       </v-flex>
       <v-flex xs12 sm12 md3 lg5 xl5 class="text-xs-center d-none d-sm-block">
@@ -64,14 +63,6 @@
         </v-img>
       </v-flex>
     </v-layout>
-    <!-- <v-layout wrap align-center justify-center row fill-height class="py-0">
-             <p class="google-font my-0 my-3 mt-5" >
-                    <span style="font-size:140%;background:#0097a7;color:white;border:1px solid #0097a7;border-radius:7px;padding: 15px 80px" class="">
-                       Theme of IWD 2020 - #TogetherWeRise
-                    </span>
-                </p> 
-                <br>
-    </v-layout>-->
   </v-container>
 </template>
 

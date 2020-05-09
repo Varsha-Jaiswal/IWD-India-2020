@@ -34,9 +34,12 @@
               <span class="google-font">FAQ</span>
             </v-btn>
           </router-link>
-          <v-btn color="white" flat value="top" class="mr-3" @click="toTop">
-            <span class="google-font">Back to Top</span>
-          </v-btn>
+          <v-img
+            :src="require('@/assets/img/common/up-arrow.png')"
+            :lazy-src="require('@/assets/img/common/up-arrow.png')"
+            width="20%"
+            @click="toTop"
+          />
         </v-flex>
       </v-layout>
     </v-container>

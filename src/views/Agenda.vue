@@ -2,8 +2,8 @@
   <v-container fluid class="pa-0">
     <v-layout class="pa-10">
       <v-btn-toggle v-model="selectedTab" tile color="blue accent-3" group>
-        <v-btn class="mr-3 ml-10" @click="selectScheduleTab">Schedule</v-btn>
-        <v-btn @click="selectSessionTab">Session</v-btn>
+        <v-btn class="mr-3 ml-10 google-font" @click="selectScheduleTab">Schedule</v-btn>
+        <v-btn @click="selectSessionTab" class="google-font">Session</v-btn>
       </v-btn-toggle>
     </v-layout>
     <Schedule v-if="schedule" />
