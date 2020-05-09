@@ -31,15 +31,6 @@ const  router =  new Router({
       }
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('./views/About.vue'),
-      meta:{
-        title:'About | IWD India Summit 2020',
-        color:'green'
-      }
-    },
-    {
       path: '/team',
       name: 'team',
       component: () => import('./views/Team.vue'),
@@ -59,29 +50,20 @@ const  router =  new Router({
       }
     },
     {
-      path: '/schedule',
-      name: 'schedule',
-      component: () => import('./views/Schedule.vue'),
+      path: '/agenda',
+      name: 'agenda',
+      component: () => import('./views/Agenda.vue'),
       meta:{
-        title:'Schedule | IWD India Summit 2020',
+        title:'Agenda | IWD India Summit 2020',
         color:'red'
       }
     },
     {
-      path: '/sessions',
-      name: 'sessions',
-      component: () => import('./views/Sessions.vue'),
+      path: '/faq',
+      name: 'faq',
+      component: () => import('./views/FAQ.vue'),
       meta:{
-        title:'Sessions | IWD India Summit 2020',
-        color:'indigo'
-      }
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('./views/Contact.vue'),
-      meta:{
-        title:'Contact | IWD India Summit 2020',
+        title:'FAQ | IWD India Summit 2020',
         color:'red'
       }
     }

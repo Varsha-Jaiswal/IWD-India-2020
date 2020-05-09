@@ -9,6 +9,9 @@
             <v-expansion-panel-content class="google-font grey lighten-4 py-3">{{item.des}}</v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
+        <p
+          class="mt-2 google-font"
+        >If you witness any attendee breaching the code of conduct, please reach out to us at wtmindia2020@gmail.com.</p>
       </v-flex>
     </v-layout>
   </v-container>
