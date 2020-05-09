@@ -2,7 +2,7 @@
   <v-container fluid class="mb-0 pb-0">
     <v-layout wrap align-center justify-center row fill-height>
       <v-flex xs12 sm5 md8 lg8 xl6 class="pa-5">
-        <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">
+        <p class="google-font mb-1" style="font-weight: 350;color: #4285F4;font-size:200%">
           <b>Everyone is welcome here</b>
         </p>
         <p class="google-font mt-3" style="text-align:justify;">
