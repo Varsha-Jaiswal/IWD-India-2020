@@ -60,15 +60,15 @@
                 <v-list-item-content>
                   <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
                   <v-list-item-subtitle class="google-font">
-                    {{ item.place}}
+                    {{ item.track}}
                     <br />
                     <v-chip
-                      :color="item.tag.color"
+                      color="#00BFA5"
                       label
                       outlined
                       class="mt-1 mb-0"
                       x-small
-                    >{{item.tag.name}}</v-chip>
+                    >{{item.format}}</v-chip>
                   </v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
@@ -118,7 +118,7 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      if (pic.length > 0) {
+      if (pic) {
         return require("@/assets/img/speakers/" + pic);
       } else {
         return require("@/assets/img/common/avatar.png");
