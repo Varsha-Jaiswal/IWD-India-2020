@@ -24,30 +24,19 @@
           <v-icon>mdi-close</v-icon>
         </v-btn>
     </v-snackbar>
-
-
-    <!-- v-if="!$route.meta.hideNavigation" -->
     <CoreToolbar :color="$route.meta.color" />
-    <!-- <mobileToolbar class="hidden-sm-and-up" title="This is title"/> -->
     <CoreDrawer/>
     <CoreView />
     <CoreFooter class="pa-0"/>
-    <!-- <CoreBottonNav/> -->
-
   </v-app>
 </template>
 
 <script>
-// import mobileToolbar from '@/components/common/mobileToolbar'
-// import CoreBottonNav from '@/components/common/bottomNav'
-
 export default {
   name: 'App',
   components: {
     CoreToolbar:()=>import('@/components/common/toolbar'),
     CoreView:()=>import('@/components/common/view'),
-    // mobileToolbar,
-    // CoreBottonNav,
     CoreFooter:()=>import('@/components/common/footer'),
     CoreDrawer:()=> import('@/components/common/drawer')
   },

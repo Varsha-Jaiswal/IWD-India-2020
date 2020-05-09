@@ -70,8 +70,12 @@
 }
 
 .header-image {
-    margin-left: -36px;
-    min-height: 70px;
+    margin-top: -20px;
+    min-height: 60px;
+}
+
+.header-image-mobile {
+    margin-left: 30%;
 }
 
 .speaker-details.v-chip.v-chip--outlined.v-chip.v-chip {

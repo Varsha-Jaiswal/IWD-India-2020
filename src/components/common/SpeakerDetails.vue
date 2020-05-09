@@ -49,13 +49,7 @@
           <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
             <v-list two-line subheader class="pa-0 ma-0">
               <v-list-item class="pa-0">
-                <!-- <v-list-item-avatar> -->
-                  <!-- <v-avatar color="grey lighten-2">
-                    <span class="google-font" style="width:100vh">{{getCharString(item.title)}}</span>
-                  </v-avatar> -->
-                <!-- </v-list-item-avatar> -->
-
-                <v-list-item-content>
+                  <v-list-item-content>
                   <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
                   <v-list-item-subtitle class="google-font">
                     {{ item.track}}
@@ -72,46 +66,10 @@
               </v-list-item>
             </v-list>
           </v-flex>
-          
             </v-flex>
-
-      
           </v-layout>
-
-          <!-- <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
-            <b>Sessions:</b>
-          </p>
-
-          <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
-            <v-list two-line subheader class="pa-0 ma-0">
-              <v-list-item>
-                <v-list-item-avatar>
-                  <v-avatar color="grey lighten-2">
-                    <span class="google-font" style="width:100vh">{{getCharString(item.title)}}</span>
-                  </v-avatar>
-                </v-list-item-avatar>
-
-                <v-list-item-content>
-                  <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
-                  <v-list-item-subtitle class="google-font">
-                    {{ item.track}}
-                    <br />
-                    <v-chip
-                      color="#00BFA5"
-                      label
-                      outlined
-                      class="mt-1 mb-0"
-                      x-small
-                    >{{item.format}}</v-chip>
-                  </v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-flex> -->
         </v-card-text>
-
         <v-divider></v-divider>
-
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn color="primary" text @click="dialog = false">Close</v-btn>
@@ -156,18 +114,6 @@ export default {
         return require("@/assets/img/speakers/" + pic);
       } else {
         return require("@/assets/img/common/avatar.png");
-      }
-    },
-    getCharString(data) {
-      var splitArr = data.split(" ");
-      if (splitArr.length > 1) {
-        return (
-          splitArr[0].substring(0, 1) +
-          "" +
-          splitArr[1].substring(0, 1)
-        ).toUpperCase();
-      } else {
-        return splitArr[0].substring(0, 1).toUpperCase();
       }
     }
   }

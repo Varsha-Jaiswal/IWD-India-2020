@@ -13,11 +13,11 @@
           </v-layout>
         </v-img>
         <p
-          class="google-font mt-2 mb-0"
+          class="google-font mt-0 mb-0"
           style="font-weight: 600;font-size: 32px;color:#4285F4"
         >International Women's Day 2020</p>
         <p
-          class="google-font mb-2"
+          class="google-font mb-0"
           style="font-size: 135%;color: rgb(23, 172, 182);font-weight: 800;"
         >Together We Rise</p>
 

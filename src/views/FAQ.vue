@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="my-0 py-3 d-none d-sm-block">
+  <v-container fluid class="my-0 py-3">
     <v-layout wrap align-center justify-center row fill-height class="mt-10 mb-5">
       <v-flex xs12 md10>
         <v-expansion-panels accordion>
