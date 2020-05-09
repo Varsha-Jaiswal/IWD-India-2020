@@ -20,8 +20,8 @@
         <v-card-title
           class="px-5 py-5 grey lighten-4 google-font"
           primary-title
-          :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
-          style="background-position:right top"
+            :style="{'background-image':'url('+require('@/assets/img/common-header-2.png')+')'}"
+          style="background-position:center; background-color: #dfe0e1 !important;background-size: cover;"
         >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
         <v-card-text class="px-5">
@@ -40,11 +40,45 @@
             </v-flex>
 
             <v-flex xs12 md8 sm8 class="pa-2 pr-5" style="text-align:justify;">
+              
               <p class="google-font">{{data.vdata.bio}}</p>
+                       <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
+                      <b>Sessions:</b>
+              </p>
+
+          <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
+            <v-list two-line subheader class="pa-0 ma-0">
+              <v-list-item class="pa-0">
+                <!-- <v-list-item-avatar> -->
+                  <!-- <v-avatar color="grey lighten-2">
+                    <span class="google-font" style="width:100vh">{{getCharString(item.title)}}</span>
+                  </v-avatar> -->
+                <!-- </v-list-item-avatar> -->
+
+                <v-list-item-content>
+                  <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
+                  <v-list-item-subtitle class="google-font">
+                    {{ item.track}}
+                    <br />
+                    <v-chip
+                      color="#00BFA5"
+                      label
+                      outlined
+                      class="mt-2 mb-0 speaker-details"
+                      x-small
+                    >{{item.track}}</v-chip>
+                  </v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+            </v-list>
+          </v-flex>
+          
             </v-flex>
+
+      
           </v-layout>
 
-          <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
+          <!-- <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
             <b>Sessions:</b>
           </p>
 
@@ -73,7 +107,7 @@
                 </v-list-item-content>
               </v-list-item>
             </v-list>
-          </v-flex>
+          </v-flex> -->
         </v-card-text>
 
         <v-divider></v-divider>

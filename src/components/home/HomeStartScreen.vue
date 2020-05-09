@@ -33,7 +33,7 @@
           class="google-font mt-5 mb-2"
           style="font-size: 115%;color: #4285F4;font-weight: 200;"
         >May 23rd, 24th, 30th, 31st | 2:00 PM to 5:00 PM</p>
-        <p class="google-font mt-5" style="font-size:110%;color:#9e9e9e">
+        <p class="google-font mb-8" style="font-size:110%;color:#9e9e9e">
           <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">#{{item}} &nbsp;</span>
         </p>
         <v-btn

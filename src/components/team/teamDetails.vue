@@ -63,8 +63,8 @@
         <v-card-title
           class="px-5 py-5 grey lighten-4 google-font"
           primary-title
-          :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
-          style="background-position:right top"
+          :style="{'background-image':'url('+require('@/assets/img/common-header-2.png')+')'}"
+          style="background-position:center; background-color: #dfe0e1 !important;background-size: cover;"
         >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
         <v-card-text class="px-5">
@@ -84,7 +84,7 @@
 
             <v-flex xs12 md8 sm8 class="pa-2 pr-5" style="text-align:justify;">
               <p
-                class="google-font" style="font-size:110%;color:#424242"
+                class="google-font" style="font-size:110%;color:rgb(91, 193, 237)"
               >{{data.vdata.community.designation}}, {{data.vdata.community.name}}</p>
               <p class="google-font">{{data.vdata.bio}}</p>
             </v-flex>
