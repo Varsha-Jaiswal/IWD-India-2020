@@ -2,7 +2,7 @@
   <v-footer color="white" height="auto" class="hidden-sm-and-down ma-0">
     <v-container
       fluid
-      style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-bottom: 0"
+      style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-bottom: 0;background:rgb(248, 248, 248);"
     >
       <v-layout wrap justify-center text-center row class="mb-0">
         <v-flex xs12 md10 lg10 class="google-font mt-5">
@@ -30,14 +30,17 @@
         </v-flex>
         <v-flex xs12 md2 lg2 class="google-font mt-5">
           <router-link to="/faq" tag="v-btn">
-            <v-btn color="white" flat value="faq" class="mr-3">
+            <!-- <v-btn color="white" flat value="faq" class="mr-3">
               <span class="google-font">FAQ</span>
-            </v-btn>
+            </v-btn> -->
+            <p color="white" flat value="faq" class="mr-3">
+              <span class="google-font footer-link-text">FAQ</span>
+            </p>
           </router-link>
           <v-img
             :src="require('@/assets/img/common/up-arrow.png')"
             :lazy-src="require('@/assets/img/common/up-arrow.png')"
-            width="20%"
+            class="arrow-icon"
             @click="toTop"
           />
         </v-flex>

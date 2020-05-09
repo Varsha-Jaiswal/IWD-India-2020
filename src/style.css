@@ -56,6 +56,19 @@
     border-color: #4285F4 !important;
 }
 
+.arrow-icon {
+    position: absolute;
+    bottom: 0;
+    right: 26px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.footer-link-text {
+    cursor: pointer;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
     .speaker-card {
         max-width: 100% !important;
