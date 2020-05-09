@@ -43,7 +43,7 @@
           style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;margin-right: 20px !important;"
         >Register</v-btn>
         <v-btn
-        src
+        href="https://www.womentechmakers.com/membership"
           target="_blank"
           rounded
           color="#4285F4"
