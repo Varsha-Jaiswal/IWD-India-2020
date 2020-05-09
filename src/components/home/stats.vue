@@ -19,7 +19,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">200</span>
+                <span style="color: #4285F4;">200</span>
               </b>
             </p>
             <p class="google-font">Registrations</p>
@@ -28,7 +28,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">35</span>
+                <span style="color: #4285F4;">35</span>
               </b>
             </p>
             <p class="google-font">Communities</p>
@@ -36,7 +36,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">40</span>
+                <span style="color: #4285F4;">40</span>
               </b>
             </p>
             <p class="google-font">Speakers</p>
@@ -44,7 +44,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #0097a7;">22</span>
+                <span style="color: #4285F4;">22</span>
               </b>
             </p>
             <p class="google-font">Sessions</p>

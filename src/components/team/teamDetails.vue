@@ -77,14 +77,14 @@
                   </v-layout>
                 </v-img>
               </v-avatar>
-              <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
-              <p class="my-0">{{data.vdata.company.name}}</p>
+              <p class="my-0 mt-3 google-font" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
+              <p class="my-0 google-font">{{data.vdata.company.name}}</p>
               <socialMediaDetails :data="{vdata:data.vdata.social}" />
             </v-flex>
 
             <v-flex xs12 md8 sm8 class="pa-2 pr-5" style="text-align:justify;">
               <p
-                class="google-font"
+                class="google-font" style="font-size:110%;color:#424242"
               >{{data.vdata.community.designation}}, {{data.vdata.community.name}}</p>
               <p class="google-font">{{data.vdata.bio}}</p>
             </v-flex>
