@@ -374,6 +374,23 @@
         }
     },
     {
+        "name": "Padmapriya R",
+        "community": {
+            "name": "GDG/WTM Madurai",
+            "designation": "WTM Ambassador for Madurai, #IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Software Test Engineer",
+            "name": "GeeksUp"
+        },
+        "image": "padmapriya.jpg",
+        "bio": "Padmapriya is a software test Engineer. She likes to share her knowledge with others. She always wanted to empower girls who comes from underrepresented background. She mentors students to get into a good company by teaching them the technical knowledge which industries expects right now. She is running a MakerWomen platform which is dedicated for women of all age group to solve a real world problem together. She likes to travel and exploring new places and its culture. She is a WTM Ambassador for Madurai city.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/padmapriya-r-5122a1a7/",
+            "twitter": "https://twitter.com/padmapriyaru"
+        }
+    },
+    {
         "name": "",
         "community": {
             "name": "",
