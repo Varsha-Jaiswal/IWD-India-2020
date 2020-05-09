@@ -35,11 +35,11 @@
         "name": "WTM Ahmedabad"
     },
     {
-        "img": "wtm-indore.JPG",
-        "name": "WTM Indore"
-    },
-    {
         "img": "wtm-coimbatore.JPG",
         "name": "WTM Coimbatore"
+    },
+    {
+        "img": "wtm-indore.JPG",
+        "name": "WTM Indore"
     }
 ]
