@@ -3,6 +3,13 @@
     <template v-slot:activator="{ on }">
       <div v-on="on" style="cursor: pointer;">
         <v-chip
+          color="#4285F4"
+          label
+          style="color:white; font-size:80%"
+          class="mt-1 mb-0 google-font"
+          small
+        >{{data.vdata.track}}</v-chip>
+        <v-chip
           color="#00BFA5"
           label
           style="color:white; font-size:80%"
