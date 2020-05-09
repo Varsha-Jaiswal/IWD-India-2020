@@ -391,20 +391,37 @@
         }
     },
     {
-        "name": "",
+        "name": "Sumitra Bagchi",
         "community": {
-            "name": "",
-            "designation": ""
+            "name": "GDG Cloud Kolkata",
+            "designation": "WTM Ambassador"
         },
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "#",
+            "name": "#"
         },
-        "image": "",
-        "bio": "",
+        "image": "sumitra.jpg",
+        "bio": "Sumitra Bagchi is an independent developer, Women Techmaker Ambassador, Cloud StudyJam Facilitator and a GDG Cloud Kolkata Organizer.Skilled with PHP, CakePHP, Wordpress, HTML5, jQuery, AJAX, Bootstrap and MySQL. She is a learner of new technologies.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/sumitra-bagchi-880b00140/",
+            "twitter": "https://twitter.com/sumitrabagchi"
         }
-    }
+    },
+    {
+        "name": "Swathi Bavanaka",
+        "community": {
+            "name": "WTM Hyderabad",
+            "designation": "WTM Ambassador"
+        },
+        "company": {
+            "designation": "Co-founder & COO",
+            "name": "Evibe.in"
+        },
+        "image": "swathi",
+        "bio": "CoFounder at Evibe.in, the ultimate platform for celebrations to enable a billion memories across the globe. At Evibe, she takes care of innovation, business strategies, key partnerships and sales. She has 5+ years of strong experience in the party service Industry, scaling operations across 4 cities with profitable unit economics and 100% year-on-year growth in revenues in all the five years.\n\nShe did her MS in CS from the USA and returned back to India with her passion for startups. She has been identified as an Inspiring woman entrepreneur by Karnataka Government and as an emerging woman entrepreneur of Hyderabad in 2019 by the Government of Telangana. She leads Google Women Techmakers Hyderabad chapter and she aspires to influence and bring in more women in technology.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/swathibavanaka/",
+            "twitter": "https://twitter.com/swathibavanaka"
+        }
+    },
 ]
