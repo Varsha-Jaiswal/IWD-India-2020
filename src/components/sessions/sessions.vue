@@ -8,7 +8,7 @@
               v-model="SelectedItem"
               :items="items"
               chips
-              label="Filter by Tag"
+              label="Filter by Talk Format"
               small-chips
               multiple
               outlined
@@ -70,7 +70,7 @@
 import sessionsData from "@/assets/data/sessions.json";
 export default {
   components: {
-    sessionDialog:()=>import("@/components/common/sessionDialog"),
+    sessionDialog: () => import("@/components/common/sessionDialog")
     // sessionDialogMobile: ()=> import("@/components/common/sessionDialogMobile")
   },
   data: () => ({
@@ -92,7 +92,7 @@ export default {
     }
   },
   mounted() {
-    this.items = [...new Set(this.sessionsData.map(res => res.tag.name))];
+    this.items = [...new Set(this.sessionsData.map(res => res.format))];
   },
   methods: {
     toggle() {
@@ -123,7 +123,7 @@ export default {
         let asData = [];
         this.SelectedItem.map(val => {
           this.sessionsData.filter(res => {
-            if (res.tag.name == val) {
+            if (res.format == val) {
               asData.push(res);
             }
           });

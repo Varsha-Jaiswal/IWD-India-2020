@@ -1,122 +1,171 @@
 [
     {
-        "startTime":"09:00",
-        "endTime":"09:30",
-        "sessions":[],
-        "title":"Registration",
-        "timeDuration":"30",
-        "place": "Help Desk",
-        "des":"Register yourself and confirm your participation on the Help-desks."
-    },
-    {
-        "startTime":"09:30",
-        "endTime":"10:00",
-        "sessions":[
+        "day": "1",
+        "date": "May 23rd 2020, Saturday",
+        "schedule": [
             {
-                "item":[215]
-            }
-        ],
-        "des":""
-    },
-    {
-        "startTime":"10:00",
-        "endTime":"10:15",
-        "sessions":[
-            {
-                "item":[210]
-            }
-        ]
-    },
-    {
-        "startTime":"10:15",
-        "endTime":"10:45",
-        "sessions":[
-            {
-                "item":[201]
-            }
-        ]
-    },
-    {
-        "startTime":"10:45",
-        "endTime":"11:20",
-        "sessions":[
-            {
-                "item": [217]
-            }
-        ]
-    },
-    {
-        "startTime":"11:30",
-        "endTime":"12:30",
-        "sessions":[
-            {
-                "item":[206,203]
+                "startTime": "02:00",
+                "endTime": "02:30",
+                "session": 201
             },
             {
-                "item":[204]
-            }
-        ]
-    },
-    {
-        "startTime":"12:30",
-        "endTime":"01:30",
-        "sessions":[],
-        "title":"Lunch & Networking",
-        "timeDuration":"60",
-        "place": "Lunch Area",
-        "des":"Re-fill the energy level to enjoy some awesome workshops post-lunch."
-    },
-    {
-        "startTime":"01:30",
-        "endTime":"02:30",
-        "sessions":[
-            {
-                "item":[212,205]
+                "startTime": "02:30",
+                "endTime": "03:00",
+                "session": 202
             },
             {
-                "item":[208,211]
-            }
-        ]
-    },
-   
-    {
-        "startTime":"02:45",
-        "endTime":"04:15",
-        "sessions":[
-            {
-                "item":[207,209]
+                "startTime": "03:00",
+                "endTime": "03:15",
+                "session": 203
             },
             {
-                "item":[214,213]
+                "startTime": "03:15",
+                "endTime": "03:45",
+                "session": 204
+            },
+            {
+                "startTime": "03:45",
+                "endTime": "04:30",
+                "session": 205
+            },
+            {
+                "startTime": "04:30",
+                "endTime": "05:00",
+                "session": 206
             }
         ]
     },
     {
-        "startTime":"04:15",
-        "endTime":"04:30",
-        "sessions":[],
-        "title":"Tea Break",
-        "timeDuration":"15",
-        "place": "Lunch Area",
-        "des":"Refill yourself and comeback for amazing bind-up."
-    },
-    {
-        "startTime":"04:30",
-        "endTime":"05:00",
-        "sessions":[],
-        "title":"Sponsor's Talk & Success Story",
-        "timeDuration":"30",
-        "place": "Main Hall",
-        "des":"Let's share the platform to the people who once attended our workshop and are willing to share their success story."
-    },
-    {
-        "startTime":"05:00",
-        "endTime":"05:30",
-        "sessions":[
+        "day": "2",
+        "date": "24th May 2020, Sunday",
+        "schedule": [
             {
-                "item":[216]
+                "startTime": "02:00",
+                "endTime": "02:20",
+                "session": 207
+            },
+            {
+                "startTime": "02:20",
+                "endTime": "02:40",
+                "session": 208
+            },
+            {
+                "startTime": "02:40",
+                "endTime": "03:00",
+                "session": 209
+            },
+            {
+                "startTime": "03:00",
+                "endTime": "03:15",
+                "session": 210
+            },
+            {
+                "startTime": "03:15",
+                "endTime": "04:00",
+                "session": 211
+            },
+            {
+                "startTime": "04:00",
+                "endTime": "04:30",
+                "session": 212
+            },
+            {
+                "startTime": "04:30",
+                "endTime": "04:40",
+                "session": 213
+            },
+            {
+                "startTime": "04:40",
+                "endTime": "05:00",
+                "session": 214
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "date": "May 30th 2020, Saturday",
+        "schedule": [
+            {
+                "startTime": "02:00",
+                "endTime": "02:30",
+                "session": 215
+            },
+            {
+                "startTime": "02:30",
+                "endTime": "03:00",
+                "session": 216
+            },
+            {
+                "startTime": "03:00",
+                "endTime": "03:15",
+                "session": 217
+            },
+            {
+                "startTime": "03:15",
+                "endTime": "03:45",
+                "session": 218
+            },
+            {
+                "startTime": "03:45",
+                "endTime": "04:15",
+                "session": 219
+            },
+            {
+                "startTime": "04:15",
+                "endTime": "04:30",
+                "session": 220
+            },
+            {
+                "startTime": "04:30",
+                "endTime": "05:00",
+                "session": 221
+            }
+        ]
+    },
+    {
+        "day": "4",
+        "date": "May 31st 2020, Sunday",
+        "schedule": [
+            {
+                "startTime": "02:00",
+                "endTime": "02:30",
+                "session": 222
+            },
+            {
+                "startTime": "02:30",
+                "endTime": "03:00",
+                "session": 223
+            },
+            {
+                "startTime": "03:00",
+                "endTime": "03:15",
+                "session": 224
+            },
+            {
+                "startTime": "03:15",
+                "endTime": "03:45",
+                "session": 225
+            },
+            {
+                "startTime": "03:45",
+                "endTime": "04:00",
+                "session": 226
+            },
+            {
+                "startTime": "04:00",
+                "endTime": "04:15",
+                "session": 227
+            },
+            {
+                "startTime": "04:15",
+                "endTime": "04:30",
+                "session": 228
+            },
+            {
+                "startTime": "04:30",
+                "endTime": "05:00",
+                "session": 229
             }
         ]
     }
-    
 ]
