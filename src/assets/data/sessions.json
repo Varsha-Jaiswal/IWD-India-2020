@@ -12,7 +12,7 @@
     },
     {
         "id": "202",
-        "title": "Talk by Payal",
+        "title": "Success is Within",
         "description": "",
         "track": "Leadership",
         "format": "Talk",
@@ -81,7 +81,7 @@
     },
     {
         "id": "208",
-        "title": "Talk by Remya Vava",
+        "title": "Tech Talk on Cloud",
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
@@ -127,7 +127,7 @@
     },
     {
         "id": "212",
-        "title": "Fireside Chat b/w Dikshita and Pujaa",
+        "title": "Fireside Chat on Machine Learning",
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
@@ -170,7 +170,7 @@
     },
     {
         "id": "216",
-        "title": "Talk by Nitya",
+        "title": "Design Talk",
         "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Design Talk",
@@ -193,7 +193,7 @@
     },
     {
         "id": "218",
-        "title": "Talk by Sivareena",
+        "title": "An Entrepreneur’s Journey",
         "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Talk",
@@ -204,7 +204,7 @@
     },
     {
         "id": "219",
-        "title": "Swathi and Swaathi's talk",
+        "title": "Entrepreneur Stories",
         "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Lightning Talk",
@@ -216,7 +216,7 @@
     },
     {
         "id": "220",
-        "title": "Talk by Aditi Chansoria",
+        "title": "Design Talk",
         "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Lightning Talk",
@@ -236,7 +236,7 @@
     },
     {
         "id": "222",
-        "title": "Mayuri's Talk",
+        "title": "Tech Talk on Android",
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
@@ -247,7 +247,7 @@
     },
     {
         "id": "223",
-        "title": "Pooja Bhaumik's talk",
+        "title": "Tech Talk on Flutter",
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
@@ -303,7 +303,7 @@
     },
     {
         "id": "228",
-        "title": "Akanshi's talk",
+        "title": "Using Animations in Android Application",
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
