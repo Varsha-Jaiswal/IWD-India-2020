@@ -423,5 +423,22 @@
             "linkedin": "https://www.linkedin.com/in/swathibavanaka/",
             "twitter": "https://twitter.com/swathibavanaka"
         }
+    },
+    {
+        "name": "Ranu Jaiswal",
+        "community": {
+            "name": "WTM Indore",
+            "designation": "WTM Ambassador and IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Software Engineer",
+            "name": "Infobeans Technology"
+        },
+        "image": "ranu.jpg",
+        "bio": "Ranu is a software developer by profession and a dance lover by passion. She is keen interested in developing a change to encourage the women in tech. She likes to teach and provide support to those who are in need.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/ranu-jaiswal-255a84100",
+            "twitter": "https://mobile.twitter.com/ranuj74"
+        }
     }
 ]
