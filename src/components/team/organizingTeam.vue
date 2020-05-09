@@ -1,13 +1,13 @@
 <template>
 
-    <v-layout wrap align-start justify-start row fill-height class="pa-0">
+    <v-layout wrap align-start justify-center row fill-height class="pa-0">
 <v-flex xs6
         sm4
         md2
         lg2
         v-for="(item,i) in ShuffleData(TeamDetails)"
         :key="i"
-        class="text-xs-center team-wrapper team-mobile-card"
+        class="text-xs-center team-wrapper "
         style="text-align:center">
         <TeamDetailsDialog :data="{vdata:item}" />
       </v-flex>

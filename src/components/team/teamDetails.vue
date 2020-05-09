@@ -7,7 +7,7 @@
         <div
           v-on="on"
           class="text-xs-center ma-1 py-5 my-0 d-none d-sm-block team-card"
-          style="text-align:center;border: 1px solid #f5f6f7;min-height:250px;border-radius:7px"
+          style="text-align:center;border: 1px solid #f5f6f7;min-height:280px;border-radius:7px"
         >
           <v-avatar size="130">
             <v-img :src="getImgUrl(data.vdata.image)" :lazy-src="getImgUrl(data.vdata.image)">

@@ -5,8 +5,8 @@
         <v-flex xs12 md2 lg2 class="pa-3 hidden-sm-and-down">
           <v-img
             width="100%"
-            :src="require('@/assets/img/svg/getting-started_bg.svg')"
-            :lazy-src="require('@/assets/img/svg/getting-started_bg.svg')"
+            :src="require('@/assets/img/team-header.png')"
+            :lazy-src="require('@/assets/img/team-header.png')"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
               <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -16,7 +16,7 @@
         <v-flex xs12 md8 lg8 class>
           <span
             class="pa-2 google-font"
-            style="border-radius:8px;background-color:#FFEBEE;color:#B71C1C;font-size:150%"
+            style="    border-radius: 8px;background-color: rgb(86, 184, 251);color: rgb(255, 255, 255);font-size: 150%;"
           >Team</span>
           <p
             class="google-font mt-2"
