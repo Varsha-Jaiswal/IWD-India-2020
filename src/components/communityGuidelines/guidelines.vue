@@ -2,7 +2,7 @@
   <v-container class="px-3">
     <v-layout wrap align-start justify-start row fill-heights>
       <v-flex xs12 sm12 md12 lg12 xl8 class="pa-5">
-        <p class="google-font" style="font-size:180%;color:#0097a7">Community Guidelines</p>
+        <p class="google-font" style="font-size:180%;color:#4285F4">Code of Conduct</p>
         <v-expansion-panels accordion>
           <v-expansion-panel v-for="(item,i) in cgdata.communityGuideline" :key="i">
             <v-expansion-panel-header class="google-font">{{item.name}}</v-expansion-panel-header>
