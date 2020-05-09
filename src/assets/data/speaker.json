@@ -33,18 +33,277 @@
         }
     },
     {
+        "id": "103",
+        "name": "Supriya Shashivasan",
+        "company": {
+            "name": "Sony India Software Center",
+            "designation": "Software Engineer"
+        },
+        "image": "supriya.jpg",
+        "bio": "Supriya is a huge tech enthusiast who loves to learn new technologies. Working with fellow members of the community to build a thriving tech community is the ultimate joy she believes. Her tech forte is Reactjs and frontend technologies. She loves to code, read books, travel, play badminton and is always up for anything thrown her way.",
+        "social": {
+            "twitter": "https://twitter.com/s_omeal",
+            "linkedin": "https://www.linkedin.com/in/supriya-shashivasan-886908148"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "104",
+        "name": "Dhruva Shastri",
+        "company": {
+            "name": "All Events",
+            "designation": "Associate Executive"
+        },
+        "image": "dhruva.jpg",
+        "bio": "Her interests as an inquisitive #WomenInTech is to learn new every day. Being developer by heart, she continually look out for areas that interest her to work on. Apart from that, Being a facilitator for #IamRemarkable initiative and community lover, playing a role as an Ambassador at WTM Ahmedabad, enthusiast about emboldening women in every sphere of their life and enjoys people’s synergy.",
+        "social": {
+            "twitter": "https://twitter.com/dhruvashastri12",
+            "linkedin": "https://www.linkedin.com/in/dhruvashastri12"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "105",
+        "name": "Savvy Jain",
+        "company": {
+            "name": "Cofiato",
+            "designation": "CEO and Founder"
+        },
+        "image": "savvy.jpg",
+        "bio": "Savvy loves data and everything around it. She used to be a data scientist and has experience working in various domains. She is currently CEO and Founder of Cofiato, which is a Hardware Intelligence firm. Her second love is community evangelism. She's associated with many technical and networking communities like GDG, GCDC, WTM, Linkedin Local, BNI etc. She is also Women in Data Science Regional Ambassador. She likes innovation, creativity, and coffee",
+        "social": {
+            "twitter": "twitter.com/savvyjain",
+            "linkedin": "linkedin.com/in/savvyjain"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "106",
+        "name": "Aditi Soni",
+        "company": {
+            "name": "Consultadd Inc.",
+            "designation": "Software Engineer"
+        },
+        "image": "aditi.jpg",
+        "bio": "Aditi is a community lover and a passionate developer. She keeps contributing to various technical communities as an organizer or a speaker. As a personal interest, she develops mobile Applications. She is also a Google India Udacity Android Developers Nanodegree 2018 Scholar. Reading about new inventions and breakthroughs keeps her motivated. She always tries to empower women with the power of community to help women achieve the things they aim for. Happiness is a choice and she strongly believes that one should always keep the child inside them alive.",
+        "social": {
+            "twitter": "https://twitter.com/soniaditi380",
+            "linkedin": "https://www.linkedin.com/mynetwork/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "107",
+        "name": "Dhivya Krishna ",
+        "company": {
+            "name": "Vakilsearch",
+            "designation": "Writer"
+        },
+        "image": "dhivya.jpeg",
+        "bio": "Writer | TEDxSKCET - Licensee and Organizer | Google Developers Group organizer | WTM Coimbatore Ambassador | Digital marketer | Public speaker | Psychologist | An IT student | Social Activist | SEO Specialist | Content marketing",
+        "social": {
+            "twitter": "https://twitter.com/Dhivya_nk",
+            "linkedin": "https://www.linkedin.com/in/dhivya-krishna-37a00711b/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "108",
+        "name": "Priyal Jain",
+        "company": {
+            "name": "EngineerBabu",
+            "designation": "Web Developer"
+        },
+        "image": "priyal.jpg",
+        "bio": "Achiever | Tech Lover | Dreamer",
+        "social": {
+            "twitter": "https://twitter.com/priyaljain919",
+            "linkedin": "https://www.linkedin/in/priyaljain919"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "109",
+        "name": "Poornima Satheesh",
+        "company": {
+            "name": "Glaubetech",
+            "designation": "Business executive & Software engineer"
+        },
+        "image": "poornima.jpg",
+        "bio": "Poornima is a passionate software engineer, Data science enthusiast, Currently working as a business executive at Glaubetech. She loves to organize tech events and lead the community. Being an #IamRemarkable facilitator she enjoys to help others to be confident and passionate about what they are. Apart from tech, she is a lover of books, enjoys travelling.",
+        "social": {
+            "twitter": "https://twitter.com/_poornima_sudha",
+            "linkedin": "https://www.linkedin.com/in/poornima-s-350704130"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "110",
+        "name": "Ananya R",
+        "company": {
+            "name": "LBS Institute of Technology for Women",
+            "designation": "Student"
+        },
+        "image": "ananya.jpg",
+        "bio": "Ananya is an enthusiastic and inquisitive learner .She is a techie and is the  WTM Ambassador of GDG Trivandrum. She is a responsible volunteer who takes part in different community programs with aplomb.She has been  awarded' Outstanding Women in Engineering student volunteer' from IEEE Kerala Section in  2018 for the contribution to women student engineering community.She is an opportunist & optimistic personality who loves to explore & learn.",
+        "social": {
+            "twitter": "https://twitter.com/AnanyaR15",
+            "linkedin": "www.linkedin.com/in/ananya-r"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "111",
+        "name": "Aananya",
+        "company": {
+            "name": "Kubric.io",
+            "designation": "Developer Experience Engineer"
+        },
+        "image": "aananya.jpeg",
+        "bio": "Aananya is a Developer Experience Engineer at Kubric. She is a strong believer of the principle “Lift as you climb”. Loves Idlis and is driven by empathy. Talk to her about Code, Community & Creativity",
+        "social": {
+            "twitter": "https://twitter.com/py_anan",
+            "linkedin": "https://www.linkedin.com/in/aananya-27/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "119",
+        "name": "Akanshi Srivastava",
+        "company": {
+            "name": "Gojek",
+            "designation": "Product Engineer (UXE - Android)"
+        },
+        "image": "akanshi.png",
+        "bio": "Akanshi is a Product Engineer (Android developer), currently working at Gojek in the UX Engineering team. She likes to work on UI/UX design and development. She is interested in public speaking and is active on Stack Overflow. She has also been a mentor in different communities and events. She likes empowering women, creative UIs, problem solving and logical reasoning along with good music.",
+        "social": {
+            "twitter": "https://twitter.com/akanshi_s",
+            "linkedin": "https://www.linkedin.com/in/akanshi32/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "112",
+        "name": "Lakshya Sivaramakrishnan",
+        "company": {
+            "name": "Women Techmakers",
+            "designation": "Program Manager"
+        },
+        "image": "lakshya.jpg",
+        "bio": "Lakshya manages the Women Techmakers Program in India. She is a data science enthusiast building tech expertise in Machine Learning and Google Cloud. She enjoys nurturing communities and empowering more women to join, thrive and lead in the tech industry.",
+        "social": {
+            "twitter": "https://twitter.com/lakshyas90/",
+            "linkedin": "https://www.linkedin.com/in/lakshyasi/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "117",
+        "name": "Usha Ramani Vemuru",
+        "company": {
+            "designation": "CEO and Co founder",
+            "name": "Gurujada"
+        },
+        "image": "usha.jpg",
+        "bio": "Usha is a tech entrepreneur passionate about UX/UI and leadership and everything around it. She's the CEO and founder of GURUJADA, a conferencing platform. She is the co organiser of GDG Vizag and WTM Vizag ambassador. She is also a Goldman Sachs entrepreneur ambassador.She loves community building. Being an ex- professor, she adores the student community and is passionate about increasing the impact of tech communities on their careers. She believes in being a learner for life and enjoys learning about new technology, business and parenting.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/mwlite/in/usha-ramani-vemuru-66286723",
+            "twitter": ""
+        },
+        "sessionId": []
+    },
+    {
+        "id": "113",
+        "name": "Aarshiya Guneja",
+        "company": {
+            "designation": "Software Engineer",
+            "name": "NAV Consulting, Inc."
+        },
+        "image": "aarshiya.jpg",
+        "bio": "Aarshiya is a Software Developer who has a keen interest in developing softwares using core principles and methodologies. Besides being a co-organizer in Google Developer Group and Women TechMakers Jaipur Ambassador- she enjoys voluntarily organizing and speaking at developer events and believes in sharing knowledge.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/aarshiyaguneja/",
+            "twitter": "https://twitter.com/aarshiyaguneja"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "116",
+        "name": "Remya Vava",
+        "company": {
+            "designation": "Solutions Architect",
+            "name": "QBurst Technologies"
+        },
+        "image": "remya.jpeg",
+        "bio": "She’s a solution Architect, a techincal speaker, a passionate developer and always a learner. Also a WTM Ambassador, GDG Co-Organizer & an #IamRemarkable Facilitator",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/remyapvava/",
+            "twitter": "https://twitter.com/remyapvava"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "114",
+        "name": "Annapurna Agrawal",
+        "company": {
+            "designation": "Author",
+            "name": "Pluralsight"
+        },
+        "image": "annapurana.jpg",
+        "bio": "Full Stack Developer | Video Content Creator | #IamRemarkable Facilitator |WTM Ambassador",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/annapurna-agrawal/",
+            "twitter": "https://twitter.com/annapurna_23"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "115",
+        "name": "Dhruti Joshi",
+        "company": {
+            "designation": "Sr. Software Engineer",
+            "name": "Tatvasoft PVT LTD"
+        },
+        "image": "dhruti.jpg",
+        "bio": "Dhruti is a Team Leader and Senior Software Engineer, building my career as a Full Stack Developer with experience of more than half a decade. Always fascinated by maths and logic. Especially she would love to work on C# MVC, EF, Angular, Node.js, React.js and Express.\nApart from development, she would like to do something from which she can connect with people and people can know her as well. So for this, she is doing public speaking on Technical topics and like to share knowledge.\nWTM Ambassador | GDG Co-Organizer ",
+        "social": {
+            "linkedin": "http://linkedin.com/in/dhruti-shah-85b38739",
+            "twitter": "https://twitter.com/DhrutiJoshi4?s=20"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "118",
+        "name": "Nivetha Maran",
+        "company": {
+            "designation": "Frontend Engineer",
+            "name": "Fourkites"
+        },
+        "image": "nivetha.jpg",
+        "bio": "Nivetha Maran is a frontend engineer, technical speaker and a community leader . She is skilled in frontend technologies like Angular, React , Javascript, etc. She manages Google Developers Group and Womentechmakers Chennai. She loves to give tech talks around Angular and other web technologies at conferences. And most importantly she loves coffee :P",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/nivetha-maran-54959b110/",
+            "twitter": "https://twitter.com/NivethaMaran"
+        },
+        "sessionId": []
+    },
+    {
         "id": "",
         "name": "",
         "company": {
-            "name": "",
-            "designation": ""
+            "designation": "",
+            "name": ""
         },
+        "image": "",
+        "bio": "",
         "social": {
             "linkedin": "",
             "twitter": ""
         },
-        "bio": "",
-        "image": "",
+        "sessionId": []
+    },
+    {
+        "id": "",
         "sessionId": []
     }
 ]

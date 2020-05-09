@@ -39,7 +39,20 @@
         "name": "WTM Coimbatore"
     },
     {
-        "img": "wtm-indore.JPG",
+
+        "img": "wtm-indore.jpg",
         "name": "WTM Indore"
+    },
+    {
+        "img": "wtm-coimbatore.jpg",
+        "name": "WTM Coimbatore"
+    },
+    {
+        "img": "wtm-madurai.jpeg",
+        "name": "WTM Madurai"
+    },
+    {
+        "img": "wtm-goa.jpg",
+        "name": "WTM Goa"
     }
 ]
