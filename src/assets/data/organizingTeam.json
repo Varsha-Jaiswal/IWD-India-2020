@@ -247,11 +247,11 @@
             "designation": "CEO and Co founder",
             "name": "Gurujada"
         },
-        "image": "",
+        "image": "usha.jpg",
         "bio": "Usha is a tech entrepreneur passionate about UX/UI and leadership and everything around it. She's the CEO and founder of GURUJADA, a conferencing platform. She is the co organiser of GDG Vizag and WTM Vizag ambassador. She is also a Goldman Sachs entrepreneur ambassador.She loves community building. Being an ex- professor, she adores the student community and is passionate about increasing the impact of tech communities on their careers. She believes in being a learner for life and enjoys learning about new technology, business and parenting.",
         "social": {
             "linkedin": "https://www.linkedin.com/mwlite/in/usha-ramani-vemuru-66286723",
-            "twitter": "#"
+            "twitter": "https://twitter.com/vusharamani"
         }
     },
     {
@@ -337,6 +337,40 @@
         "social": {
             "linkedin": "http://linkedin.com/in/dhruti-shah-85b38739",
             "twitter": "https://twitter.com/DhrutiJoshi4?s=20"
+        }
+    },
+    {
+        "name": "Dikshita Desai",
+        "community": {
+            "name": "GDG/WTM Goa",
+            "designation": "GDG Goa Organizer, WTM Goa Ambassador, #IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Software Developer",
+            "name": ""
+        },
+        "image": "dikshita.jpg",
+        "bio": "Dikshita is a software developer and an avid reader. She believes in \"kaizen\" code, and enjoys machine learning & robotics. When not infront of PC she is found with dogs, chai, passport or just dead in her bed. Her love for learning and teaching tech content gets her to be the Women Techmakers ambassador for Goa and also a GDG Goa organizer.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/desaidikshita/",
+            "twitter": "https://twitter.com/desaidikshita"
+        }
+    },
+    {
+        "name": "Padmapriya R",
+        "community": {
+            "name": "GDG/WTM Madurai",
+            "designation": "WTM Ambassador for Madurai, #IamRemarkable Facilitator"
+        },
+        "company": {
+            "designation": "Software Test Engineer",
+            "name": "GeeksUp"
+        },
+        "image": "",
+        "bio": "Padmapriya is a software test Engineer. She likes to share her knowledge with others. She always wanted to empower girls who comes from underrepresented background. She mentors students to get into a good company by teaching them the technical knowledge which industries expects right now. She is running a MakerWomen platform which is dedicated for women of all age group to solve a real world problem together. She likes to travel and exploring new places and its culture. She is a WTM Ambassador for Madurai city.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/padmapriya-r-5122a1a7/",
+            "twitter": "https://twitter.com/padmapriyaru"
         }
     },
     {
