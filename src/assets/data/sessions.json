@@ -1,62 +1,68 @@
-[{
+[
+    {
         "id": "201",
         "title": "Keynote",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
+        "description": "",
         "track": "Leadership",
         "format": "Keynote",
         "timeDuration": "30",
         "speakers": [
-            101
+            119
         ]
     },
     {
         "id": "202",
-        "title": "Payal's talk",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
+        "title": "Talk by Payal",
+        "description": "",
         "track": "Leadership",
         "format": "Talk",
         "timeDuration": "30",
         "speakers": [
-            101
+            120
         ]
     },
     {
         "id": "203",
         "title": "Ice Breaker",
-        "description": "Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google. ",
+        "description": "",
         "track": "Leadership",
         "format": "Ice Breaker",
         "timeDuration": "15",
         "speakers": [
+            107,
             103
         ]
     },
     {
         "id": "204",
         "title": "Owning your Narrative",
-        "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
+        "description": "",
         "track": "Leadership",
         "format": "Talk",
         "timeDuration": "30",
         "speakers": [
-            104
+            121
         ]
     },
     {
         "id": "205",
         "title": "Nurturing Communities",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Leadership",
         "format": "Panel Discussion",
         "timeDuration": "45",
         "speakers": [
-            105
+            106,
+            122,
+            104,
+            114,
+            117
         ]
     },
     {
         "id": "206",
         "title": "Q & A",
-        "description": "It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
+        "description": "",
         "track": "Leadership",
         "format": "AMA & Closing",
         "timeDuration": "30",
@@ -65,20 +71,24 @@
     {
         "id": "207",
         "title": "Deploying Airflow with Kubernetes to Build Data Pipelines",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
+        "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
         "timeDuration": "20",
-        "speakers": []
+        "speakers": [
+            123
+        ]
     },
     {
         "id": "208",
-        "title": "Remya's talk",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
+        "title": "Talk by Remya Vava",
+        "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
         "timeDuration": "20",
-        "speakers": []
+        "speakers": [
+            116
+        ]
     },
     {
         "id": "209",
@@ -87,12 +97,14 @@
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
         "timeDuration": "20",
-        "speakers": []
+        "speakers": [
+            124
+        ]
     },
     {
         "id": "210",
         "title": "Ice Breaker",
-        "description": "Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google. ",
+        "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Ice Breaker",
         "timeDuration": "15",
@@ -104,157 +116,162 @@
     {
         "id": "211",
         "title": "Hands-on workshop in Introduction to Neural Networks",
-        "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
+        "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Workshop",
         "timeDuration": "45",
-        "speakers": []
+        "speakers": [
+            125,
+            126
+        ]
     },
     {
         "id": "212",
-        "title": "fireside",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "title": "Fireside Chat b/w Dikshita and Pujaa",
+        "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
         "timeDuration": "30",
         "speakers": [
-            105
+            127,
+            128
         ]
     },
     {
         "id": "213",
         "title": "Virtual Machines in GCP",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - ML & Cloud",
-        "format": "Lightning talk",
+        "format": "Lightning Talk",
         "timeDuration": "10",
         "speakers": [
-            105
+            129
         ]
     },
     {
         "id": "214",
         "title": "Q & A",
-        "description": "It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
+        "description": "",
         "track": "Leadership",
         "format": "AMA & Closing",
-        "timeDuration": "30",
-        "speakers": [
-            106
-        ]
-    },
-    {
-        "id": "215",
-        "title": "Visual Engineering",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
-        "track": "Design and Entrepreneurship",
-        "format": "Design Talk",
         "timeDuration": "30",
         "speakers": []
     },
     {
-        "id": "216",
-        "title": "Nitya's talk",
-        "description": "The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
+        "id": "215",
+        "title": "Visual Engineering",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Design Talk",
         "timeDuration": "30",
         "speakers": [
-
+            130
+        ]
+    },
+    {
+        "id": "216",
+        "title": "Talk by Nitya",
+        "description": "",
+        "track": "Design and Entrepreneurship",
+        "format": "Design Talk",
+        "timeDuration": "30",
+        "speakers": [
+            131
         ]
     },
     {
         "id": "217",
         "title": "Ice Breaker",
-        "description": "Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google. ",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Ice Breaker",
         "timeDuration": "15",
         "speakers": [
-            113
+            113,
+            132
         ]
     },
     {
         "id": "218",
-        "title": "Sivareena's talk",
-        "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
+        "title": "Talk by Sivareena",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Talk",
         "timeDuration": "30",
         "speakers": [
-            108
+            133
         ]
     },
     {
         "id": "219",
         "title": "Swathi and Swaathi's talk",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Lightning Talk",
         "timeDuration": "30",
         "speakers": [
-            108
+            134,
+            135
         ]
     },
     {
         "id": "220",
-        "title": "Aditi's Talk",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "title": "Talk by Aditi Chansoria",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "Lightning Talk",
         "timeDuration": "15",
         "speakers": [
-            106
+            136
         ]
     },
     {
         "id": "221",
         "title": "Q & A",
-        "description": "It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
+        "description": "",
         "track": "Design and Entrepreneurship",
         "format": "AMA & Closing",
         "timeDuration": "30",
-        "speakers": [
-            106
-        ]
+        "speakers": []
     },
     {
         "id": "222",
         "title": "Mayuri's Talk",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "timeDuration": "30",
         "speakers": [
-            108
+            137
         ]
     },
     {
         "id": "223",
         "title": "Pooja Bhaumik's talk",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "timeDuration": "30",
         "speakers": [
-            105
+            138
         ]
     },
     {
         "id": "224",
-        "title": "Ice breaker",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "title": "Ice Breaker",
+        "description": "",
         "track": "Tech - Android & Web",
-        "format": "Ice breaker",
+        "format": "Ice Breaker",
         "timeDuration": "15",
         "speakers": [
-            110
+            110,
+            139
         ]
     },
     {
         "id": "225",
         "title": "Framework-agnostic web components, with Angular",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "timeDuration": "30",
@@ -265,7 +282,7 @@
     {
         "id": "226",
         "title": "What it takes to become a modern web developer in 2020",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
         "timeDuration": "15",
@@ -276,7 +293,7 @@
     {
         "id": "227",
         "title": "Angular Components: Google Map",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
         "timeDuration": "15",
@@ -287,23 +304,21 @@
     {
         "id": "228",
         "title": "Akanshi's talk",
-        "description": "Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
         "timeDuration": "15",
         "speakers": [
-            119
+            140
         ]
     },
     {
         "id": "229",
         "title": "Q & A",
-        "description": "It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
+        "description": "",
         "track": "Tech - Android & Web",
         "format": "AMA & Closing",
         "timeDuration": "30",
-        "speakers": [
-            106
-        ]
+        "speakers": []
     }
 ]

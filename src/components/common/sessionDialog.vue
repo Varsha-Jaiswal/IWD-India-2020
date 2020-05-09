@@ -8,7 +8,7 @@
           style="color:white; font-size:80%"
           class="mt-1 mb-0 google-font"
           small
-        >{{data.vdata.track}}</v-chip>
+        >{{data.vdata.track}}</v-chip><br>
         <v-chip
           color="#00BFA5"
           label
@@ -34,26 +34,28 @@
         :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
         style="background-position:right bottom;"
       >{{data.vdata.title}}</v-card-title>
-
       <v-card-text class="pa-5">
+        <v-chip
+          color="#4285F4"
+          label
+          style="color:white; font-size:90%"
+          class="mt-1 mb-0 mr-3 google-font"
+          small
+        >{{data.vdata.track}}</v-chip>
         <v-chip
           color="#00BFA5"
           label
           class="mt-1 mb-0 google-font"
-          style="color:white; font-size:80%"
+          style="color:white; font-size:90%"
           small
         >{{data.vdata.format}}</v-chip>
 
-        <p class="google-font mt-3 mb-0" style="font-size:110%">
-          <b>Track:</b>
-          {{data.vdata.track}}
-        </p>
-        <p class="google-font mt-0 mb-0" style="font-size:110%">
+        <p class="google-font mt-2 mb-0" style="font-size:110%">
           <b>Time Duration:</b>
           {{data.vdata.timeDuration}} min
         </p>
         <p class="google-font mt-3" style="font-size:105%">
-          {{data.vdata.description}}
+          {{data.vdata.description ? data.vdata.description : 'Description Coming Soon...' }}
           <br />
         </p>
 
@@ -68,7 +70,7 @@
                   <v-list-item-content>
                     <v-list-item-title class="google-font" style="color:#424242">{{ speaker.name }}</v-list-item-title>
                     <v-list-item-subtitle
-                      class="google-font"
+                      class="google-font" v-if="speaker.company.designation"
                     >{{ speaker.company.designation }}, {{speaker.company.name}}</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
