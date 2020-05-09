@@ -1,5 +1,4 @@
-[
-    {
+[{
         "img": "wtm-india.jpg",
         "name": "WTM India"
     },
@@ -34,6 +33,10 @@
     {
         "img": "wtm-ahmedabad.jpg",
         "name": "WTM Ahmedabad"
+    },
+    {
+        "img": "wtm-indore.JPG",
+        "name": "WTM Indore"
     },
     {
         "img": "wtm-coimbatore.JPG",
