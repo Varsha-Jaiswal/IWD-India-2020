@@ -3,8 +3,8 @@
     <br />
     <v-card flat class="mx-auto my-0 elevation-0 text-center" max-width height="90%">
       <v-img
-        :src="require('@/assets/img/home2.png')"
-        :lazy-src="require('@/assets/img/home2.png')"
+        :src="require('@/assets/img/together-we-rise.jpg')"
+        :lazy-src="require('@/assets/img/together-we-rise.jpg')"
         width="100%"
       >
         <v-layout slot="placeholder" fill-height align-center justify-center ma-0>

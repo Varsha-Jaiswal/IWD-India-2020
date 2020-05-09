@@ -286,24 +286,5 @@
             "twitter": "https://twitter.com/NivethaMaran"
         },
         "sessionId": []
-    },
-    {
-        "id": "",
-        "name": "",
-        "company": {
-            "designation": "",
-            "name": ""
-        },
-        "image": "",
-        "bio": "",
-        "social": {
-            "linkedin": "",
-            "twitter": ""
-        },
-        "sessionId": []
-    },
-    {
-        "id": "",
-        "sessionId": []
     }
 ]
