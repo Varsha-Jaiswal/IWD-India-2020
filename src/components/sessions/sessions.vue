@@ -7,10 +7,9 @@
             <v-select
               v-model="SelectedItem"
               :items="items"
-              class="session-wrapper"
+              class="session-wrapper google-font"
               chips
               label="Filter by Track"
-              class="google-font"
               multiple
               outlined
               v-on:change="FilterData()"
