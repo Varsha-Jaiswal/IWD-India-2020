@@ -112,6 +112,14 @@
     color: #4285F4;
 }
 
+.header-image .v-responsive__sizer {
+    padding-bottom: 0 !important;
+}
+
+.header-image-wrapper .v-responsive__sizer {
+    padding-bottom: 37.4663% !important;
+}
+
 @media only screen and (max-width: 600px) {
     .row {
         margin-left: 0 !important;

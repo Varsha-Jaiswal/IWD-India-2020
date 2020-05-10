@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="my-1">
-    <v-layout wrap align-center justify-center row fill-height class="py-0">
-      <v-flex xs12 sm12 md7 lg7 xl7 class="px-0 py-0">
+    <v-layout wrap align-center justify-space-between row fill-height class="py-0">
+      <v-flex xs12 sm12 md7 lg6 xl7 class="px-0 py-0">
         <v-img
           :src="require('@/assets/img/logo.png')"
           :lazy-src="require('@/assets/img/logo.png')"
@@ -59,6 +59,7 @@
           :src="require('@/assets/img/home-header-new.jpg')"
           :lazy-src="require('@/assets/img/home-header-new.jpg')"
           width="100%"
+          class="header-image-wrapper"
         >
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
