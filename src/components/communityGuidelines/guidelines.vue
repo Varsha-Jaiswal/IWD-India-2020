@@ -10,7 +10,7 @@
           </v-expansion-panel>
         </v-expansion-panels><br>
         <p
-          class="mt-2 google-font"
+          class="mt-2 google-font text-mobile-center"
         >If you witness any attendee breaching the code of conduct, please reach out to us at wtmindia2020@gmail.com.</p>
       </v-flex>
     </v-layout>

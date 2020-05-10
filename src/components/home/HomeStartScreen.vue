@@ -5,7 +5,7 @@
         <v-img
           :src="require('@/assets/img/logo.png')"
           :lazy-src="require('@/assets/img/logo.png')"
-          width="25%"
+          width="30%"
           class="header-image mt-4 mb-2"
         >
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -54,7 +54,7 @@
           class="ml-0 google-font"
         >Become a Member</v-btn>
       </v-flex>
-      <v-flex xs12 sm12 md3 lg5 xl5 class="text-xs-center d-none d-sm-block">
+      <v-flex xs12 sm12 md3 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
         <v-img
           :src="require('@/assets/img/home-header-new.jpg')"
           :lazy-src="require('@/assets/img/home-header-new.jpg')"

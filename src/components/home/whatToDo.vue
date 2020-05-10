@@ -6,7 +6,7 @@
       justify-center
       row
       fill-height
-      class="hidden-sm-and-down ma-2"
+      class="hidden-sm-and-down ma-2 what-do-wrapper"
       style
     >
       <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
