@@ -1,9 +1,9 @@
 <template>
   <v-container fluid class="pa-0">
     <v-layout class="pa-10">
-      <v-btn-toggle v-model="selectedTab" tile color="blue accent-3" group>
+      <v-btn-toggle v-model="selectedTab" tile color="blue accent-3" group mandatory>
         <v-btn class="mr-3 ml-10 google-font" @click="selectScheduleTab">Schedule</v-btn>
-        <v-btn @click="selectSessionTab" class="google-font">Session</v-btn>
+        <v-btn @click="selectSessionTab" class="google-font">Sessions</v-btn>
       </v-btn-toggle>
     </v-layout>
     <Schedule v-if="schedule" />
@@ -29,10 +29,12 @@ export default {
   },
   methods: {
     selectSessionTab() {
+      this.selectedTab = 1;
       this.schedule = false;
       this.session = true;
     },
     selectScheduleTab() {
+      this.selectedTab = 0;
       this.schedule = true;
       this.session = false;
     }

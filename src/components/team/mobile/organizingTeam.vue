@@ -1,7 +1,6 @@
 <template>
     <v-container fluid class="pa-0">
         <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
-            <!-- text-xs-center  -->
             <v-flex xs12 sm3 md2 lg2 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5 ma-0">
                 <TeamDetailsDialog :data="{vdata:item}"/>
             </v-flex>

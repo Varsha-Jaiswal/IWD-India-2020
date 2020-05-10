@@ -1,6 +1,5 @@
 <template>
   <v-container fluid class>
-    <!-- border:1px solid #e0e0e0;border-radius:8px -->
     <v-layout
       wrap
       align-center
@@ -54,13 +53,13 @@
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
-            >A variety of discussions through a panel, fireside chat and many online conversations.</p>
+            >A variety of discussions through a Panel discussions, Fireside chat and many online conversations.</p>
           </v-card>
         </v-hover>
       </v-flex>
     </v-layout>
 
-    <!-- <v-layout
+    <v-layout
       wrap
       align-center
       justify-center
@@ -69,9 +68,6 @@
       class="hidden-sm-and-up"
       style="padding-top:5%;padding-bottom:5%;background:#fafafa"
     >
-      <v-flex xs12 class="px-5 mb-2">
-        <p class="google-font" style="font-size:120%">Our Theme</p>
-      </v-flex>
       <v-flex xs12 sm5 md3 lg3 xl3 class="px-5">
         <span
           class="pa-2 google-font"
@@ -80,39 +76,39 @@
         <p
           class="google-font mt-3"
           style="font-size:100%;color:#9e9e9e"
-        >3 parallel tracks, dedicated to Android, Web and Cloud technologies</p>
+        >A plethora of talks ranging from technologies like ML, Cloud, Android and Web to Design to Entrepreneurship.</p>
       </v-flex>
       <v-flex xs12 sm5 md3 lg3 xl3 class="px-5 mt-2">
         <span
           class="pa-2 google-font"
           style="border-radius: 7px; background-color: rgb(254, 247, 224); color: rgb(176, 96, 0); font-size: 120%;"
-        >Showcases</span>
+        >Ice Breakers</span>
         <p
           class="google-font mt-3"
           style="font-size:100%;color:#9e9e9e"
-        >Demo zone with the latest of Google tech: GCP, Firebase, VR, IoT - all in one place</p>
+        >A series of engaging online activities in between the sessions to combine learning and fun.</p>
       </v-flex>
       <v-flex xs12 sm5 md3 lg3 xl3 class="px-5 mt-2">
         <span
           class="pa-2 google-font"
           style="border-radius: 7px; background-color: rgb(252, 232, 230); color: rgb(179, 20, 18); font-size: 120%;"
-        >Networking</span>
+        >Stories</span>
         <p
           class="google-font mt-3"
           style="font-size:100%;color:#9e9e9e"
-        >Workshops to get your hands dirty and create a working prototype right during the conference</p>
+        >Hear from the community champions about their stories, experiences and learnings.</p>
       </v-flex>
       <v-flex xs12 sm5 md3 lg3 xl3 class="px-5 mt-2">
         <span
           class="pa-2 google-font"
           style="border-radius: 7px; background-color: rgb(206, 234, 214); color: rgb(13, 101, 45); font-size: 120%;"
-        >Workshop</span>
+        >Discussions</span>
         <p
           class="google-font mt-3"
           style="font-size:100%;color:#9e9e9e"
-        >Work hard and enjoy DevFest is the best place to meet new people</p>
+        >A variety of discussions through a Panel discussions, Fireside chat and many online conversations.</p>
       </v-flex>
-    </v-layout> -->
+    </v-layout>
   </v-container>
 </template>
 

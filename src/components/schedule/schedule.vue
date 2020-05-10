@@ -18,11 +18,14 @@
             <div v-if="item.session == sdata.id" class="py-3 pa-3">
               <v-layout row wrap>
                 <v-flex xs12 class="px-3" style="border-left:2px solid black">
-                  <p class="google-font mb-0" style="font-size:120%">{{sdata.title}}</p>
+                  <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
                   <p style="font-size:80%">
-                    <span v-for="sd in sdata.speakers" :key="sd">
+                    <span v-for="(sd,j) in sdata.speakers" :key="j">
                       <span v-for="(sp,i) in speakerData" :key="i">
-                        <span v-if="sp.id == sd">{{ sp.name }}</span>
+                        <span v-if="sp.id == sd" class="google-font mb-0" style="font-size:110%">
+                          {{ sp.name }}
+                          <span v-if="j < sdata.speakers.length-1">|</span>
+                        </span>
                       </span>
                     </span>
                   </p>
@@ -47,11 +50,12 @@ export default {
   data: () => ({
     scheduleData: scheduleData,
     sessionsData: sessionsData,
-    speakerData: speakerData
+    speakerData: speakerData,
+    speakers: []
   }),
   methods: {
     getImgUrl(pic) {
-      if (pic.length > 0) {
+      if (pic) {
         return require("@/assets/img/speakers/" + pic);
       } else {
         return require("@/assets/img/common/avatar.png");

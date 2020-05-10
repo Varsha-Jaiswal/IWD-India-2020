@@ -1,13 +1,6 @@
 <template>
   <div class="text-center">
-    <v-dialog
-      v-model="dialog"
-      fullscreen
-      hide-overlay
-      transition="dialog-bottom-transition"
-      hide-on-leave
-      width="700"
-    >
+    <v-dialog v-model="dialog" fullscreen hide-overlay hide-on-leave>
       <template v-slot:activator="{ on }">
         <div v-on="on" style="cursor: pointer;">
           <v-avatar size="100">
@@ -24,16 +17,6 @@
       </template>
 
       <v-card color>
-        <!-- <v-toolbar 
-            flat
-            class="grey lighten-4" >
-          <v-btn icon  @click="dialog = false">
-            <v-icon>mdi-keyboard-backspace</v-icon>
-          </v-btn>
-          <v-toolbar-title>Back</v-toolbar-title>
-          <v-spacer></v-spacer>
-         
-        </v-toolbar>-->
         <v-card-title
           class="px-5 grey lighten-4 google-font"
           primary-title
@@ -41,12 +24,7 @@
           style="background-position:right top;padding-top:20%;"
         >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
-        <v-card-text class="px-5 pb-5" style="margin-top: -80px;">
-          <v-fab-transition>
-            <v-btn absolute dark fab bottom fixed right @click="dialog = false" color="indigo">
-              <v-icon>mdi-keyboard-return</v-icon>
-            </v-btn>
-          </v-fab-transition>
+        <v-card-text class="px-5 mb-5" style="margin-top: -80px;">
           <v-layout row wrap class="my-3">
             <v-flex xs12 md4 class="text-center pa-2">
               <v-avatar size="150">
@@ -70,7 +48,10 @@
                 style="font-size:110%"
               >{{data.vdata.company.designation}}, {{data.vdata.company.name}}</p>
 
-              <p class="google-font my-4" style="font-size:110%">{{data.vdata.bio}}</p>
+              <p
+                class="google-font my-4 mr-4"
+                style="font-size:110%;text-align:justify"
+              >{{data.vdata.bio}}</p>
             </v-flex>
           </v-layout>
 
@@ -78,26 +59,25 @@
             <b>Sessions:</b>
           </p>
 
-          <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
+          <v-flex xs10 md6 v-for="(item, index) in SessionsData" :key="index">
             <v-list two-line subheader class="pa-0 ma-0">
               <v-list-item>
-                <v-list-item-avatar>
-                  <v-avatar color="grey lighten-2">
-                    <span class="google-font" style="width:100vh">{{getCharString(item.title)}}</span>
-                  </v-avatar>
-                </v-list-item-avatar>
-
                 <v-list-item-content>
                   <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
                   <v-list-item-subtitle class="google-font">
-                    {{ item.place}}
+                    {{ item.track}}
                     <br />
-                    <v-chip color="#00BFA5" label outlined class="mt-1 mb-0" x-small>{{item.format}}</v-chip>
+                    <v-chip color="#00BFA5" label outlined class="mt-1 mb-0" small>{{item.format}}</v-chip>
                   </v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </v-list>
           </v-flex>
+          <v-fab-transition>
+            <v-btn absolute dark fab fixed right @click="dialog = false" color="#4285F4">
+              <v-icon>mdi-keyboard-return</v-icon>
+            </v-btn>
+          </v-fab-transition>
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -139,18 +119,6 @@ export default {
         return require("@/assets/img/speakers/" + pic);
       } else {
         return require("@/assets/img/common/avatar.png");
-      }
-    },
-    getCharString(data) {
-      var splitArr = data.split(" ");
-      if (splitArr.length > 1) {
-        return (
-          splitArr[0].substring(0, 1) +
-          "" +
-          splitArr[1].substring(0, 1)
-        ).toUpperCase();
-      } else {
-        return splitArr[0].substring(0, 1).toUpperCase();
       }
     }
   }
