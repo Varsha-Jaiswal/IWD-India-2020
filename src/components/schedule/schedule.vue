@@ -30,8 +30,8 @@
                     </span>
                   </p>
 
-                  <v-chip class="ml-1 mr-1" dark color="#4285F4" small label>{{sdata.track}}</v-chip>
-                  <v-chip class="ml-1 mr-1" dark color="#00BFA5" small label>{{sdata.format}}</v-chip>
+                  <v-chip class="ml-1 mr-1 mb-2" dark color="#4285F4" small label>{{sdata.track}}</v-chip>
+                  <v-chip class="ml-1 mr-1 mb-2" dark color="#00BFA5" small label>{{sdata.format}}</v-chip>
                 </v-flex>
                 <v-flex xs12 class="px-3 hidden-sm-and-down" style="border-left:2px solid black">
                   <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>

@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="my-1">
     <v-layout wrap align-center justify-space-between row fill-height class="py-0">
-      <v-flex xs12 sm12 md7 lg6 xl7 class="px-0 py-0">
+      <v-flex xs12 sm12 md6 lg6 xl7 class="px-0 py-0">
         <v-img
           :src="require('@/assets/img/logo.png')"
           :lazy-src="require('@/assets/img/logo.png')"
@@ -54,7 +54,7 @@
           class="ml-0 google-font"
         >Become a Member</v-btn>
       </v-flex>
-      <v-flex xs12 sm12 md3 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
+      <v-flex xs12 sm12 md5 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
         <v-img
           :src="require('@/assets/img/home-header-new.jpg')"
           :lazy-src="require('@/assets/img/home-header-new.jpg')"

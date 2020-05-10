@@ -120,6 +120,15 @@
     padding-bottom: 37.4663% !important;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .header-image {
+        width: 40% !important;
+    }
+    .schedule-container .v-item-group {
+        padding-left: 50px !important;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .row {
         margin-left: 0 !important;
@@ -153,7 +162,7 @@
     .text-mobile-center {
         text-align: center;
     }
-    .schedule-wrapper {
+    .schedule-container .v-item-group {
         padding-left: 24px !important;
     }
 }
@@ -191,7 +200,7 @@
     .stats-wrapper {
         font-size: 138%;
     }
-    .schedule-container {
-        margin-left: 24px !important;
+    .schedule-container .v-item-group {
+        padding-left: 24px !important;
     }
 }

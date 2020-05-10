@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="mb-0 pb-0">
     <v-layout wrap align-center justify-space-between row fill-height>
-      <v-flex xs12 sm5 md8 lg7 xl6 class="pt-5">
+      <v-flex xs12 sm5 md7 lg7 xl6 class="pt-5">
         <p class="google-font mb-1 stats-wrapper" style="font-weight: 350;color: #4285F4;font-size:200%">
           <b class="google-font">Everyone is welcome here</b>
         </p>
