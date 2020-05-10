@@ -53,7 +53,7 @@
         <v-layout row wrap class="px-3">
           <v-flex xs12 sm4 md4 lg3 v-for="(item,index) in FilterData()" :key="index">
             <div
-              style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px"
+              style="border-radius: 5px; border:1px solid #e0e0e0;min-height:200px; max-height:200px;"
               class="ma-1 pa-5"
             >
               <sessionDialog :data="{vdata:item}" />

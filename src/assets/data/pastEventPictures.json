@@ -1,6 +1,19 @@
-[{
+[
+    {
         "img": "wtm-india.jpg",
         "name": "WTM India"
+    },
+    {
+        "img": "iwd-india-2019.jpg",
+        "name": "IWD India 2019"
+    },
+    {
+        "img": "iwd-india-2018.jpg",
+        "name": "IWD India 2018"
+    },
+    {
+        "img": "iwd-india-2017.jpg",
+        "name": "IWD India 2017"
     },
     {
         "img": "wtm-jalandhar.jpg",
@@ -23,7 +36,6 @@
         "name": "WTM Jodhpur"
     },
     {
-
         "img": "wtm-indore.jpg",
         "name": "WTM Indore"
     },
@@ -39,7 +51,6 @@
         "img": "wtm-ahmedabad.jpg",
         "name": "WTM Ahmedabad"
     },
-
     {
         "img": "wtm-coimbatore.jpg",
         "name": "WTM Coimbatore"
@@ -51,5 +62,13 @@
     {
         "img": "wtm-goa.jpg",
         "name": "WTM Goa"
+    },
+    {
+        "img": "wtm-hyderabad.jpeg",
+        "name": "WTM Hyderabad"
+    },
+    {
+        "img": "wtm-bbsr.jpg",
+        "name": "WTM Bhubaneshwar"
     }
 ]

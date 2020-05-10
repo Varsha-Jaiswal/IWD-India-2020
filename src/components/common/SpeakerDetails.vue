@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import SessionDeails from "@/assets/data/sessions.json"
+import SessionDetails from "@/assets/data/sessions.json"
 export default {
   components: {
     socialMediaDetails:() => import('@/components/common/socialMedia')
@@ -93,13 +93,13 @@ export default {
   data() {
     return {
       dialog: false,
-      SessionDeails: SessionDeails,
+      SessionDetails: SessionDetails,
       SessionsData: [],
       tempData: []
     };
   },
   mounted() {
-    this.SessionDeails.map(res => {
+    this.SessionDetails.map(res => {
       res.speakers.map(d => {
         if (d == this.data.vdata.id) {
           this.SessionsData.push(res);
