@@ -7,6 +7,7 @@
             <v-select
               v-model="SelectedItem"
               :items="items"
+              class="session-wrapper"
               chips
               label="Filter by Track"
               small-chips
