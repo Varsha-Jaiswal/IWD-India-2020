@@ -5,8 +5,8 @@
         <v-img
           :src="require('@/assets/img/logo.png')"
           :lazy-src="require('@/assets/img/logo.png')"
-          width="40%"
-          class="header-image"
+          width="25%"
+          class="header-image mt-4 mb-2"
         >
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -41,6 +41,7 @@
           target="_blank"
           color="#1a73e8"
           class="ma-0 google-font elevation-0"
+           href="http://bit.ly/register-iwd20"
           style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;margin-right: 20px !important;"
         >Register</v-btn>
         <v-btn
