@@ -1,6 +1,6 @@
 <template>
-  <v-container fluid class="my-0 py-3">
-    <v-layout wrap align-center justify-center row fill-height class="mt-10 mb-5">
+  <v-container fluid class="my-0 py-3 pb-0" >
+    <v-layout wrap align-center justify-center row fill-height class="pt-10 pb-10 faq-wrapper"  :style="{'background-image':'url('+require('@/assets/img/FAQ.svg')+')'}">
       <v-flex xs12 md10>
         <v-expansion-panels accordion>
           <v-expansion-panel v-for="(item,i) in faqData" :key="i">
