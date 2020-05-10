@@ -89,7 +89,38 @@
     opacity: 0.2;
 }
 
+.v-btn--active .v-btn__content {
+    color: #fff;
+}
+
+.v-btn:not(.v-btn--text):not(.v-btn--outlined).v-btn--active:before {
+    opacity: 1;
+}
+
+.v-btn-toggle:not(.v-btn-toggle--dense) .v-btn.v-btn.v-size--default {
+    height: 38px;
+    border-radius: 4px;
+}
+
+.theme--light.v-btn--active:hover::before,
+.theme--light.v-btn--active::before {
+    opacity: 1;
+}
+
+.theme--light.v-btn,
+.theme--light.v-sheet {
+    color: #4285F4;
+}
+
 @media only screen and (max-width: 600px) {
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .v-application .mx-5 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     .speaker-card {
         max-width: 100% !important;
         justify-content: center !important;
