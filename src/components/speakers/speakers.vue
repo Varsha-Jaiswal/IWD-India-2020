@@ -13,8 +13,7 @@
             class="speaker-card speakers-wrapper"
             style="text-align:center"
           >
-            <speakerDetails class="d-none d-sm-block" :data="{vdata: item}" />
-            <speakerDetailsMobile class="hidden-sm-and-up" :data="{vdata: item}" />
+            <speakerDetails class :data="{vdata: item}" />
           </v-flex>
         </v-layout>
       </v-flex>
@@ -24,12 +23,9 @@
 
 <script>
 import speakerData from "@/assets/data/speaker.json";
-import speakerDetails from "@/components/common/SpeakerDetails";
-import speakerDetailsMobile from "@/components/common/SpeakerDetailsMobile";
 export default {
   components: {
-    speakerDetails,
-    speakerDetailsMobile
+    speakerDetails: () => import("@/components/common/SpeakerDetails")
   },
   data() {
     return {

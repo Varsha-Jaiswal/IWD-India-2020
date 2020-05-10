@@ -8,7 +8,7 @@
               v-model="SelectedItem"
               :items="items"
               chips
-              label="Filter by Talk Format"
+              label="Filter by Track"
               small-chips
               multiple
               outlined
@@ -57,7 +57,6 @@
               class="ma-1 pa-5"
             >
               <sessionDialog :data="{vdata:item}" />
-              <!-- <sessionDialogMobile class="hidden-sm-and-up" :data="{vdata:item}" /> -->
             </div>
           </v-flex>
         </v-layout>
@@ -71,7 +70,6 @@ import sessionsData from "@/assets/data/sessions.json";
 export default {
   components: {
     sessionDialog: () => import("@/components/common/sessionDialog")
-    // sessionDialogMobile: ()=> import("@/components/common/sessionDialogMobile")
   },
   data: () => ({
     sessionsData: sessionsData,
@@ -92,7 +90,7 @@ export default {
     }
   },
   mounted() {
-    this.items = [...new Set(this.sessionsData.map(res => res.format))];
+    this.items = [...new Set(this.sessionsData.map(res => res.track))];
   },
   methods: {
     toggle() {
@@ -123,7 +121,7 @@ export default {
         let asData = [];
         this.SelectedItem.map(val => {
           this.sessionsData.filter(res => {
-            if (res.format == val) {
+            if (res.track == val) {
               asData.push(res);
             }
           });

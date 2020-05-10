@@ -229,7 +229,7 @@
             "designation": "Sr. Consultant",
             "name": "Infosys Ltd"
         },
-        "image": "",
+        "image": "pranoti.jpg",
         "bio": "Pranoti is Software Engineer who has keen interest in developing height quality softwares. She is working in Infosys Ltd as Sr. Consultant. She is WTM ambassador for Pune chapter. she enjoys voluntarily organizing and speaking at developer events. Also, she believes in sharing knowledge and collaborating with other people through these events.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/pranoti-nandurkar-170021b",
@@ -358,8 +358,8 @@
     {
         "name": "Nivetha Maran",
         "community": {
-            "designation": "",
-            "name": ""
+            "designation": "Frontend Engineer",
+            "name": "Fourkites"
         },
         "company": {
             "designation": "Frontend Engineer",
@@ -396,8 +396,8 @@
             "designation": "WTM Ambassador"
         },
         "company": {
-            "designation": "#",
-            "name": "#"
+            "designation": "",
+            "name": ""
         },
         "image": "sumitra.jpg",
         "bio": "Sumitra Bagchi is an independent developer, Women Techmaker Ambassador, Cloud StudyJam Facilitator and a GDG Cloud Kolkata Organizer.Skilled with PHP, CakePHP, Wordpress, HTML5, jQuery, AJAX, Bootstrap and MySQL. She is a learner of new technologies.",
@@ -427,7 +427,7 @@
         "name": "Ranu Jaiswal",
         "community": {
             "name": "WTM Indore",
-            "designation": "WTM Ambassador and IamRemarkable Facilitator"
+            "designation": "WTM Ambassador and #IamRemarkable Facilitator"
         },
         "company": {
             "designation": "Software Engineer",
@@ -438,6 +438,40 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/ranu-jaiswal-255a84100",
             "twitter": "https://mobile.twitter.com/ranuj74"
+        }
+    },
+    {
+        "name": "Shilpa Garg",
+        "community": {
+            "name": "GDG New Delhi",
+            "designation": "GDG New Delhi Organizer & WTM Ambassador"
+        },
+        "company": {
+            "designation": "Lead AI Consultant",
+            "name": "Magic Software"
+        },
+        "image": "shilpa.jpg",
+        "bio": "Shilpa is a Software Engineer presently working in the field of Machine Learning(NLP). She is a Tech Speaker, Google MLCC Facilitator, ptthin mentor at 1 million Women to Tech by Oxford Entreprenurers & presently working as Lead AI Consultant in Edtech. Company, with a toal experience of 5+ years in the Industry. She is organiser of GDG New Delhi & WTM Ambassador as well. She loves community building and empowering women in Tech.",
+        "social": {
+            "linkedin": "http://linkedin.com/in/shilpagarg13",
+            "twitter": "https://twitter.com/shilpa1994"
+        }
+    },
+    {
+        "name": "P A Anjali",
+        "community": {
+            "name": "GDG/WTM Cochin",
+            "designation": "WTM Ambassador, GDG Co-Organizer"
+        },
+        "company": {
+            "designation": "Product Developer",
+            "name": "SurveySparrow"
+        },
+        "image": "anjali.jpg",
+        "bio": "Product Developer | Fast Learner | Dreamer | WTM Ambassador",
+        "social": {
+            "linkedin": "https://in.linkedin.com/in/anjali9265",
+            "twitter": "https://twitter.com/Anjali9265"
         }
     }
 ]

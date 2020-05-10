@@ -20,7 +20,7 @@
         <v-card-title
           class="px-5 py-5 grey lighten-4 google-font"
           primary-title
-            :style="{'background-image':'url('+require('@/assets/img/common-header-2.png')+')'}"
+            :style="{'background-image':'url('+require('@/assets/img/common/common-header-2.jpeg')+')'}"
           style="background-position:center; background-color: #dfe0e1 !important;background-size: cover;"
         >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
@@ -34,8 +34,8 @@
                   </v-layout>
                 </v-img>
               </v-avatar>
-              <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
-              <p class="my-0" v-if="data.vdata.company.designation">{{data.vdata.company.designation}} @ {{data.vdata.company.name}}</p>
+              <p class="my-0 mt-3 google-font" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
+              <p class="my-0 google-font" v-if="data.vdata.company.designation">{{data.vdata.company.designation}} <span v-if="data.vdata.company.name">@</span> {{data.vdata.company.name}}</p>
               <socialMediaDetails :data="{vdata:data.vdata.social}" />
             </v-flex>
 
@@ -80,11 +80,10 @@
 </template>
 
 <script>
-import socialMediaDetails from "@/components/common/socialMedia";
-import SessionDeails from "@/assets/data/sessions.json";
+import SessionDeails from "@/assets/data/sessions.json"
 export default {
   components: {
-    socialMediaDetails
+    socialMediaDetails:() => import('@/components/common/socialMedia')
   },
   props: {
     data: {

@@ -16,7 +16,7 @@
           class="mt-1 mb-0 google-font"
           small
         >{{data.vdata.format}}</v-chip>
-        <p class="google-font ma-0 mt-2" style="font-size:110%;">{{data.vdata.title | summary(25)}}</p>
+        <p class="google-font ma-0 mt-2" style="font-size:110%;">{{data.vdata.title}}</p>
         <p
           class="google-font mt-1 mb-0"
           style="font-size:90%"
@@ -24,15 +24,14 @@
         <p
           class="google-font mt-1 mb-0"
           style="font-size:80%;color:#424242"
-        >{{data.vdata.timeDuration}} min | {{data.vdata.track}}</p>
+        >{{data.vdata.timeDuration}} min | dateInfo</p>
       </div>
     </template>
 
     <v-card color v-if="dialog">
       <v-card-title
         class="px-5 py-5 grey lighten-4 google-font"
-        :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
-        style="background-position:right bottom;"
+        style="color:#4285F4;word-break:normal;"
       >{{data.vdata.title}}</v-card-title>
       <v-card-text class="pa-5">
         <v-chip
@@ -55,8 +54,7 @@
           {{data.vdata.timeDuration}} min
         </p>
         <p class="google-font mt-3" style="font-size:105%">
-          {{data.vdata.description ? data.vdata.description : 'Description Coming Soon...' }}
-          <br />
+          {{data.vdata.description }}
         </p>
 
         <v-flex xs12 md12 v-for="(item,index) in data.vdata.speakers" :key="index">
@@ -70,7 +68,7 @@
                   <v-list-item-content>
                     <v-list-item-title class="google-font" style="color:#424242">{{ speaker.name }}</v-list-item-title>
                     <v-list-item-subtitle
-                      class="google-font" v-if="speaker.company.designation"
+                      class="google-font text-wrap" v-if="speaker.company.designation"
                     >{{ speaker.company.designation }}, {{speaker.company.name}}</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>

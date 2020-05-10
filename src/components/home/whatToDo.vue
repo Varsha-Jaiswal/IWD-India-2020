@@ -13,7 +13,8 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-microphone</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Sessions</p><br>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Sessions</p>
+            <br />
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
@@ -25,7 +26,8 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-lightbulb-on</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Ice Breakers</p><br>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Ice Breakers</p>
+            <br />
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
@@ -37,7 +39,8 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-access-point-network</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Stories</p><br>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Stories</p>
+            <br />
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
@@ -49,7 +52,8 @@
         <v-hover v-slot:default="{ hover }">
           <v-card class="pa-3" :elevation="hover ? 0 : 0">
             <v-icon size="50px">mdi-nfc-tap</v-icon>
-            <p class="google-font my-0" style="font-size:150%;color:#424242">Discussions</p><br>
+            <p class="google-font my-0" style="font-size:150%;color:#424242">Discussions</p>
+            <br />
             <p
               class="google-font"
               style="font-size:100%;color:#9e9e9e"
