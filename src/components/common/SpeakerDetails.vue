@@ -35,7 +35,7 @@
                 </v-img>
               </v-avatar>
               <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
-              <p class="my-0" v-if="data.vdata.company.designation">{{data.vdata.company.designation}} @ {{data.vdata.company.name}}</p>
+              <p class="my-0" v-if="data.vdata.company.designation">{{data.vdata.company.designation}} <span v-if="data.vdata.company.name">@</span> {{data.vdata.company.name}}</p>
               <socialMediaDetails :data="{vdata:data.vdata.social}" />
             </v-flex>
 
