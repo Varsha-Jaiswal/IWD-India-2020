@@ -8,7 +8,8 @@
           style="color:white; font-size:80%"
           class="mt-1 mb-0 google-font"
           small
-        >{{data.vdata.track}}</v-chip><br>
+        >{{data.vdata.track}}</v-chip>
+        <br />
         <v-chip
           color="#00BFA5"
           label
@@ -24,7 +25,7 @@
         <p
           class="google-font mt-1 mb-0"
           style="font-size:80%;color:#424242"
-        >{{data.vdata.timeDuration}} min | dateInfo</p>
+        >{{data.vdata.timeDuration}} min <b>|</b> {{date}}</p>
       </div>
     </template>
 
@@ -53,9 +54,7 @@
           <b>Time Duration:</b>
           {{data.vdata.timeDuration}} min
         </p>
-        <p class="google-font mt-3" style="font-size:105%">
-          {{data.vdata.description }}
-        </p>
+        <p class="google-font mt-3" style="font-size:105%">{{data.vdata.description }}</p>
 
         <v-flex xs12 md12 v-for="(item,index) in data.vdata.speakers" :key="index">
           <div v-for="(speaker,j) in SpeakersDetails" :key="j">
@@ -68,7 +67,8 @@
                   <v-list-item-content>
                     <v-list-item-title class="google-font" style="color:#424242">{{ speaker.name }}</v-list-item-title>
                     <v-list-item-subtitle
-                      class="google-font text-wrap" v-if="speaker.company.designation"
+                      class="google-font text-wrap"
+                      v-if="speaker.company.designation"
                     >{{ speaker.company.designation }}, {{speaker.company.name}}</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
@@ -99,8 +99,20 @@ export default {
   data() {
     return {
       dialog: false,
+      date: "",
       SpeakersDetails: SpeakersDetails
     };
+  },
+  mounted() {
+    if (this.data.vdata.track === "Leadership") {
+      this.date = "May 23rd, 2020";
+    } else if (this.data.vdata.track === "Tech - ML & Cloud") {
+      this.date = "May 24th, 2020";
+    } else if (this.data.vdata.track === "Design & Entrepreneurship") {
+      this.date = "May 30th, 2020";
+    } else if (this.data.vdata.track === "Tech - Android & Web") {
+      this.date = "May 31st, 2020";
+    }
   },
   methods: {
     getImgUrl(pic) {
