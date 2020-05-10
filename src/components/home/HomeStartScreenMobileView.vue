@@ -14,7 +14,7 @@
 
       <v-card-title
         class="google-font"
-        style="font-size:190%;color:#4285F4;margin-top:-10px"
+        style="font-size:150%;color:#4285F4;margin-top:-10px"
       >International Women's Day 2020</v-card-title>
       <v-card-text>
         <p
@@ -25,15 +25,15 @@
         <p
           class="google-font mb-0"
           style="font-size: 100%;padding-top: 20px;color: #757575;text-align:justify"
-        >Women Techmakers community provides visibility, community and resources for women in tech to join, thrive and lead in the industry. As a part of our International Women’s Day celebrations, we invite women and allies to join us in this celebration along with their communities.</p>
+        >Women Techmakers community provides visibility, community and resources for women in tech to join, thrive and lead in the industry.</p>
         <p
           class="google-font mb-0"
           style="font-size: 100%;padding-top: 20px;color: #757575;text-align:justify"
-        >For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you. The summit had industry leaders, Google Developer Experts, entrepreneurs and community leaders talking about the latest in tech, design, entrepreneurship and leadership.</p>
+        >For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you.</p>
         <p
           class="google-font mt-5 mb-2"
           style="font-size: 115%;color: #4285F4;font-weight: 200;"
-        >May 23rd, 24th, 30th, 31st | 2:00 PM to 5:00 PM</p>
+        >May 23rd, 24th, 30th, 31st <br> 2:00 PM to 5:00 PM</p>
         <p class="google-font mb-8" style="font-size:110%;color:#9e9e9e">
           <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">#{{item}} &nbsp;</span>
         </p>
@@ -42,8 +42,8 @@
           target="_blank"
           color="#1a73e8"
           class="ma-0 google-font elevation-0"
-          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;margin-right: 20px !important;"
-        >Register</v-btn>
+          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;"
+        >Register</v-btn> <br> <br>
         <v-btn
         href="https://www.womentechmakers.com/membership"
           target="_blank"
@@ -55,14 +55,13 @@
         >Become a Member</v-btn>
 
       </v-card-text>
-      <v-divider class="mx-4"></v-divider>
     </v-card>
 
     <v-flex xs12>
       <v-img
-        height="1x50"
-        :src="require('@/assets/img/svg/footer.svg')"
-        :lazy-src="require('@/assets/img/svg/footer.svg')"
+        height="1x50" class="mb-10 mt-3"
+        :src="require('@/assets/img/home-header-new.jpg')"
+        :lazy-src="require('@/assets/img/home-header-new.jpg')"
       ></v-img>
     </v-flex>
   </div>

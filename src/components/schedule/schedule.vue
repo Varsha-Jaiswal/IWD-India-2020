@@ -15,9 +15,25 @@
         </v-flex>
         <v-flex xs10 md9 class="pa-3">
           <div v-for="(sdata,key) in sessionsData" :key="key">
-            <div v-if="item.session == sdata.id" class="py-3 pa-3">
+            <div v-if="item.session == sdata.id" class="py-1 pa-3">
               <v-layout row wrap>
-                <v-flex xs12 class="px-3" style="border-left:2px solid black">
+                <v-flex xs12 class="px-4 d-lg-none d-md-none">
+                  <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
+                  <p style="font-size:80%">
+                    <span v-for="(sd,j) in sdata.speakers" :key="j">
+                      <span v-for="(sp,i) in speakerData" :key="i">
+                        <span v-if="sp.id == sd" class="google-font mb-0" style="font-size:110%">
+                          {{ sp.name }}
+                          <span v-if="j < sdata.speakers.length-1">|</span>
+                        </span>
+                      </span>
+                    </span>
+                  </p>
+
+                  <v-chip class="ml-1 mr-1" dark color="#4285F4" small label>{{sdata.track}}</v-chip>
+                  <v-chip class="ml-1 mr-1" dark color="#00BFA5" small label>{{sdata.format}}</v-chip>
+                </v-flex>
+                <v-flex xs12 class="px-3 hidden-sm-and-down" style="border-left:2px solid black">
                   <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
                   <p style="font-size:80%">
                     <span v-for="(sd,j) in sdata.speakers" :key="j">

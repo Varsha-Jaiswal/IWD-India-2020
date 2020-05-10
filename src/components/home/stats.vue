@@ -6,11 +6,11 @@
           <b class="google-font">Everyone is welcome here</b>
         </p>
         <p class="google-font mt-3" style="text-align:justify;">
-          Inviting women and allies from India and abroad who wish to celebrate and recognize the women who have influenced the tech industry and beyond. Together let’s celebrate the super-women in our lives. Together let’s create a new narrative for our industry.
+          Inviting women and allies from India and abroad who wish to celebrate and recognize the women who have influenced the tech industry and beyond. <span class="hidden-sm-and-down">Together let’s celebrate the super-women in our lives. Together let’s create a new narrative for our industry.<br /></span>
           <br />
-          <br />Allies are people who work to support diverse groups in our community with which they may not necessarily identify as members.
+          <span class="hidden-sm-and-down">Allies are people who work to support diverse groups in our community with which they may not necessarily identify as members. <br /></span>
           <br />
-          <br />This event is put together by a group of amazing, passionate women who truly believe in nurturing communities. Our speakers are women who have been associated with communities within their organisations, cities, country and beyond.
+          This event is put together by a group of amazing, passionate women who truly believe in nurturing communities. <span class="hidden-sm-and-down">Our speakers are women who have been associated with communities within their organisations, cities, country and beyond.</span>
         </p>
       </v-flex>
 

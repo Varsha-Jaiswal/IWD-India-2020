@@ -161,7 +161,7 @@
         "id": "215",
         "title": "Visual Engineering",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Design Talk",
         "timeDuration": "30",
         "speakers": [
@@ -172,7 +172,7 @@
         "id": "216",
         "title": "Design Talk",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Design Talk",
         "timeDuration": "30",
         "speakers": [
@@ -183,7 +183,7 @@
         "id": "217",
         "title": "Ice Breaker",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Ice Breaker",
         "timeDuration": "15",
         "speakers": [
@@ -195,7 +195,7 @@
         "id": "218",
         "title": "An Entrepreneur’s Journey",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Talk",
         "timeDuration": "30",
         "speakers": [
@@ -206,7 +206,7 @@
         "id": "219",
         "title": "Entrepreneur Stories",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
         "timeDuration": "30",
         "speakers": [
@@ -218,7 +218,7 @@
         "id": "220",
         "title": "Design Talk",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
         "timeDuration": "15",
         "speakers": [
@@ -229,7 +229,7 @@
         "id": "221",
         "title": "Q & A",
         "description": "",
-        "track": "Design and Entrepreneurship",
+        "track": "Design & Entrepreneurship",
         "format": "AMA & Closing",
         "timeDuration": "30",
         "speakers": []

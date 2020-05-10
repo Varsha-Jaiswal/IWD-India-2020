@@ -8,7 +8,7 @@
               v-model="SelectedItem"
               :items="items"
               chips
-              label="Filter by Talk Format"
+              label="Filter by Track"
               small-chips
               multiple
               outlined
@@ -92,7 +92,7 @@ export default {
     }
   },
   mounted() {
-    this.items = [...new Set(this.sessionsData.map(res => res.format))];
+    this.items = [...new Set(this.sessionsData.map(res => res.track))];
   },
   methods: {
     toggle() {
@@ -123,7 +123,7 @@ export default {
         let asData = [];
         this.SelectedItem.map(val => {
           this.sessionsData.filter(res => {
-            if (res.format == val) {
+            if (res.track == val) {
               asData.push(res);
             }
           });

@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="mb-10">
-    <v-carousel hide-delimiters cycle interval="4000">
+    <v-carousel hide-delimiters cycle interval="6000">
       <v-carousel-item v-for="(item,i) in pastEventPictures" :key="i" :src="getImgUrl(item.img)">
         <v-container fill-height fluid pa-0 ma-0>
           <v-layout fill-height align-end>
