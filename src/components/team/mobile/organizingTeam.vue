@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class="pa-0">
         <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
-            <v-flex xs12 sm3 md2 lg2 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5 ma-0">
+            <v-flex xs12 sm3 md2 lg2 v-for="(item,i) in TeamData" :key="i" class="px-5 ma-0">
                 <TeamDetailsDialog :data="{vdata:item}"/>
             </v-flex>
         </v-layout>
@@ -22,21 +22,18 @@ export default {
             showData:false,
         }
     },
-    methods: {
-        ShuffleData(TeamDetails) {
-      let currentIndex = TeamDetails.length,
-        temporaryValue,
-        randomIndex;
-      while (0 !== currentIndex) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        temporaryValue = TeamDetails[currentIndex];
-        TeamDetails[currentIndex] = TeamDetails[randomIndex];
-        TeamDetails[randomIndex] = temporaryValue;
-      }
-      return TeamDetails;
-    },
+    computed: {
+        TeamData: function() {
+            function compare(a, b) {
+                if (a.name < b.name)
+                    return -1;
+                if (a.name > b.name)
+                    return 1;
+                return 0;
+            }
+            return this.TeamDetails.slice().sort(compare);
+        }
     }
+
 }
 </script>
