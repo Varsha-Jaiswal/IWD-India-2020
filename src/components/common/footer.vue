@@ -58,7 +58,7 @@
           <p>For concerns and queries, contact us at wtmindia2020@gmail.com</p>
         </v-flex>
       </v-layout>
-      <v-layout wrap justify-center text-center row class="mb-0">
+      <v-layout wrap justify-center text-center align-items-center row class="mb-0 footer-wrapper">
         <v-flex xs6 md10 lg10>
           <v-img
             width="110%"
