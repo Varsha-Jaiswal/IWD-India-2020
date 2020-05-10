@@ -35,7 +35,7 @@
     },
     {
         "id": "204",
-        "title": "Owning your Narrative",
+        "title": "What’s Your Narrative?",
         "description": "",
         "track": "Leadership",
         "format": "Talk",
@@ -81,7 +81,7 @@
     },
     {
         "id": "208",
-        "title": "Tech Talk on Cloud",
+        "title": "Building a Fault Tolerant Architecture",
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",

@@ -318,14 +318,14 @@
         "id": "119",
         "name": "Gayathri Belapurkar",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Director of Engineering",
+            "name": "Intuit"
         },
-        "image": "",
+        "image": "gayathri.jpeg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/gayathribelapurkar/",
-            "twitter": ""
+            "twitter": "https://twitter.com/gbela"
         },
         "sessionId": [
             201
@@ -335,14 +335,14 @@
         "id": "120",
         "name": "Payal Nanjiani",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Success is Within Leadership",
+            "name": "CEO"
         },
-        "image": "",
-        "bio": "",
+        "image": "payal.jpg",
+        "bio": "Payal Nanjiani is the founder of Success Is Within Leadership that has only one aim: to inspire people to be successful and highly fulfilled at their job and business, no matter what. Her global clients include Fortune 500 companies, entrepreneurs, and universities. Alongside this, her company has created a high impact on women's leadership growth. Her podcast -iSucceed' is the only inspirational leadership podcast for women recognized globaly.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/payalnanjiani/",
+            "twitter": "https://twitter.com/PayalNanjiani"
         },
         "sessionId": [
             202
@@ -350,16 +350,16 @@
     },
     {
         "id": "121",
-        "name": "Sounia Khurana",
+        "name": "Souniya Khurana",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Co-Founder",
+            "name": "WYN Studio"
         },
-        "image": "",
-        "bio": "",
+        "image": "souniya.jpeg",
+        "bio": "Souniya Khurana is probably the only alumnus of IIM Ahmedabad who failed in class 6th to do it twice and has had quite a love-hate relationship with failure ever since.. it would be interesting to hear this story but what could be more interesting is that she was NOT Souniya when she was born, she was ...... and THAT is a hell of a story.Oh and she is also the Co-Founder of WYN Studio, Co-founder of India Network, Director of Sun and sands Enterprises Tokyo, Director at Indian Artisans... and well she has mastered the art of blowing her own trumpet. While Souniya is heard asking entrepreneurs often “What’s Your Narrative?”, you’d often hear her coach and guide entrepreneurs to “Blow your own trumpet, till you can hire a band!!",
         "social": {
             "linkedin": "https://www.linkedin.com/in/souniyakhurana/",
-            "twitter": ""
+            "twitter": "https://twitter.com/SouniyaKhurana"
         },
         "sessionId": [
             204
@@ -369,14 +369,14 @@
         "id": "122",
         "name": "Punita Ojha",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Full Stack Web Developer",
+            "name": "Sanskrut Corporation"
         },
-        "image": "",
-        "bio": "",
+        "image": "punita.jpg",
+        "bio": "Punita Ojha is a fullstack web developer at Sanskrut Corporation. She is skilled in technologies like Angular JS, Python, Google Cloud etc. She is an organiser for GDG Udaipur and WTM Udaipur. She is also a machine learning enthusiast, she has pursued her Machine Learning Engineer Nanodegree From Udacity and loves to spend her free time playing around with models. She loves inspiring newbies into Technology by bringing them together via events, peer programming sessions, tech talks, codelabs and different activities.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/punita-ojha-74550a53/",
+            "twitter": "https://twitter.com/punitaojha01"
         },
         "sessionId": [
             205
@@ -386,14 +386,14 @@
         "id": "123",
         "name": "Bhavani Ravi",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Research Engineer",
+            "name": "Saama Technologies"
         },
-        "image": "",
-        "bio": "",
+        "image": "bhavani.jpeg",
+        "bio": "Bhavani Ravi is a Research Engineer at  Saama Technologies, Opensource contributor for Rasa and Pandas. Womentechmakers ambassdor. Read, write, speak, teach and tweets about technology",
         "social": {
             "linkedin": "https://www.linkedin.com/in/bhavanir/",
-            "twitter": ""
+            "twitter": "https://twitter.com/geeky_bhavani"
         },
         "sessionId": [
             207
@@ -403,14 +403,14 @@
         "id": "124",
         "name": "Shilpa Garg",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Lead AI Consultant",
+            "name": "Magic Software"
         },
         "image": "",
-        "bio": "",
+        "bio": "Shilpa is a Software Engineer presently working in the field of Machine Learning(NLP). She is a Tech Speaker, Google MLCC Facilitator, ptthin mentor at 1 million Women to Tech by Oxford Entreprenurers & presently working as Lead AI Consultant in Edtech. Company, with a toal experience of 5+ years in the Industry. She is organiser of GDG New Delhi & WTM Ambassador as well. She loves community building and empowering Women in Tech.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "http://linkedin.com/in/shilpagarg13",
+            "twitter": "https://twitter.com/shilpa1994"
         },
         "sessionId": [
             209
@@ -420,11 +420,11 @@
         "id": "125",
         "name": "Sriranjani Ramakrishnan",
         "company": {
-            "designation": "",
+            "designation": "ML Researcher",
             "name": ""
         },
-        "image": "",
-        "bio": "",
+        "image": "sriranjani.jpeg",
+        "bio": "Sriranjani is an researcher passionate in the area of machine learning and its applications to speech, natural language processing. Always enthusiastic to learn and solve challenging real-world problems.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/sriranjani-ramakrishnan-694307114/",
             "twitter": ""
@@ -437,14 +437,14 @@
         "id": "126",
         "name": "Shweta Bhatt",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Data Scientist",
+            "name": "Jupiter"
         },
-        "image": "",
-        "bio": "",
+        "image": "shweta.jpeg",
+        "bio": "Data Scientist based out of Bangalore, India. She specializes in building a range of machine learning based products mostly within the NLP domain. Her interests within AI include Natural Language Processing, Deep Learning, Reinforcement Learning and Game Theory. She holds a Master's degree from King's College London in Artificial Intelligence and an undergraduate degree from Birla Institute of Technology and Science, Pilani in Information Systems. She has previously worked as a Software Developer at Cisco Systems and Apigee (acquired by Google in 2016) before transitioning into her AI career. She also has research experience at King's College London within the NetSys and the Biostatistics & Health Informatics research groups and has a paper -'Illuminating and ecosystem of partisan websites' published at the Web Conference 2018. She likes to contribute to the ML community by writing tech blogs that have been published in KDnuggets and TowardsDataScience on Medium. She is a mentor at Springboard, an online learning platform, through which she helps aspiring learners get started with their Data Science and AI/ML careers. She is also an AI consultant for a retail startup called SprintAI.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/shweta-bhatt-1a930b12/",
-            "twitter": ""
+            "twitter": "https://twitter.com/shweta_bhatt8"
         },
         "sessionId": [
             211
@@ -454,14 +454,14 @@
         "id": "127",
         "name": "Dikshita Desai",
         "company": {
-            "designation": "",
+            "designation": "Software Developer",
             "name": ""
         },
-        "image": "",
-        "bio": "",
+        "image": "dikshita.jpg",
+        "bio": "Dikshita is a software developer and an avid reader. She believes in 'kaizen' code, and enjoys machine learning & robotics. When not infront of PC she is found with dogs, chai, passport or just dead in her bed. Her love for learning and teaching tech content gets her to be the Women Techmakers ambassador for Goa and also a GDG Goa organizer.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/desaidikshita/",
-            "twitter": ""
+            "twitter": "https://twitter.com/desaidikshita"
         },
         "sessionId": [
             212
@@ -471,14 +471,14 @@
         "id": "128",
         "name": "Pujaa Rajan",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Deep Learning Engineer",
+            "name": "Node.io"
         },
-        "image": "",
-        "bio": "",
+        "image": "pujaa.jpeg",
+        "bio": "Pujaa is a deep learning engineer at Node.io. She’s also the USA Ambassador and founder of the SF Chapter for WomenInAI.co. Previously, she worked at BlackRock, the world’s largest asset manager with $6.84T in AUM, Deutsche Bank, and Hudl. She holds a BS in Information Science from Cornell University, where she researched computational social science. She is a Google Woman Techmaker, AI4All mentor, BuiltByGirls advisor, and Cornell Alumni Admissions Ambassador. She was recently featured on the Wogrammer for her accomplishments. She has spoken about artificial intelligence at meet ups and conferences around the world, including but not limited to, O'Reilly AI, O'Reilly Tensorflow World, and Pyladies. She will be speaking at TEDx this summer.",
         "social": {
-            "linkedin": "https://www.pujaarajan.com/",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/pujaarajan/",
+            "twitter": "https://twitter.com/pujaarajan"
         },
         "sessionId": [
             212
@@ -491,8 +491,8 @@
             "designation": "",
             "name": ""
         },
-        "image": "",
-        "bio": "",
+        "image": "sumitra.jpg",
+        "bio": "Sumitra Bagchi is an independent developer, Women Techmaker Ambassador, Cloud StudyJam Facilitator and a GDG Cloud Kolkata Organizer.Skilled with PHP, CakePHP, Wordpress, HTML5, jQuery, AJAX, Bootstrap and MySQL. She is a learner of new technologies.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/sumitra-bagchi-880b00140/",
             "twitter": "https://twitter.com/sumitrabagchi"
@@ -503,16 +503,16 @@
     },
     {
         "id": "130",
-        "name": "Karthi",
+        "name": "Karthi Subbaraman",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Founder",
+            "name": "Xperian"
         },
-        "image": "",
+        "image": "karthi.jpeg",
         "bio": "",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/skarthi/",
+            "twitter": "https://twitter.com/karthi2209"
         },
         "sessionId": [
             215
@@ -522,14 +522,14 @@
         "id": "131",
         "name": "Nitya Kumar",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Head Of Design",
+            "name": "NUMA"
         },
-        "image": "",
+        "image": "nitya.jpeg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/nitya52/",
-            "twitter": ""
+            "twitter": "https://twitter.com/nitya_kumar"
         },
         "sessionId": [
             216
@@ -539,14 +539,14 @@
         "id": "132",
         "name": "Anjali",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Product Developer",
+            "name": "SurveySparrow"
         },
-        "image": "",
-        "bio": "",
+        "image": "anjali.jpg",
+        "bio": "Product Developer | Fast Learner | Dreamer | WTM Ambassador",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://in.linkedin.com/in/anjali9265",
+            "twitter": "https://twitter.com/Anjali9265"
         },
         "sessionId": [
             217
@@ -556,14 +556,14 @@
         "id": "133",
         "name": "Sivareena",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Co-Founder",
+            "name": "PregBuddy"
         },
-        "image": "",
+        "image": "sivareena.jpg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/sivareena/",
-            "twitter": ""
+            "twitter": "https://twitter.com/SarikaSivareena"
         },
         "sessionId": [
             218
@@ -573,14 +573,14 @@
         "id": "134",
         "name": "Swathi Bavanaka",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Co-Founder & COO",
+            "name": "Evibe.in"
         },
-        "image": "",
-        "bio": "",
+        "image": "swathi.jpg",
+        "bio": "CoFounder at Evibe.in, the ultimate platform for celebrations to enable a billion memories across the globe. At Evibe, she takes care of innovation, business strategies, key partnerships and sales. She has 5+ years of strong experience in the party service Industry, scaling operations across 4 cities with profitable unit economics and 100% year-on-year growth in revenues in all the five years. She did her MS in CS from the USA and returned back to India with her passion for startups. She has been identified as an Inspiring woman entrepreneur by Karnataka Government and as an emerging woman entrepreneur of Hyderabad in 2019 by the Government of Telangana. She leads Google Women Techmakers Hyderabad chapter and she aspires to influence and bring in more women in technology.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/swathibavanaka/",
-            "twitter": ""
+            "twitter": "https://twitter.com/swathibavanaka"
         },
         "sessionId": [
             219
@@ -590,14 +590,14 @@
         "id": "135",
         "name": "Swaathi Kakarla",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "CTO",
+            "name": "Skcript"
         },
-        "image": "",
-        "bio": "",
+        "image": "swaathi.jpg",
+        "bio": "Swaathi runs Skcript, a technology business focussing on AI and Design. She started the company during her college days and has kept it alive and growing ever since on pure customer profits. The bootstrapped company now has offices located in Dubai, Chennai and Bangalore.  She has been coding since she was 15 years old, is an open source contributor and a core contributor for Ruby on Rails.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/swaathi/",
-            "twitter": ""
+            "twitter": "https://twitter.com/imswaathik"
         },
         "sessionId": [
             219
@@ -607,14 +607,14 @@
         "id": "136",
         "name": "Aditi Chansoria",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "UX Designer",
+            "name": "Infinative"
         },
-        "image": "",
+        "image": "aditi-chansoria.jpeg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/aditi-chansoria-5a871448/",
-            "twitter": ""
+            "twitter": "https://twitter.com/AditiChansoria/"
         },
         "sessionId": [
             220
@@ -624,14 +624,14 @@
         "id": "137",
         "name": "Mayuri Khinvasara Khabya",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Developer Advocate",
+            "name": "Google"
         },
-        "image": "",
+        "image": "mayuri.jpeg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/mayurikhinvasara/",
-            "twitter": ""
+            "twitter": "https://twitter.com/mayuri_k"
         },
         "sessionId": [
             222
@@ -641,14 +641,14 @@
         "id": "138",
         "name": "Pooja Bhaumik",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Sr. Engineer",
+            "name": "Bounce"
         },
-        "image": "",
-        "bio": "",
+        "image": "pooja.jpeg",
+        "bio": "Pooja Bhaumik is a designer-turned-developer who has been crafting Android applications since high school. She is an early Flutter adopter and respected community member who loves to share her insights through blog posts, public speaking and open source contributions. When she is not freelancing or working on a creative project, she is busy mentoring people on career, personality and mobile development. She is also passionate about diversity & inclusion and started a community in Bhubaneswar to support personal & professional growth objectives for women developers and designers.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/poojab26/",
-            "twitter": ""
+            "twitter": "https://twitter.com/pblead26"
         },
         "sessionId": [
             223
@@ -656,16 +656,16 @@
     },
     {
         "id": "139",
-        "name": "Padmapriya",
+        "name": "Padmapriya R",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Software Test Analyst",
+            "name": "GeeksUp"
         },
-        "image": "",
-        "bio": "",
+        "image": "padmapriya.jpeg",
+        "bio": "Padmapriya is a software test Engineer. She likes to share her knowledge with others. She always wanted to empower girls who comes from underrepresented background. She mentors students to get into a good company by teaching them the technical knowledge which industries expects right now. She is running a MakerWomen platform which is dedicated for women of all age group to solve a real world problem together. She likes to travel and exploring new places and its culture. She is a WTM Ambassador for Madurai city.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/padmapriya-r-5122a1a7/",
+            "twitter": "https://twitter.com/padmapriyaru"
         },
         "sessionId": [
             224
