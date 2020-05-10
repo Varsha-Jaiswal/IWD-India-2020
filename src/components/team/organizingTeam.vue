@@ -40,7 +40,7 @@ export default {
             return this.TeamDetails.slice().sort(compare);
         }
     },
-  methods: {
+ /* methods: {
     ShuffleData(TeamDetails) {
       let currentIndex = TeamDetails.length,
         temporaryValue,
@@ -55,6 +55,6 @@ export default {
       }
       return TeamDetails;
     }
-  }
+  }*/
 };
 </script>
