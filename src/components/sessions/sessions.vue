@@ -9,7 +9,7 @@
               :items="items"
               chips
               label="Filter by Track"
-              small-chips
+              class="google-font"
               multiple
               outlined
               v-on:change="FilterData()"
@@ -20,7 +20,7 @@
                     <v-icon :color="SelectedItem.length > 0 ? 'indigo darken-4' : ''">{{ icon }}</v-icon>
                   </v-list-item-action>
                   <v-list-item-content>
-                    <v-list-item-title>Select All</v-list-item-title>
+                    <v-list-item-title class="google-font">Select All</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
                 <v-divider class="mt-2"></v-divider>
@@ -33,7 +33,7 @@
                   </v-list-item-avatar>
 
                   <v-list-item-content v-if="selectAllTag">
-                    <v-list-item-title>Holy smokes, someone call the Web Developer!</v-list-item-title>
+                    <v-list-item-title class="google-font">Holy smokes, someone call the Web Developer!</v-list-item-title>
                   </v-list-item-content>
 
                   <v-list-item-content v-else-if="selectSomeTag">
@@ -117,7 +117,6 @@ export default {
     },
     FilterData() {
       if (this.SelectedItem.length > 0) {
-        // this.SelectedItem = [...new Set(names)];
         let asData = [];
         this.SelectedItem.map(val => {
           this.sessionsData.filter(res => {
