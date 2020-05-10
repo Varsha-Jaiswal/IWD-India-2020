@@ -1,25 +1,25 @@
 <template>
-
-    <v-layout wrap align-start justify-center row fill-height class="pa-0">
-<v-flex xs6
-        sm4
-        md2
-        lg2
-        v-for="(item,i) in TeamData"
-        :key="i"
-        class="text-xs-center team-wrapper "
-        style="text-align:center">
-        <TeamDetailsDialog :data="{vdata:item}" />
-      </v-flex>
-    </v-layout>
+  <v-layout wrap align-start justify-center row fill-height class="pa-0">
+    <v-flex
+      xs6
+      sm4
+      md2
+      lg2
+      v-for="(item,i) in TeamData"
+      :key="i"
+      class="text-xs-center team-wrapper"
+      style="text-align:center"
+    >
+      <TeamDetailsDialog :data="{vdata:item}" />
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
 import TeamDetails from "@/assets/data/organizingTeam.json";
-import TeamDetailsDialog from "@/components/team/teamDetails";
 export default {
   components: {
-    TeamDetailsDialog
+    TeamDetailsDialog:() => import("@/components/team/teamDetails")
   },
   data() {
     return {

@@ -87,17 +87,8 @@
     </v-container>
   </v-footer>
 </template>
-
 <script>
-import ChapterDetails from "@/assets/data/chapterDetails.json";
-import FooterData from "@/assets/data/footer.json";
 export default {
-  data() {
-    return {
-      ChapterDetails: ChapterDetails,
-      FooterData: FooterData
-    };
-  },
   methods: {
     toTop() {
       this.$vuetify.goTo(0);

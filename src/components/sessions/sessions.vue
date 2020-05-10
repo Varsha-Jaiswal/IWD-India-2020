@@ -57,7 +57,6 @@
               class="ma-1 pa-5"
             >
               <sessionDialog :data="{vdata:item}" />
-              <!-- <sessionDialogMobile class="hidden-sm-and-up" :data="{vdata:item}" /> -->
             </div>
           </v-flex>
         </v-layout>
@@ -71,7 +70,6 @@ import sessionsData from "@/assets/data/sessions.json";
 export default {
   components: {
     sessionDialog: () => import("@/components/common/sessionDialog")
-    // sessionDialogMobile: ()=> import("@/components/common/sessionDialogMobile")
   },
   data: () => ({
     sessionsData: sessionsData,
