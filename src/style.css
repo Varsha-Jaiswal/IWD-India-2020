@@ -85,6 +85,10 @@
     height: 25px !important;
 }
 
+.theme--light.v-btn:hover::before {
+    opacity: 0.2;
+}
+
 @media only screen and (max-width: 600px) {
     .speaker-card {
         max-width: 100% !important;
