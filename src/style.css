@@ -120,12 +120,27 @@
     padding-bottom: 37.4663% !important;
 }
 
+.faq-wrapper {
+    height: 70vh;
+}
+
+.v-application--wrap~.v-menu__content {
+    width: 320px !important;
+}
+
+.session-wrapper {
+    max-width: 320px;
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .header-image {
         width: 40% !important;
     }
     .schedule-container .v-item-group {
         padding-left: 50px !important;
+    }
+    .faq-wrapper {
+        height: 81vh;
     }
 }
 
@@ -202,5 +217,9 @@
     }
     .schedule-container .v-item-group {
         padding-left: 24px !important;
+    }
+    .speaker-card,
+    .team-card {
+        margin-bottom: 20px !important;
     }
 }

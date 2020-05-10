@@ -4,7 +4,7 @@
       <template v-slot:activator="{ on }">
         <div
           v-on="on"
-          class="text-xs-center ma-1 py-5 my-0 team-card"
+          class="text-xs-center py-5 team-card"
           style="text-align:center;border: 1px solid #f5f6f7;min-height:280px;border-radius:7px"
         >
           <v-avatar size="130">
