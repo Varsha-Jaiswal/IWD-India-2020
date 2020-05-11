@@ -11,7 +11,7 @@
         </v-expansion-panels><br>
         <p
           class="mt-2 google-font text-mobile-center"
-        >If you witness any attendee breaching the code of conduct, please reach out to us at wtmindia2020@gmail.com.</p>
+        >If you witness any attendee breaching the code of conduct, please reach out to us at <a href="mailto:wtmindia2020@gmail.com"> wtmindia2020@gmail.com</a>.</p>
       </v-flex>
     </v-layout>
   </v-container>

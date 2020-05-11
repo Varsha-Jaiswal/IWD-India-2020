@@ -15,7 +15,7 @@
       <v-flex xs12 sm7 md6 lg8 xl4 order-xs2 order-md1 class="pa-5">
         <p
           class="google-font mt-3"
-          style="text-align:justify"
+          style="text-align:center;font-size:130%"
         >Our speakers are influential women who have been associated with communities within their organisations, cities, country and beyond.</p>
       </v-flex>
     </v-layout>
