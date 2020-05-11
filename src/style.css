@@ -59,7 +59,6 @@
 .arrow-icon {
     position: absolute;
     bottom: 0;
-    justify-content: flex-end;
     text-align: right !important;
     right: 26px !important;
     cursor: pointer;
