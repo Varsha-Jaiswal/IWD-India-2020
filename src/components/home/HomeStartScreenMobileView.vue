@@ -39,7 +39,7 @@
           <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">#{{item}} &nbsp;</span>
         </p>
         <v-btn
-          href="http://bit.ly/register-iwd20"
+          href="http://bit.ly/register-iwd2020"
           id="modal59287007034"
           target="_blank"
           color="#1a73e8"
