@@ -1,4 +1,4 @@
-# iwd-india
+# IWD India
 
 ## Project setup
 ```
