@@ -8,7 +8,7 @@
             sm3
             md3
             lg2
-            v-for="(item,i) in ShuffleData(speakerData)"
+            v-for="(item,i) in SpeakerData"
             :key="i"
             class="speaker-card speakers-wrapper"
             style="text-align:center"
@@ -32,21 +32,31 @@ export default {
       speakerData: speakerData
     };
   },
-  methods: {
-    ShuffleData(speakerData) {
-      let currentIndex = speakerData.length,
-        temporaryValue,
-        randomIndex;
-      while (0 !== currentIndex) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        temporaryValue = speakerData[currentIndex];
-        speakerData[currentIndex] = speakerData[randomIndex];
-        speakerData[randomIndex] = temporaryValue;
+  computed: {
+    SpeakerData: function() {
+      function compare(a, b) {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
       }
-      return speakerData;
+      return this.speakerData.slice().sort(compare);
     }
   }
+  // methods: {
+  //   ShuffleData(speakerData) {
+  //     let currentIndex = speakerData.length,
+  //       temporaryValue,
+  //       randomIndex;
+  //     while (0 !== currentIndex) {
+  //       randomIndex = Math.floor(Math.random() * currentIndex);
+  //       currentIndex -= 1;
+
+  //       temporaryValue = speakerData[currentIndex];
+  //       speakerData[currentIndex] = speakerData[randomIndex];
+  //       speakerData[randomIndex] = temporaryValue;
+  //     }
+  //     return speakerData;
+  //   }
+  // }
 };
 </script>

@@ -50,7 +50,7 @@
             <v-list two-line subheader class="pa-0 ma-0">
               <v-list-item class="pa-0">
                   <v-list-item-content>
-                  <v-list-item-title class="google-font" style="color:#424242">{{ item.title }}</v-list-item-title>
+                  <v-list-item-title class="google-font text-wrap" style="color:#424242;">{{ item.title }}</v-list-item-title>
                   <v-list-item-subtitle class="google-font">
                     {{ item.track}}
                     <br />
@@ -60,7 +60,7 @@
                       outlined
                       class="mt-2 mb-0 speaker-details"
                       x-small
-                    >{{item.track}}</v-chip>
+                    >{{item.format}}</v-chip>
                   </v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>

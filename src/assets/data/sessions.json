@@ -5,6 +5,7 @@
         "description": "",
         "track": "Leadership",
         "format": "Keynote",
+        "date": "May 23rd, 2020",
         "timeDuration": "30",
         "speakers": [
             119
@@ -16,6 +17,7 @@
         "description": "",
         "track": "Leadership",
         "format": "Talk",
+        "date": "May 23rd, 2020",
         "timeDuration": "30",
         "speakers": [
             120
@@ -27,6 +29,7 @@
         "description": "",
         "track": "Leadership",
         "format": "Ice Breaker",
+        "date": "May 23rd, 2020",
         "timeDuration": "15",
         "speakers": [
             107,
@@ -39,6 +42,7 @@
         "description": "",
         "track": "Leadership",
         "format": "Talk",
+        "date": "May 23rd, 2020",
         "timeDuration": "30",
         "speakers": [
             121
@@ -50,6 +54,7 @@
         "description": "",
         "track": "Leadership",
         "format": "Panel Discussion",
+        "date": "May 23rd, 2020",
         "timeDuration": "45",
         "speakers": [
             106,
@@ -65,6 +70,7 @@
         "description": "",
         "track": "Leadership",
         "format": "AMA & Closing",
+        "date": "May 23rd, 2020",
         "timeDuration": "30",
         "speakers": []
     },
@@ -74,6 +80,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
+        "date": "May 24th, 2020",
         "timeDuration": "20",
         "speakers": [
             123
@@ -85,6 +92,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
+        "date": "May 24th, 2020",
         "timeDuration": "20",
         "speakers": [
             116
@@ -96,6 +104,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
+        "date": "May 24th, 2020",
         "timeDuration": "20",
         "speakers": [
             124
@@ -107,6 +116,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Ice Breaker",
+        "date": "May 24th, 2020",
         "timeDuration": "15",
         "speakers": [
             101,
@@ -119,6 +129,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Workshop",
+        "date": "May 24th, 2020",
         "timeDuration": "45",
         "speakers": [
             125,
@@ -131,6 +142,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
+        "date": "May 24th, 2020",
         "timeDuration": "30",
         "speakers": [
             127,
@@ -143,6 +155,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Lightning Talk",
+        "date": "May 24th, 2020",
         "timeDuration": "10",
         "speakers": [
             129
@@ -152,8 +165,9 @@
         "id": "214",
         "title": "Q & A",
         "description": "",
-        "track": "Leadership",
+        "track": "Tech - ML & Cloud",
         "format": "AMA & Closing",
+        "date": "May 24th, 2020",
         "timeDuration": "30",
         "speakers": []
     },
@@ -163,6 +177,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Design Talk",
+        "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": [
             130
@@ -174,6 +189,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Design Talk",
+        "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": [
             131
@@ -185,6 +201,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Ice Breaker",
+        "date": "May 30th, 2020",
         "timeDuration": "15",
         "speakers": [
             113,
@@ -197,6 +214,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Talk",
+        "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": [
             133
@@ -208,6 +226,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
+        "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": [
             134,
@@ -220,6 +239,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
+        "date": "May 30th, 2020",
         "timeDuration": "15",
         "speakers": [
             136
@@ -231,6 +251,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "AMA & Closing",
+        "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": []
     },
@@ -240,6 +261,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "30",
         "speakers": [
             137
@@ -251,6 +273,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "30",
         "speakers": [
             138
@@ -262,6 +285,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Ice Breaker",
+        "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
             110,
@@ -274,6 +298,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "30",
         "speakers": [
             102
@@ -285,6 +310,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
             118
@@ -296,6 +322,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
             115
@@ -307,6 +334,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
+        "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
             140
@@ -318,6 +346,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "AMA & Closing",
+        "date": "May 31st, 2020",
         "timeDuration": "30",
         "speakers": []
     }

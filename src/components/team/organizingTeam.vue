@@ -19,7 +19,7 @@
 import TeamDetails from "@/assets/data/organizingTeam.json";
 export default {
   components: {
-    TeamDetailsDialog:() => import("@/components/team/teamDetails")
+    TeamDetailsDialog: () => import("@/components/team/teamDetails")
   },
   data() {
     return {
@@ -28,19 +28,17 @@ export default {
       showData: false
     };
   },
-    computed: {
-        TeamData: function() {
-            function compare(a, b) {
-                if (a.name < b.name)
-                    return -1;
-                if (a.name > b.name)
-                    return 1;
-                return 0;
-            }
-            return this.TeamDetails.slice().sort(compare);
-        }
-    },
- /* methods: {
+  computed: {
+    TeamData: function() {
+      function compare(a, b) {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+      }
+      return this.TeamDetails.slice().sort(compare);
+    }
+  }
+  /* methods: {
     ShuffleData(TeamDetails) {
       let currentIndex = TeamDetails.length,
         temporaryValue,

@@ -25,28 +25,6 @@
                 </v-list-item>
                 <v-divider class="mt-2"></v-divider>
               </template>
-              <template v-slot:append-item>
-                <v-divider class="mb-2"></v-divider>
-                <v-list-item disabled>
-                  <v-list-item-avatar color="grey lighten-3">
-                    <v-icon>mdi-animation</v-icon>
-                  </v-list-item-avatar>
-
-                  <v-list-item-content v-if="selectAllTag">
-                    <v-list-item-title class="google-font">Holy smokes, someone call the Web Developer!</v-list-item-title>
-                  </v-list-item-content>
-
-                  <v-list-item-content v-else-if="selectSomeTag">
-                    <v-list-item-title>Tags Count</v-list-item-title>
-                    <v-list-item-subtitle>{{ SelectedItem.length }}</v-list-item-subtitle>
-                  </v-list-item-content>
-
-                  <v-list-item-content v-else>
-                    <v-list-item-title>How could you not like Tags?</v-list-item-title>
-                    <v-list-item-subtitle>Go ahead, make a selection above!</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-              </template>
             </v-select>
           </v-flex>
         </v-layout>
@@ -54,7 +32,13 @@
           <v-flex xs12 sm4 md4 lg3 v-for="(item,index) in FilterData()" :key="index">
             <div
               style="border-radius: 5px; border:1px solid #e0e0e0;min-height:200px; max-height:200px;"
-              class="ma-1 pa-5"
+              class="ma-1 pa-5 hidden-sm-and-down"
+            >
+              <sessionDialog :data="{vdata:item}" />
+            </div>
+            <div
+              style="border-radius: 5px; border:1px solid #e0e0e0;min-height:230px; max-height:230px;"
+              class="ma-1 pa-5 d-md-none d-lg-none d-xl-none"
             >
               <sessionDialog :data="{vdata:item}" />
             </div>
@@ -80,12 +64,8 @@ export default {
     selectAllTag() {
       return this.SelectedItem.length === this.items.length;
     },
-    selectSomeTag() {
-      return this.SelectedItem.length > 0 && !this.selectAllTag;
-    },
     icon() {
       if (this.selectAllTag) return "mdi-close-box";
-      if (this.selectSomeTag) return "mdi-minus-box";
       return "mdi-checkbox-blank-outline";
     }
   },

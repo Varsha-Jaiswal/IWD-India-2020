@@ -38,6 +38,7 @@
         </p>
         <v-btn
           id="modal59287007034"
+          disabled
           target="_blank"
           color="#1a73e8"
           class="ma-0 google-font elevation-0"
