@@ -82,19 +82,19 @@ export default {
         }
       });
     },
-    ShuffleData(sessionsData) {
-      let currentIndex = sessionsData.length,
-        temporaryValue,
-        randomIndex;
-      while (0 !== currentIndex) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-        temporaryValue = sessionsData[currentIndex];
-        sessionsData[currentIndex] = sessionsData[randomIndex];
-        sessionsData[randomIndex] = temporaryValue;
-      }
-      return sessionsData;
-    },
+    // ShuffleData(sessionsData) {
+    //   let currentIndex = sessionsData.length,
+    //     temporaryValue,
+    //     randomIndex;
+    //   while (0 !== currentIndex) {
+    //     randomIndex = Math.floor(Math.random() * currentIndex);
+    //     currentIndex -= 1;
+    //     temporaryValue = sessionsData[currentIndex];
+    //     sessionsData[currentIndex] = sessionsData[randomIndex];
+    //     sessionsData[randomIndex] = temporaryValue;
+    //   }
+    //   return sessionsData;
+    // },
     FilterData() {
       if (this.SelectedItem.length > 0) {
         let asData = [];
@@ -105,9 +105,9 @@ export default {
             }
           });
         });
-        return this.ShuffleData(asData);
+        return asData;
       } else {
-        return this.ShuffleData(this.sessionsData);
+        return this.sessionsData;
       }
     }
   }
