@@ -132,6 +132,10 @@
     max-width: 320px;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .header-image {
         width: 40% !important;
