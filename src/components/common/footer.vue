@@ -37,7 +37,7 @@
         <v-col cols="2" class="google-font mt-5 text-right">
           <router-link to="/faq" tag="v-btn">
             <p color="white" flat value="faq">
-              <span class="google-font">FAQ</span>
+              <span class="google-font" style="color:rgb(66, 133, 244);">FAQ</span>
             </p>
           </router-link>
         </v-col>
@@ -68,7 +68,7 @@
         </v-col>
       </v-row>
       <v-row justify="center" align="center">
-        <v-col cols="9">
+        <v-col cols="8">
           <v-img
             width="70%"
             :src="require('@/assets/img/common/wtm-footer-logo.png')"
@@ -79,12 +79,14 @@
             </v-layout>
           </v-img>
         </v-col>
-        <v-col cols="3" class="google-font mt-5">
+        <v-col cols="2" class="google-font mt-5">
           <router-link to="/faq" tag="v-btn">
             <p color="white" flat value="faq">
-              <span class="google-font">FAQ</span>
+              <span class="google-font" style="color:rgb(66, 133, 244);">FAQ</span>
             </p>
           </router-link>
+          </v-col>
+          <v-col cols="2" class="text-right">
           <v-img
             :src="require('@/assets/img/common/up-arrow.png')"
             :lazy-src="require('@/assets/img/common/up-arrow.png')"
