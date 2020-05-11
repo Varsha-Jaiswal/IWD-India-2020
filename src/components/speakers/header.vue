@@ -4,8 +4,8 @@
       <v-flex xs12 md2 lg2 class="pa-3 hidden-sm-and-down">
         <v-img
           width="100%"
-          :src="require('@/assets/img/wtm-image.png')"
-          :lazy-src="require('@/assets/img/wtm-image.png')"
+          :src="require('@/assets/img/team-header.png')"
+          :lazy-src="require('@/assets/img/team-header.png')"
         >
           <v-layout slot="placeholder" fill-height align-center justify-start ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
