@@ -6,7 +6,11 @@
           <v-layout fill-height align-end>
             <v-flex xs12>
               <v-card color="slider-wrapper" class="pa-2 text-center">
-                <span class="headline white--text google-font" v-text="item.name"></span>
+                <span
+                  class="headline white--text google-font"
+                  style="font-size:180%"
+                  v-text="item.name"
+                ></span>
               </v-card>
             </v-flex>
           </v-layout>
