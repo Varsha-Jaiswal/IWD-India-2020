@@ -66,6 +66,15 @@ const  router =  new Router({
         title:'FAQ | IWD India Summit 2020',
         color:'red'
       }
+    },
+    {
+      path: '/resources',
+      name: 'resources',
+      component: () => import('./views/Resources.vue'),
+      meta: {
+        title: 'Resources | IWD India Summit 2020',
+        color: 'blue'
+      }
     }
   ],
 })
