@@ -19,7 +19,7 @@
             style="color:#37474F;font-size:150%"
           >Our goal as a team is to empower women to thrive in tech and nurture communities.</p>
           <p class="mt-0 google-font subheading">
-           We know that when women support each other, incredible things happen. We volunteer to encourage, elevate and support women and underrepresented groups in the tech industry.
+           We know that when women support each other, incredible things happen. We volunteer to encourage,elevate and support women and underrepresented groups in the tech industry.
           </p>
           <v-divider></v-divider>
         </v-flex>

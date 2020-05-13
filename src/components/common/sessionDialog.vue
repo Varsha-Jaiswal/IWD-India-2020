@@ -9,7 +9,7 @@
           class="mt-1 mb-0 google-font"
           small
         >{{data.vdata.track}}</v-chip>
-        <br />
+        <br/>
         <v-chip
           color="#00BFA5"
           label
@@ -25,7 +25,7 @@
         <p
           class="google-font mt-1 mb-0"
           style="font-size:80%;color:#424242"
-        >{{data.vdata.timeDuration}} min <b>|</b> {{data.vdata.date}}</p>
+        >{{data.vdata.timeDuration}} min <b>|</b> {{date}}</p>
       </div>
     </template>
 
@@ -102,6 +102,17 @@ export default {
       date: "",
       SpeakersDetails: SpeakersDetails
     };
+  },
+  mounted() {
+    if (this.data.vdata.track === "Leadership") {
+      this.date = "May 23rd, 2020";
+    } else if (this.data.vdata.track === "Tech - ML & Cloud") {
+      this.date = "May 24th, 2020";
+    } else if (this.data.vdata.track === "Design & Entrepreneurship") {
+      this.date = "May 30th, 2020";
+    } else if (this.data.vdata.track === "Tech - Android & Web") {
+      this.date = "May 31st, 2020";
+    }
   },
   methods: {
     getImgUrl(pic) {

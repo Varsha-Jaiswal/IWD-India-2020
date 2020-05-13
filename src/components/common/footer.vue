@@ -50,7 +50,7 @@
       fluid
       style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-bottom: 0;background:rgb(248, 248, 248);"
     >
-      <v-layout wrap justify-center text-center row class="mb-0">
+      <v-layout wrap justify-center align-items-center text-center row class="mb-0">
         <v-flex xs12 md10 lg10 class="google-font mt-5">
           <p>
             For concerns and queries, contact us at
