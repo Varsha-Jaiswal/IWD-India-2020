@@ -196,7 +196,7 @@
             "designation": "Associate Software Engineer"
         },
         "image": "riya.jpg",
-        "bio": "Associate Engineer, Johnson Controls | Ambassador, WTM Kolkata | Intel Software Innovator | Co-host, NinjaTalks Podcast | Blogger | IoT & DevOps specialist",
+        "bio": "Riya is an Associate Software Engineer working with Johnson Controls. She believes in contributing towards community and sharing knowledge with others to solve their problems, which leads her to serve for her regional community as a WomenTechmakers Ambassador and Co-organizer of Google Developers Group Kolkata.Being an Intel Software Innovator she looks forward to share her expertise which thrives to innovation and would be helpful for tech enthusiasts to build solution in IoT.She love programming and applying her skills to solve real life problems and make life smarter.",
         "social": {
             "twitter": "https://twitter.com/RiyaThakurta",
             "linkedin": "https://www.linkedin.com/in/riya-guha-thakurta/"
@@ -298,7 +298,7 @@
             "name": "College of Engineering Chengannur"
         },
         "image": "amalu.jpg",
-        "bio": "Amalu is an enthusiastic learner who thrives to help others in the best possible way. #IamRemarkable Facilitator | WTM Ambassador ",
+        "bio": "Amalu is an enthusiastic learner who thrives to help others in the best possible manner. Currently a final year undergraduate Computer Science engineering student in Kerala and the WTM Ambassador of Cochin chapter. She is also an #IamRemarkable Facilitator and has conducted session for students as well as professionals in her circle. she likes to build her career  in Product Management.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/amalu-susan-santhosh/",
             "twitter": "https://twitter.com/susan_amalu"
@@ -472,6 +472,40 @@
         "social": {
             "linkedin": "https://in.linkedin.com/in/anjali9265",
             "twitter": "https://twitter.com/Anjali9265"
+        }
+    },
+    {
+        "name": "Tayba Wasim",
+        "community": {
+            "name": "WTM/GDG Jaipur",
+            "designation": "WTM Ambassador Jaipur , GDG Co-organizer, #IamRemarkable facilitator"
+        },
+        "company": {
+            "designation": "Freelancer",
+            "name": "Freelancer"
+        },
+        "image": "tayba.jpg",
+        "bio": "Tayba is a technically enthusiastic person who loves to play with data. Freelancer , Dreamer and living with the belief that Faith can move mountains, She aims to create a platform that can facilitate bringing together of technically enthusiastic women.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/tayba-wasim-9a410510b/",
+            "twitter": "https://twitter.com/TaybaWasim"
+        }
+    },
+    {
+        "name": "Suparna J",
+        "community": {
+            "name": "WTM/GDG Kozhikode",
+            "designation": "WTM Ambassador, GDG Co-organizer, TFUG Co-organizer"
+        },
+        "company": {
+            "designation": "Senior Engineer",
+            "name": "Senior Engineer"
+        },
+        "image": "suparna.jpeg",
+        "bio": "She is a passionate developer currently working with Machine Learning and Backend Technologies. She is also working closely with developer communities and enjoys her roles as GDG Co-organizer, TFUG Co-organizer & WTM Ambassador.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/suparna-j-58933159",
+            "twitter": "https://twitter.com/suparnajtk"
         }
     }
 ]

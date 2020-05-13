@@ -13,10 +13,11 @@
 </template>
 
 <script>
+import SpeakerDetails from "@/components/speakers/speakers"
 export default {
   components: {
     SpeakerHeader: () => import("@/components/speakers/header"),
-    SpeakerDetails: () => import("@/components/speakers/speakers")
+    SpeakerDetails
   }
 };
 </script>
