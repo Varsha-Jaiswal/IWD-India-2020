@@ -58,7 +58,7 @@
           target="_blank"
           rounded
           color="#fff"
-          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;border-color:#ff7370;background-color:#ff7370"
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;border-color:#ff7370;background-color:#c4302b"
           class="ml-0 google-font"
         >Youtube Livestream</v-btn>
       </v-flex>
