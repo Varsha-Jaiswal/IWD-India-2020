@@ -48,8 +48,8 @@
           href="https://www.womentechmakers.com/membership"
           target="_blank"
           rounded
-          color="#4285F4"
-          style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px"
+          color="#fff"
+          style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px;background-color: rgb(23, 172, 182);"
           outlined
           class="ml-0 google-font"
         >Become a Member</v-btn>
@@ -57,8 +57,8 @@
           href="https://www.youtube.com/watch?v=t0nB3B7x41Q&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI"
           target="_blank"
           rounded
-          color="#4285F4"
-          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px"
+          color="#fff"
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;border-color:#ff7370;background-color:#ff7370"
           class="ml-0 google-font"
         >Youtube Livestream</v-btn>
       </v-flex>
