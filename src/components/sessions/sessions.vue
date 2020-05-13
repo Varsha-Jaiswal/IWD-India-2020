@@ -37,7 +37,7 @@
               <sessionDialog :data="{vdata:item}" />
             </div>
             <div
-              style="border-radius: 5px; border:1px solid #e0e0e0;min-height:230px; max-height:230px;"
+              style="border-radius: 5px; border:1px solid #e0e0e0;min-height:auto;"
               class="ma-1 pa-5 d-md-none d-lg-none d-xl-none"
             >
               <sessionDialog :data="{vdata:item}" />

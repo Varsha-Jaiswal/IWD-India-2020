@@ -12,6 +12,7 @@
         <v-flex xs2 md3 class="text-right pa-3">
           <p style="font-size:150%" class="mb-0">{{item.startTime}}</p>
           <p style="font-size:80%" class="ma-0">{{item.endTime}}</p>
+          <p class="mt-1" style="font-size:70%"><b style="color:grey">GMT (+05:30)</b></p>
         </v-flex>
         <v-flex xs10 md9 class="pa-3">
           <div v-for="(sdata,key) in sessionsData" :key="key">
