@@ -9,7 +9,7 @@
           class="mt-1 mb-0 google-font"
           small
         >{{data.vdata.track}}</v-chip>
-        <br/>
+        <br />
         <v-chip
           color="#00BFA5"
           label
@@ -22,10 +22,11 @@
           class="google-font mt-1 mb-0"
           style="font-size:90%"
         >{{data.vdata.description | summary(80)}}</p>
-        <p
-          class="google-font mt-1 mb-0"
-          style="font-size:80%;color:#424242"
-        >{{data.vdata.timeDuration}} min <b>|</b> {{date}}</p>
+        <p class="google-font mt-1 mb-0" style="font-size:80%;color:#424242">
+          {{data.vdata.timeDuration}} min
+          <b>|</b>
+          {{date}}
+        </p>
       </div>
     </template>
 
@@ -69,7 +70,11 @@
                     <v-list-item-subtitle
                       class="google-font text-wrap"
                       v-if="speaker.company.designation"
-                    >{{ speaker.company.designation }}, {{speaker.company.name}}</v-list-item-subtitle>
+                    >
+                      {{ speaker.company.designation }}
+                      <span v-if="speaker.company.name">,</span>
+                      {{speaker.company.name}}
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
