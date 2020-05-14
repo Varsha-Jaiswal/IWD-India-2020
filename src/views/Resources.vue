@@ -11,7 +11,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-5 d-none d-sm-block pb-10">
+  <v-container fluid class="my-0 py-5 d-none d-sm-block pb-10">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10>
           <Resources />
