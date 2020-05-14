@@ -204,16 +204,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* body {
-  background: #e0e0e0;
-  margin: 0;
-  font-family: "Google Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  color: #4a4a4a;
-  min-height: 100vh;
-} */
-
 header {
   background-color: #fff;
   height: 76px;
@@ -324,7 +314,7 @@ input.category-input:focus {
 
 canvas {
   width: 500px;
-  max-width: 80%;
+  height: 500px;
 }
 
 .download-fab {
