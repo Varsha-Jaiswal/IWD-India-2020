@@ -468,7 +468,7 @@
             "name": "SurveySparrow"
         },
         "image": "anjali.jpg",
-        "bio": "Product Developer | Fast Learner | Dreamer | WTM Ambassador",
+        "bio": "Anjali is a product developer at SurveySparrow and works with Nodejs.  She earned her Bachelors degree from Cochin University. Anjali identifies herself as a dreamer and believes that dreams reflect your potential. Apart from tech Anjali likes to read and know more about how the universe was formed and works.",
         "social": {
             "linkedin": "https://in.linkedin.com/in/anjali9265",
             "twitter": "https://twitter.com/Anjali9265"
@@ -506,6 +506,23 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/suparna-j-58933159",
             "twitter": "https://twitter.com/suparnajtk"
+        }
+    },
+    {
+        "name": "Sonakshi Shukla",
+        "community": {
+            "name": "WTM Jalandhar",
+            "designation": "WTM Ambassador"
+        },
+        "company": {
+            "designation": "Subject Matter Expert",
+            "name": "Western Digital"
+        },
+        "image": "sonakshi.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/sonakshi15/",
+            "twitter": "https://twitter.com/Sonakshishukla1"
         }
     }
 ]
