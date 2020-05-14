@@ -325,7 +325,7 @@
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/gayathribelapurkar/",
-            "twitter": ""
+            "twitter": "https://twitter.com/gbela"
         },
         "sessionId": [
             201
@@ -335,7 +335,7 @@
         "id": "120",
         "name": "Payal Nanjiani",
         "company": {
-            "designation": "Success is Within Leadership",
+            "designation": "How women lead and succeed",
             "name": "CEO"
         },
         "image": "payal.jpg",
@@ -469,16 +469,16 @@
     },
     {
         "id": "128",
-        "name": "Pujaa Rajan",
+        "name": "Viji Vennelakanti",
         "company": {
-            "designation": "Deep Learning Engineer",
-            "name": "Node.io"
+            "designation": "Consultant - Machine Learning",
+            "name": "Toptal"
         },
-        "image": "pujaa.jpg",
-        "bio": "Pujaa is a deep learning engineer at Node.io. She’s also the USA Ambassador and founder of the SF Chapter for WomenInAI.co. Previously, she worked at BlackRock, the world’s largest asset manager with $6.84T in AUM, Deutsche Bank, and Hudl. She holds a BS in Information Science from Cornell University, where she researched computational social science. She is a Google Woman Techmaker, AI4All mentor, BuiltByGirls advisor, and Cornell Alumni Admissions Ambassador. She was recently featured on the Wogrammer for her accomplishments. She has spoken about artificial intelligence at meet ups and conferences around the world, including but not limited to, O'Reilly AI, O'Reilly Tensorflow World, and Pyladies. She will be speaking at TEDx this summer.",
+        "image": "viji.jpg",
+        "bio": "",
         "social": {
-            "linkedin": "https://www.linkedin.com/in/pujaarajan/",
-            "twitter": "https://twitter.com/pujaarajan"
+            "linkedin": "https://www.linkedin.com/in/vijivennelakanti/",
+            "twitter": ""
         },
         "sessionId": [
             212
@@ -488,8 +488,8 @@
         "id": "129",
         "name": "Sumitra Bagchi",
         "company": {
-            "designation": "",
-            "name": ""
+            "designation": "Web Developer",
+            "name": "Freelancer"
         },
         "image": "sumitra.jpg",
         "bio": "Sumitra Bagchi is an independent developer, Women Techmaker Ambassador, Cloud StudyJam Facilitator and a GDG Cloud Kolkata Organizer.Skilled with PHP, CakePHP, Wordpress, HTML5, jQuery, AJAX, Bootstrap and MySQL. She is a learner of new technologies.",
@@ -526,7 +526,7 @@
             "name": "NUMA"
         },
         "image": "nitya.jpg",
-        "bio": "",
+        "bio": "Nitya is a service designer with experience across the design spectrum. She works with corporates, startups and government agencies, helping them navigate new and existing projects through inclusive and holistic design practices. Holistic design for her ranges from user research to UX, from organisational culture to product implementation. She is currently Head of Design at NUMA Bengaluru - Innovation and Acceleration Hub.",
         "social": {
             "linkedin": "https://www.linkedin.com/in/nitya52/",
             "twitter": "https://twitter.com/nitya_kumar"
