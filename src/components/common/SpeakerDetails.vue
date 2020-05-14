@@ -51,6 +51,7 @@
               <v-list-item class="pa-0">
                   <v-list-item-content>
                   <v-list-item-title class="google-font text-wrap" style="color:#424242;">{{ item.title }}</v-list-item-title>
+                    <p class="google-font">{{item.description}}</p>
                   <v-list-item-subtitle class="google-font">
                     {{ item.track}}
                     <br />

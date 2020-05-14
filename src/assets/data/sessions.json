@@ -13,8 +13,8 @@
     },
     {
         "id": "202",
-        "title": "Success is Within",
-        "description": "",
+        "title": "How women lead and succeed",
+        "description": "I’ve been interacting with successful, very successful women and I have always been curious about what the secret rituals and healthy practices are that make up their lives? How is that they are more successful than many other women on the planet? \n\nAnd what I found out was that it’s about knowing the right techniques and rituals to get to the next level. It's more to do with the habits you are willing to give up and create more space for habits that will multiply our progress speed.\n\nIn this 30 minute talk, I share with you the # 1 ritual of success practiced by the business moguls and super successful leaders. It will help you up-level your results and accelerate your speed of growth.",
         "track": "Leadership",
         "format": "Talk",
         "date": "May 23rd, 2020",
@@ -39,7 +39,7 @@
     {
         "id": "204",
         "title": "What’s Your Narrative?",
-        "description": "",
+        "description": "How about a new narrative for the new normal? Or the new (ab)normal? Whatever that is, but why need a narrative? Well, whether or not you own your narrative, there is one that already exists! Whether you are an employee, a freelancer, an intrapreneur, an entrepreneur or a business owner how you choose to sail through the new normal has everything to do with the narrative you choose to create, amplify and manage.",
         "track": "Leadership",
         "format": "Talk",
         "date": "May 23rd, 2020",
@@ -76,8 +76,8 @@
     },
     {
         "id": "207",
-        "title": "Deploying Airflow with Kubernetes to Build Data Pipelines",
-        "description": "",
+        "title": "Data pipelines using Airflow on Kubernetes",
+        "description": "Airflow is an opensource platform to create, schedule and monitor workflows. In this talk we will explore \n- What is airflow?   \n- How to create data pipelines? \n- How to exploit kubernetes to achieve performance\n- Pros and cons of the approach",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
         "date": "May 24th, 2020",
@@ -174,7 +174,7 @@
     {
         "id": "215",
         "title": "Visual Engineering",
-        "description": "",
+        "description": "This talk would cover some aspects of how visuals speak to humans and why we must engineer them.",
         "track": "Design & Entrepreneurship",
         "format": "Design Talk",
         "date": "May 30th, 2020",
@@ -185,8 +185,8 @@
     },
     {
         "id": "216",
-        "title": "Design Talk",
-        "description": "",
+        "title": "Fail, Gains and Stepping Stones",
+        "description": "A reflective talk on some of the fails, learnings and moments in my career which shaped what I do now, with a peak into some design led projects. A real look into how plans can fall apart, but there will be people, communities and insights that help your journey.",
         "track": "Design & Entrepreneurship",
         "format": "Design Talk",
         "date": "May 30th, 2020",
@@ -295,7 +295,7 @@
     {
         "id": "225",
         "title": "Framework-agnostic web components, with Angular",
-        "description": "",
+        "description": "Living in the times when technology and frameworks change quite fast, we really need to think through what we are building, why we are building it, and how we are building it. And now that we have done this amount of thinking, we want to be smart, right? Same effort, multiple times? Definitely not! I will be talking about Building reusable web components using Angular elements, and building and publishing the package to be able to use it in applications built using any framework.",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
