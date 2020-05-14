@@ -1,352 +1,376 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col cols="4">
-        <input type="file" @change="selectFile" />
-      </v-col>
-      <v-col cols="4">
-        <div v-if="cropping" ref="cropperdiv" :style="cropperDivStyle">
-          <canvas
-            ref="canvas"
-            :width="canvasWidth"
-            :height="canvasHeight"
-            @mousemove="moveMouse"
-            @mousedown="startDrag"
-            @mouseup="stopDrag"
-            @dragover="stopDrag"
-          ></canvas>
+    <header>
+      <div class="title google-font">IWD India Badge Generator</div>
+    </header>
+    <div class="main-container py-2">
+      <div class="input-panel">
+        <div class="input">
+          <label>Profile Picture</label>
+          <button class="button" @click="uploadImage">Upload Image</button>
+          <input class="profile-input" type="file" accept="image/*" @change="upload(event)" hidden />
         </div>
-      </v-col>
-      <v-col cols="4">
-        <img v-bind:src="croppedImage" :style="roundCorners" />
-      </v-col>
-    </v-row>
+        <div class="input">
+          <label>Image Shape</label>
+          <div class="select-container">
+            <div class="select" id="original" selected @click="changeShape('original')">Original</div>
+            <div class="select" id="square" @click="changeShape('square')">Square</div>
+            <div class="select" id="circle" @click="changeShape('circle')">Circle</div>
+          </div>
+        </div>
+      </div>
+      <div class="preview-panel">
+        <canvas ref="canvas"></canvas>
+        <div class="download-fab" @click="download()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            fill="#fff"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M16.59 9H15V4c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v5H7.41c-.89 0-1.34 1.08-.71 1.71l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.63-.63.19-1.71-.7-1.71zM5 19c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
   </v-container>
 </template>
 
 <script>
 export default {
   data() {
+    const canvas = document.querySelector("canvas");
+    const ctx = this.canvas.getContext("2d");
+    let image = "";
+    let shape = "original";
+    const banner = new Image();
+    banner.src = "@/assets/data/img/logo.png";
+    banner.onload = () => {
+      this.draw();
+    };
     return {
-      cropperDivWidth: 300,
-      cropperDivHeight: false,
-      cropperDivMaxHeight: 300,
-      cropping: false,
-      image: false,
-      imageWidth: 0,
-      imageHeight: 0,
-      canvasWidth: 200,
-      canvasHeight: 200,
-      ctx: false,
-      mainStroke: "rgba(255,255,255,0.99)",
-      lineDash: [1, 1],
-      overlayStyle: "rgba(0,0,0,0.4)",
-      fillStyle: "rgba(0,0,0,0.7)",
-      strokeStyle: "rgba(255,255,255,0.7)",
-      hoverFillStyle: "rgba(255,255,255,0.4)",
-      hoverStrokeStyle: "white",
-      x: 20,
-      y: 20,
-      w: 100,
-      h: 100,
-      markerSize: 20,
-      deltaX: 0,
-      deltaY: 0,
-      dragged: false,
-      aspectRatio: 1,
-      croppedWidth: 200,
-      croppedHeight: 200,
-      minWidth: 10,
-      minHeight: 10,
-      croppedImage: false,
-      circle: false
+      canvas,
+      ctx,
+      image,
+      shape,
+      banner
     };
   },
-  computed: {
-    cropperDivStyle: function() {
-      return {
-        width: this.cropperDivWidth + "px",
-        height: this.cropperHeight + "px",
-        textAlign: "center"
-      };
-    },
-    cropperHeight: function() {
-      return this.cropperDivHeight
-        ? this.cropperDivHeight
-        : this.cropperDivMaxHeight;
-    },
-    cropperWidth: function() {
-      return this.cropping && this.$refs.cropperdiv.offsetWidth;
-    },
-    cropperDivRatio: function() {
-      return this.cropperWidth / this.cropperHeight;
-    },
-    imageRatio: function() {
-      return this.imageWidth / this.imageHeight;
-    },
-    markers: function() {
-      return {
-        nw: {
-          x: this.x - this.markerSize / 2,
-          y: this.y - this.markerSize / 2
-        },
-        ne: {
-          x: this.x + this.w - this.markerSize / 2,
-          y: this.y - this.markerSize / 2
-        },
-        sw: {
-          x: this.x - this.markerSize / 2,
-          y: this.y + this.h - this.markerSize / 2
-        },
-        se: {
-          x: this.x + this.w - this.markerSize / 2,
-          y: this.y + this.h - this.markerSize / 2
-        }
-      };
-    },
-    cw: function() {
-      return this.croppedWidth || this.w;
-    },
-    ch: function() {
-      return this.croppedHeight || this.h;
-    },
-    roundCorners: function() {
-      if (this.circle) {
-        return { borderRadius: "100%" };
-      } else return false;
-    }
-  },
   methods: {
-    selectFile: function(evt) {
-      var file = evt.currentTarget.files[0];
-      var reader = new FileReader();
-      var cropper = this;
-      reader.onload = function(evt) {
-        cropper.cropping = true;
-        if (cropper.circle) {
-          cropper.aspectRatio = 1;
-          cropper.h = cropper.w;
+    download: function() {
+      const a = document.createElement("a");
+      const url = this.canvas.toDataURL("image/png;base64");
+      a.download = "badge.png";
+      a.href = url;
+      a.click();
+    },
+    draw: function() {
+      if (this.image) {
+        switch (this.shape) {
+          case "original": {
+            this.canvas.width = this.image.width;
+            this.canvas.height = this.image.height;
+            this.ctx.drawImage(this.image, 0, 0);
+            break;
+          }
+          default: {
+            this.canvas.width = 500;
+            this.canvas.height = 500;
+            const hRatio = this.canvas.width / this.image.width;
+            const vRatio = this.canvas.height / this.image.height;
+            const ratio = Math.max(hRatio, vRatio);
+            const x = (this.canvas.width - this.image.width * ratio) / 2;
+            const y = (this.canvas.height - this.image.height * ratio) / 2;
+            this.ctx.drawImage(
+              this.image,
+              0,
+              0,
+              this.image.width,
+              this.image.height,
+              x,
+              y,
+              this.image.width * ratio,
+              this.image.height * ratio
+            );
+            break;
+          }
         }
-        var image = new Image();
-        image.src = evt.target.result;
-        image.onload = function() {
-          cropper.image = image;
-          cropper.drawing = true;
-          cropper.imageWidth = image.width;
-          cropper.imageHeight = image.height;
-          cropper.canvasWidth = cropper.cropperWidth;
-          cropper.canvasHeight = cropper.cropperHeight;
-          if (cropper.imageRatio < cropper.cropperDivRatio) {
-            cropper.canvasWidth = cropper.canvasHeight * cropper.imageRatio;
-          }
-          if (cropper.imageRatio > cropper.cropperDivRatio) {
-            cropper.canvasHeight = cropper.canvasWidth / cropper.imageRatio;
-          }
-
-          var canvas = cropper.$refs.canvas;
-          cropper.ctx = canvas.getContext("2d");
-          cropper.ctx.drawImage(
-            cropper.image,
-            0,
-            0,
-            cropper.canvasWidth,
-            cropper.canvasHeight
-          );
-        };
-      };
-      reader.readAsDataURL(file);
-    },
-    moveMouse: function(event) {
-      if (event === undefined) return false;
-      var doc = document.documentElement;
-      var scrollLeft =
-        (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
-      var scrollTop =
-        (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-      var x = event.clientX - event.target.offsetLeft + scrollLeft;
-      var y = event.clientY - event.target.offsetTop + scrollTop;
-      var ctx = this.ctx;
-
-      //draw the image
-      ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
-      ctx.drawImage(this.image, 0, 0, this.canvasWidth, this.canvasHeight);
-
-      //update coords
-      if (this.dragged) this.updateCoords(x, y);
-
-      //draw crop area and handles
-      this.drawSelection(ctx, x, y);
-
-      //crop image
-      var scaleX = this.imageWidth / this.canvasWidth;
-      var scaleY = this.imageHeight / this.canvasHeight;
-      let resultCanvas = document.createElement("canvas");
-      resultCanvas.width = this.cw;
-      resultCanvas.height = this.ch;
-      resultCanvas
-        .getContext("2d")
-        .drawImage(
-          this.image,
-          this.x * scaleX,
-          this.y * scaleY,
-          this.w * scaleX,
-          this.h * scaleY,
-          0,
-          0,
-          this.cw,
-          this.ch
-        );
-      this.croppedImage = resultCanvas.toDataURL();
-    },
-    drawSelection: function(ctx, x, y) {
-      this.drawOverlay(ctx);
-      this.$refs.canvas.style.cursor = "default";
-
-      ctx.beginPath();
-      if (!this.circle) {
-        ctx.rect(this.x, this.y, this.w, this.h);
       } else {
-        ctx.arc(
-          this.x + this.w / 2,
-          this.y + this.h / 2,
-          this.w / 2,
-          0,
-          2 * Math.PI
-        );
+        this.ctx.canvas.width = 500;
+        this.ctx.canvas.height = 500;
+        this.ctx.fillStyle = "#0d47a1";
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
       }
-      if (ctx.isPointInPath(x, y)) {
-        this.$refs.canvas.style.cursor = "move";
-      }
-      ctx.setLineDash(this.lineDash);
-      ctx.strokeStyle = this.mainStroke;
-      ctx.stroke();
-      ctx.setLineDash([]);
 
-      for (var p in this.markers) {
-        var rectangle = this.markers[p];
-        ctx.beginPath();
-        ctx.rect(rectangle.x, rectangle.y, this.markerSize, this.markerSize);
-        ctx.fillStyle = this.fillStyle;
-        ctx.strokeStyle = this.strokeStyle;
-        if (ctx.isPointInPath(x, y)) {
-          ctx.fillStyle = this.hoverFillStyle;
-          ctx.strokeStyle = this.hoverStrokeStyle;
-          this.$refs.canvas.style.cursor = p + "-resize";
-        }
-        ctx.fill();
-        ctx.stroke();
-      }
-    },
-    drawOverlay: function(ctx) {
-      ctx.fillStyle = this.overlayStyle;
-      ctx.fillRect(0, 0, this.canvasWidth, this.y);
-      ctx.fillRect(0, this.y, this.x, this.h);
-      ctx.fillRect(
-        this.x + this.w,
-        this.y,
-        this.canvasWidth - (this.x + this.w),
-        this.h
-      );
-      ctx.fillRect(
+      const height =
+        (this.banner.height / this.banner.width) * this.canvas.width;
+      const y = this.canvas.height - height;
+      const fontSize = this.canvas.width / 17.2;
+      this.ctx.drawImage(
+        this.banner,
         0,
-        this.y + this.h,
-        this.canvasWidth,
-        this.canvasHeight - (this.y + this.h)
+        0,
+        this.banner.width,
+        this.banner.height,
+        0,
+        y,
+        this.canvas.width,
+        height
       );
-    },
-    startDrag: function(event) {
-      var doc = document.documentElement;
-      var scrollLeft =
-        (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
-      var scrollTop =
-        (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-      var x = event.clientX - event.target.offsetLeft + scrollLeft;
-      var y = event.clientY - event.target.offsetTop + scrollTop;
-      var ctx = this.ctx;
 
-      for (var p in this.markers) {
-        var rectangle = this.markers[p];
-        ctx.beginPath();
-        ctx.rect(rectangle.x, rectangle.y, this.markerSize, this.markerSize);
-        if (ctx.isPointInPath(x, y)) {
-          this.dragged = p;
-          this.deltaX = x - rectangle.x;
-          this.deltaY = y - rectangle.y;
-          return;
-        }
-      }
-      ctx.beginPath();
-      if (ctx.isPointInPath(x, y)) {
-        this.dragged = "all";
-        this.deltaX = x - this.x;
-        this.deltaY = y - this.y;
-        return;
+      this.ctx.fillStyle = "#757575";
+      this.ctx.textAlign = "center";
+      this.ctx.textBaseline = "middle";
+      this.ctx.font = `${fontSize}px Google Sans, sans-serif`;
+
+      if (this.shape === "circle") {
+        this.ctx.globalCompositeOperation = "destination-in";
+        this.ctx.beginPath();
+        this.ctx.arc(
+          this.canvas.width / 2,
+          this.canvas.height / 2,
+          this.canvas.height / 2,
+          0,
+          Math.PI * 2
+        );
+        this.ctx.closePath();
+        this.ctx.fill();
       }
     },
-    stopDrag: function() {
-      this.dragged = false;
-      this.deltaX = 0;
-      this.deltaY = 0;
+    upload: function(e) {
+      if (e && e.target.files && e.target.files[0]) {
+        const reader = new FileReader();
+        reader.onload = event => {
+          const img = new Image();
+          img.onload = () => {
+            this.image = img;
+            this.draw();
+          };
+          img.src = event.target.result;
+        };
+        reader.readAsDataURL(e.target.files[0]);
+      }
     },
-    updateCoords: function(x, y) {
-      var newX, newY, newW, newH;
-      if (this.dragged == "all") {
-        newX = x - this.deltaX;
-        newY = y - this.deltaY;
-        newW = this.w;
-        newH = this.h;
-      } else {
-        var ox = this.dragged[1] == "w" ? "e" : "w";
-        var oy = this.dragged[0] == "n" ? "s" : "n";
-        var oppositeIdx = oy + ox;
-        if (ox == "e") {
-          newX = x - this.deltaX + this.markerSize / 2;
-          newW = this.markers[oppositeIdx].x - newX + this.markerSize / 2;
-        } else {
-          newX = this.x;
-          newW = x - this.deltaX - this.markers[oppositeIdx].x;
+    changeShape: function(type) {
+      const original = document.querySelector(
+        ".select-container .select#original"
+      );
+      const square = document.querySelector(".select-container .select#square");
+      const circle = document.querySelector(".select-container .select#circle");
+      this.shape = type;
+      switch (type) {
+        case "original": {
+          original.setAttribute("selected", "");
+          square.removeAttribute("selected");
+          circle.removeAttribute("selected");
+          break;
         }
-        if (oy == "s") {
-          newY = y - this.deltaY + this.markerSize / 2;
-          newH = this.markers[oppositeIdx].y - newY + this.markerSize / 2;
-        } else {
-          newY = this.y;
-          newH = y - this.deltaY - this.markers[oppositeIdx].y;
+        case "square": {
+          square.setAttribute("selected", "");
+          original.removeAttribute("selected");
+          circle.removeAttribute("selected");
+          break;
         }
-      }
-
-      if (this.aspectRatio) {
-        newH = newW / this.aspectRatio;
-      }
-
-      if (newX < 0) newX = 0;
-      if (newY < 0) newY = 0;
-      if (newX + newW > this.canvasWidth) {
-        newW = this.canvasWidth - newX;
-        if (this.aspectRatio) {
-          newH = newW / this.aspectRatio;
+        case "circle": {
+          circle.setAttribute("selected", "");
+          original.removeAttribute("selected");
+          square.removeAttribute("selected");
+          break;
         }
       }
-      if (newY + newH > this.canvasHeight) {
-        newH = this.canvasHeight - newY;
-        if (this.aspectRatio) {
-          newW = newH * this.aspectRatio;
-        }
-      }
-      if (newW < this.minWidth) {
-        newW = this.minWidth;
-        newH = newW / this.aspectRatio;
-      }
-      if (newH < this.minHeight) {
-        newH = this.minHeight;
-        newW = newH * this.aspectRatio;
-      }
-
-      this.x = newX;
-      this.y = newY;
-      this.w = newW;
-      this.h = newH;
+      this.draw();
+    },
+    uploadImage: function() {
+      document.querySelector("input.profile-input").click();
     }
   }
 };
 </script>
+
+<style>
+* {
+  box-sizing: border-box;
+  --shadow-elevation-1: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  --shadow-elevation-2: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  --button-color: #2979ff;
+  --button-color-hover: #3580fd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* body {
+  background: #e0e0e0;
+  margin: 0;
+  font-family: "Google Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #4a4a4a;
+  min-height: 100vh;
+} */
+
+header {
+  background-color: #fff;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 1;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.input-panel {
+  padding: 24px;
+  width: 40%;
+  max-width: 420px;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.input {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input:last-child {
+  margin-bottom: 0;
+}
+
+.input label {
+  font-size: 13px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.button {
+  color: #fff;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 10px 12px;
+  box-shadow: var(--shadow-elevation-1);
+  background-color: var(--button-color);
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 100ms ease, background-color 100ms ease;
+}
+
+.button:hover {
+  box-shadow: var(--shadow-elevation-2);
+  background-color: var(--button-color-hover);
+}
+
+input.category-input {
+  font-size: 15px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 360px;
+}
+
+input.category-input:focus {
+  outline: none;
+  border-color: #8e8e8e;
+}
+
+.select-container {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #cacaca;
+  overflow: hidden;
+}
+
+.select-container .select {
+  background-color: #fff;
+  padding: 6px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 100ms ease;
+}
+
+.select-container .select:not(:last-child) {
+  border-right: 1px solid #cacaca;
+}
+
+.select-container .select[selected] {
+  color: #fff;
+  background-color: var(--button-color);
+}
+
+.preview-panel {
+  padding: 36px 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+canvas {
+  width: 500px;
+  max-width: 80%;
+}
+
+.download-fab {
+  cursor: pointer;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color: #2979ff;
+  box-shadow: var(--shadow-elevation-1);
+  transition: background-color 100ms ease, box-shadow 100ms ease;
+}
+
+.download-fab:hover {
+  background-color: #3580fd;
+  box-shadow: var(--shadow-elevation-2);
+}
+
+@media screen and (max-width: 860px) {
+  header {
+    height: 56px;
+    font-size: 20px;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .input-panel,
+  .preview-panel {
+    width: 100%;
+    max-width: initial;
+  }
+  .preview-panel {
+    padding: 24px 0 96px 0;
+    flex: 1;
+  }
+  .input {
+    margin-bottom: 24px;
+  }
+  .download-fab {
+    width: 56px;
+    height: 56px;
+  }
+}
+</style>
