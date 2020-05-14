@@ -127,9 +127,10 @@
     max-width: 320px;
 }
 
-.align-items-center {
+
+/* .align-items-center {
     align-items: center;
-}
+} */
 
 .resources-card-wrapper {
     flex-basis: 22.666667% !important;
@@ -158,9 +159,9 @@
         cursor: pointer;
         width: 50px;
     }
-    .align-items-center {
+    /* .align-items-center {
         align-items: center;
-    }
+    } */
 }
 
 @media only screen and (max-width:768px) {
