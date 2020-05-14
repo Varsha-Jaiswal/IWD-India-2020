@@ -4,7 +4,7 @@
      xs12 sm4 md4 lg3
       v-for="(item,i) in youtubeData"
       :key="i"
-      class="resources-card-wrapper"
+      style="flex-basis: 25%"
     >
       <ResourcesDialog :data="{vdata:item}" />
     </v-flex>

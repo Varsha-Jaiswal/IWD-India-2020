@@ -17,20 +17,20 @@
     </v-container>
 
      <v-container>
-      <CropImage />
+      <GetBadge />
     </v-container>
   </v-content>
 </template>
 
 <script>
-import CropImage from "@/components/resources/CropImage";
+import GetBadge from "@/components/resources/GetBadge";
 import Resources from "@/components/resources/Resources";
 import ResourcesMobileView from "@/components/resources/ResourcesMobileView";
 export default {
   components: {
     Resources,
     ResourcesMobileView,
-    CropImage
+    GetBadge
   }
 };
 </script>

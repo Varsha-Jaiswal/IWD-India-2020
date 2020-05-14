@@ -49,16 +49,15 @@
           target="_blank"
           rounded
           color="#fff"
-          style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px;background-color: rgb(23, 172, 182);"
-          outlined
+          style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px;background-color: rgb(23, 172, 182);" text
           class="ml-0 google-font"
         >Become a Member</v-btn>
         <v-btn
           href="https://www.youtube.com/watch?v=t0nB3B7x41Q&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI"
           target="_blank"
           rounded
-          color="#fff"
-          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;border-color:#ff7370;background-color:#c4302b"
+          color="#fff" text
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
         >Youtube Livestream</v-btn>
       </v-flex>
