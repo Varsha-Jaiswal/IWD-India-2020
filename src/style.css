@@ -127,9 +127,10 @@
     max-width: 320px;
 }
 
-.align-items-center {
+
+/* .align-items-center {
     align-items: center;
-}
+} */
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .header-image {
@@ -153,9 +154,9 @@
         cursor: pointer;
         width: 50px;
     }
-    .align-items-center {
+    /* .align-items-center {
         align-items: center;
-    }
+    } */
 }
 
 @media only screen and (max-width:768px) {
