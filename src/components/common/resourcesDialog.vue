@@ -12,7 +12,6 @@
               style="font-size: 90%;"
             >{{data.vdata.date}} | 02:00 - 05:00 PM IST</p>
             <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
-            <!-- <p class="mb-0 mt-2 google-font" style="color: rgb(26, 115, 232);">See More</p> -->
             <v-btn
               :href="data.vdata.link"
               target="_blank"

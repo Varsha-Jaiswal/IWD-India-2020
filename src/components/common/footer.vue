@@ -53,7 +53,7 @@
     </v-container>
 
     <v-container
-      class="d-md-none d-lg-none d-xl-nome"
+      class="d-md-none d-lg-none d-xl-none"
       fluid
       style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-bottom: 0;background:rgb(248, 248, 248);"
     >

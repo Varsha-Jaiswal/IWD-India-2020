@@ -17,7 +17,7 @@
     <v-row class="pa-0">
       <canvas id="canvas1"></canvas>
       <div style="display:none;">
-        <img id="source1" src="@/assets/img/dark attendee filter.png" width="350px" height="350px" />
+        <img id="source1" src="@/assets/img/dark attendee filter.png" width="500px" height="500px" />
       </div>
     </v-row>
     <br />
@@ -57,7 +57,6 @@ export default {
     this.ctx = this.canvas.getContext("2d");
     this.draw();
   },
-  beforeMount() {},
   methods: {
     download() {
       const a = document.createElement("a");
@@ -68,8 +67,8 @@ export default {
     },
     draw() {
       if (this.image) {
-        this.canvas.width = 350;
-        this.canvas.height = 350;
+        this.canvas.width = 500;
+        this.canvas.height = 500;
         const hRatio = this.canvas.width / this.image.width;
         const vRatio = this.canvas.height / this.image.height;
         const ratio = Math.max(hRatio, vRatio);
@@ -89,12 +88,11 @@ export default {
         const image = document.getElementById("source1");
         this.ctx.drawImage(image, 0, 0, image.width, image.height);
       } else {
-        this.ctx.canvas.width = 350;
-        this.ctx.canvas.height = 350;
+        this.ctx.canvas.width = 500;
+        this.ctx.canvas.height = 500;
         this.ctx.fillStyle = "#e0e0e0";
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
         const image = document.getElementById("source1");
-
         image.addEventListener("load", () => {
           this.ctx.drawImage(image, 0, 0, image.width, image.height);
         });
@@ -126,5 +124,23 @@ export default {
 canvas {
   margin-left: auto;
   margin-right: auto;
+  width: 350px;
+  height: 350px;
+}
+@media only screen and (max-width: 1024px) {
+  canvas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  canvas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
 }
 </style>

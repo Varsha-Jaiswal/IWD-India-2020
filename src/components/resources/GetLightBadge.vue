@@ -1,7 +1,8 @@
 <template>
   <v-container id="light" class="text-center">
     <v-row>
-      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">Light Theme
+      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">
+        Light Theme
         <v-tooltip top color="#424242">
           <template v-slot:activator="{ on }">
             <v-icon v-on="on" style="cursor:pointer;">mdi-information</v-icon>
@@ -16,7 +17,7 @@
     <v-row class="pa-0">
       <canvas id="canvas2"></canvas>
       <div style="display:none;">
-        <img id="source2" src="@/assets/img/light attendee filter.png" width="350px" height="350px" />
+        <img id="source2" src="@/assets/img/light attendee filter.png" width="500px" height="500px" />
       </div>
     </v-row>
     <br />
@@ -67,8 +68,8 @@ export default {
     },
     draw() {
       if (this.image) {
-        this.lightCanvas.width = 350;
-        this.lightCanvas.height = 350;
+        this.lightCanvas.width = 500;
+        this.lightCanvas.height = 500;
         const hRatio = this.lightCanvas.width / this.image.width;
         const vRatio = this.lightCanvas.height / this.image.height;
         const ratio = Math.max(hRatio, vRatio);
@@ -88,8 +89,8 @@ export default {
         const image = document.getElementById("source2");
         this.lightctx.drawImage(image, 0, 0, image.width, image.height);
       } else {
-        this.lightctx.canvas.width = 350;
-        this.lightctx.canvas.height = 350;
+        this.lightctx.canvas.width = 500;
+        this.lightctx.canvas.height = 500;
         this.lightctx.fillStyle = "#e0e0e0";
         this.lightctx.fillRect(
           0,
@@ -98,7 +99,6 @@ export default {
           this.lightCanvas.height
         );
         const image = document.getElementById("source2");
-
         image.addEventListener("load", () => {
           this.lightctx.drawImage(image, 0, 0, image.width, image.height);
         });
@@ -130,5 +130,23 @@ export default {
 canvas {
   margin-left: auto;
   margin-right: auto;
+  width: 350px;
+  height: 350px;
+}
+@media only screen and (max-width: 1024px) {
+  canvas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  canvas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
 }
 </style>

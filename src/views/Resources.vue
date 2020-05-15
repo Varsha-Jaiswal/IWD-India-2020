@@ -18,19 +18,54 @@
 
     <v-container class="pb-10">
       <v-row class="mb-5 align-center justify-center">
-        <v-col cols="10" class="text-center pb-0 elevation-1" style="border:1px solid #e0e0e0;border-radius:7px;">
+        <v-col
+          cols="10"
+          v-if="!smallScreen"
+          class="text-center pb-0 elevation-1"
+          style="border:1px solid #e0e0e0;border-radius:7px;"
+        >
           <p class="google-font ma-0 mt-2 mb-5" style="font-size: 160%;">IWD India Badge Generator</p>
+        </v-col>
+        <v-col
+          cols="12"
+          v-if="smallScreen"
+          class="text-center pb-0 elevation-1"
+          style="border:1px solid #e0e0e0;border-radius:7px;"
+        >
+          <p class="google-font ma-0 mt-2 mb-5" style="font-size: 140%;">IWD India Badge Generator</p>
         </v-col>
       </v-row>
       <v-row class="mx-5 align-center justify-center">
         <v-col
+          v-if="smallScreen"
+          cols="12"
+          style="border:1px solid #e0e0e0;border-radius:7px;"
+          class="elevation-1 mb-2 d-md-none d-lg-none d-xl-none"
+        >
+          <GetDarkBadge />
+        </v-col>
+        <v-col
+          v-if="smallScreen"
+          cols="12"
+          style="border:1px solid #e0e0e0;border-radius:7px;"
+          class="elevation-1 mb-5 d-md-none d-lg-none d-xl-none"
+        >
+          <GetLightBadge />
+        </v-col>
+        <v-col
+          v-if="!smallScreen"
           cols="5"
           style="border:1px solid #e0e0e0;border-radius:7px;"
           class="elevation-1 mr-10"
         >
           <GetDarkBadge />
         </v-col>
-        <v-col cols="5" style="border:1px solid #e0e0e0;border-radius:7px;" class="elevation-1">
+        <v-col
+          v-if="!smallScreen"
+          cols="5"
+          style="border:1px solid #e0e0e0;border-radius:7px;"
+          class="elevation-1"
+        >
           <GetLightBadge />
         </v-col>
       </v-row>
@@ -44,6 +79,19 @@ import GetLightBadge from "@/components/resources/GetLightBadge";
 // import Resources from "@/components/resources/Resources";
 // import ResourcesMobileView from "@/components/resources/ResourcesMobileView";
 export default {
+  mounted() {
+    if (window.screen.width < 1000) {
+      this.smallScreen = true;
+    }
+    if (window.screen.width < 400) {
+      this.extraSmallScreen = true;
+    }
+  },
+  data() {
+    return {
+      smallScreen: false
+    };
+  },
   components: {
     // Resources,
     // ResourcesMobileView,
