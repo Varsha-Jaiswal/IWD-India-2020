@@ -1,7 +1,7 @@
 <template>
   <v-container id="dark" class="text-center">
     <v-row>
-      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">
+      <v-col md6 lg6 xs12 class="google-font" style="font-size:130%;">
         Dark Theme
         <v-tooltip top color="#424242">
           <template v-slot:activator="{ on }">

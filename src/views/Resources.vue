@@ -40,7 +40,7 @@
           v-if="smallScreen"
           cols="12"
           style="border:1px solid #e0e0e0;border-radius:7px;"
-          class="elevation-1 mb-2 d-md-none d-lg-none d-xl-none"
+          class="elevation-1 mb-4 d-md-none d-lg-none d-xl-none"
         >
           <GetDarkBadge />
         </v-col>
