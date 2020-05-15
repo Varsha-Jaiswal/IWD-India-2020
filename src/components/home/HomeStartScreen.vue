@@ -60,7 +60,6 @@
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
         >Youtube Livestream</v-btn>
-        <a href="https://twitter.com/intent/tweet?screen_name=TwitterDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a>
       </v-flex>
       <v-flex xs12 sm12 md5 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
         <!-- <v-img
@@ -85,7 +84,7 @@
     </v-layout>
   </v-container>
 </template>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <script>
 import ChapterDetails from "@/assets/data/chapterDetails.json";
 export default {
