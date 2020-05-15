@@ -3,13 +3,24 @@
     <template v-slot:activator="{ on }">
       <div v-on="on" style="cursor: pointer;">
         <div
-          style="border-radius: 5px;border: 1px solid rgb(224, 224, 224);min-height:130px;max-height: 200px;border-left: 8px solid rgb(66, 133, 244) !important;box-shadow: 0px 3px 8px #e9e9e9;"
+          style="border-radius: 5px;border: 1px solid rgb(224, 224, 224);max-height: 150px;min-height:150px;border-left: 8px solid rgb(66, 133, 244) !important;box-shadow: 0px 3px 8px #e9e9e9;"
           class="ma-1 hidden-sm-and-down"
         >
           <div class="pa-3 card-light" style="cursor: pointer;">
-            <p class="google-font mt-2 mb-0" style="font-size: 90%;">{{data.vdata.date}}</p>
-            <p class="google-font ma-0 mt-0" style="font-size: 110%;">{{data.vdata.track}}</p>
-            <p class="mb-0 mt-2 google-font" style="color: rgb(26, 115, 232);">See More</p>
+            <p
+              class="google-font mt-2 mb-0"
+              style="font-size: 90%;"
+            >{{data.vdata.date}} | 02:00 - 05:00 PM IST</p>
+            <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
+            <!-- <p class="mb-0 mt-2 google-font" style="color: rgb(26, 115, 232);">See More</p> -->
+            <v-btn
+              :href="data.vdata.link"
+              target="_blank"
+              rounded
+              color="#fff"
+              style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#4285F4"
+              class="ml-0 google-font"
+            >Watch Now</v-btn>
           </div>
         </div>
         <div

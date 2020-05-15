@@ -1,7 +1,18 @@
 <template>
   <v-container id="dark" class="text-center">
     <v-row>
-      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">IWD India Badge Generator</v-col>
+      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">
+        Dark Theme
+        <v-tooltip top color="#424242">
+          <template v-slot:activator="{ on }">
+            <v-icon v-on="on" style="cursor:pointer;">mdi-information</v-icon>
+          </template>
+          <span
+            class="google-font"
+            style="font-size:80%"
+          >Please provide the image in which you are in center.</span>
+        </v-tooltip>
+      </v-col>
     </v-row>
     <v-row class="pa-0">
       <canvas id="canvas1"></canvas>
@@ -13,18 +24,20 @@
     <v-row>
       <v-col>
         <v-btn
-          color="#1a73e8"
+          color="#4285F4"
+          outlined
           @click="uploadImage()"
           class="ma-0 google-font elevation-0 mr-2"
-          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;"
+          style="text-transform: capitalize;border-radius: 5px;color: #4285F4; font-size:15px; padding: 7px;"
         >{{ image ? 'Upload Another' : 'Upload'}}</v-btn>
         <input type="file" accept="image/*" @change="upload($event)" hidden />
         <v-btn
           v-if="image"
           @click="download()"
-          color="#1a73e8"
+          outlined
+          color="#00BFA5"
           class="ma-0 google-font elevation-0"
-          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #00BFA5; font-size:15px; padding: 7px;"
+          style="text-transform: capitalize;border-radius: 5px;color: #00BFA5;font-size:15px; padding: 7px;"
         >Download</v-btn>
       </v-col>
     </v-row>
