@@ -138,8 +138,8 @@
     },
     {
         "id": "212",
-        "title": "Fireside Chat on Machine Learning",
-        "description": "",
+        "title": "Fireside Chat",
+        "description": "Fireside Chat",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
         "date": "May 24th, 2020",
@@ -258,7 +258,7 @@
     {
         "id": "222",
         "title": "What’s new in Android R",
-        "description": "",
+        "description": "Learn about new features in Android R and how they will impact your app. Also learn about Best Practices for new API’s.",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
