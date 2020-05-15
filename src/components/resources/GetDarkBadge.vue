@@ -1,53 +1,31 @@
 <template>
-  <v-container>
-    <v-row class="mx-3">
-      <v-col cols="5" style="border:1px solid #e0e0e0;border-radius:7px;" class="elevation-1">
-        <v-container class="text-center">
-          <v-row>
-            <v-col
-              md6
-              lg6
-              xs12
-              class="google-font"
-              style="font-size:150%;"
-            >IWD India Badge Generator</v-col>
-          </v-row>
-          <v-row class="pa-0">
-            <canvas id="canvas"></canvas>
-            <div style="display:none;">
-              <img
-                id="source"
-                src="@/assets/img/dark attendee filter.png"
-                width="350px"
-                height="350px"
-              />
-            </div>
-          </v-row>
-          <br />
-          <v-row>
-            <v-col>
-              <v-btn
-                color="#1a73e8"
-                @click="uploadImage()"
-                class="ma-0 google-font elevation-0 mr-2"
-                style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;"
-              >Upload</v-btn>
-              <input
-                class="profile-input"
-                type="file"
-                accept="image/*"
-                @change="upload($event)"
-                hidden
-              />
-              <v-btn
-                @click="download()"
-                color="#1a73e8"
-                class="ma-0 google-font elevation-0"
-                style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #00BFA5; font-size:15px; padding: 7px;"
-              >Download</v-btn>
-            </v-col>
-          </v-row>
-        </v-container>
+  <v-container id="dark" class="text-center">
+    <v-row>
+      <v-col md6 lg6 xs12 class="google-font" style="font-size:150%;">IWD India Badge Generator</v-col>
+    </v-row>
+    <v-row class="pa-0">
+      <canvas id="canvas1"></canvas>
+      <div style="display:none;">
+        <img id="source1" src="@/assets/img/dark attendee filter.png" width="350px" height="350px" />
+      </div>
+    </v-row>
+    <br />
+    <v-row>
+      <v-col>
+        <v-btn
+          color="#1a73e8"
+          @click="uploadImage()"
+          class="ma-0 google-font elevation-0 mr-2"
+          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;"
+        >{{ image ? 'Upload Another' : 'Upload'}}</v-btn>
+        <input type="file" accept="image/*" @change="upload($event)" hidden />
+        <v-btn
+          v-if="image"
+          @click="download()"
+          color="#1a73e8"
+          class="ma-0 google-font elevation-0"
+          style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #00BFA5; font-size:15px; padding: 7px;"
+        >Download</v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -62,7 +40,7 @@ export default {
     };
   },
   mounted() {
-    this.canvas = document.querySelector("canvas");
+    this.canvas = document.getElementById("canvas1");
     this.ctx = this.canvas.getContext("2d");
     this.draw();
   },
@@ -71,7 +49,7 @@ export default {
     download() {
       const a = document.createElement("a");
       const url = this.canvas.toDataURL("image/png;base64");
-      a.download = "IWD-India-Badge.png";
+      a.download = "IWD-India-Badge Dark-Filter.png";
       a.href = url;
       a.click();
     },
@@ -95,14 +73,14 @@ export default {
           this.image.width * ratio,
           this.image.height * ratio
         );
-        const image = document.getElementById("source");
+        const image = document.getElementById("source1");
         this.ctx.drawImage(image, 0, 0, image.width, image.height);
       } else {
         this.ctx.canvas.width = 350;
         this.ctx.canvas.height = 350;
-        this.ctx.fillStyle = "#fff";
+        this.ctx.fillStyle = "#e0e0e0";
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-        const image = document.getElementById("source");
+        const image = document.getElementById("source1");
 
         image.addEventListener("load", () => {
           this.ctx.drawImage(image, 0, 0, image.width, image.height);
@@ -125,7 +103,7 @@ export default {
       }
     },
     uploadImage() {
-      document.querySelector("input.profile-input").click();
+      document.querySelector("input").click();
     }
   }
 };
