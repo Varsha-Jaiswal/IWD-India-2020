@@ -20,7 +20,7 @@
         <v-card-title
           class="px-5 py-5 grey lighten-4 google-font"
           primary-title
-            :style="{'background-image':'url('+require('@/assets/img/common/common-header-2.jpeg')+')'}"
+          :style="{'background-image':'url('+require('@/assets/img/common/common-header-2.jpeg')+')'}"
           style="background-position:center; background-color: #dfe0e1 !important;background-size: cover;"
         >&nbsp;&nbsp;&nbsp;&nbsp;</v-card-title>
 
@@ -34,39 +34,47 @@
                   </v-layout>
                 </v-img>
               </v-avatar>
-              <p class="my-0 mt-3 google-font" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
-              <p class="my-0 google-font" v-if="data.vdata.company.designation">{{data.vdata.company.designation}} <span v-if="data.vdata.company.name">@</span> {{data.vdata.company.name}}</p>
+              <p
+                class="my-0 mt-3 google-font"
+                style="font-size:130%;color:#424242"
+              >{{data.vdata.name}}</p>
+              <p class="my-0 google-font" v-if="data.vdata.company.designation">
+                {{data.vdata.company.designation}}
+                <span v-if="data.vdata.company.name">@</span>
+                {{data.vdata.company.name}}
+              </p>
               <socialMediaDetails :data="{vdata:data.vdata.social}" />
             </v-flex>
 
             <v-flex xs12 md8 sm8 class="pa-2 pr-5" style="text-align:justify;">
-              
               <p class="google-font">{{data.vdata.bio}}</p>
-                       <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
-                      <b>Sessions:</b>
+              <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
+                <b>Sessions:</b>
               </p>
 
-          <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
-            <v-list two-line subheader class="pa-0 ma-0">
-              <v-list-item class="pa-0">
-                  <v-list-item-content>
-                  <v-list-item-title class="google-font text-wrap" style="color:#424242;">{{ item.title }}</v-list-item-title>
-                    <p class="google-font">{{item.description}}</p>
-                  <v-list-item-subtitle class="google-font">
-                    {{ item.track}}
-                    <br />
-                    <v-chip
-                      color="#00BFA5"
-                      label
-                      outlined
-                      class="mt-2 mb-0 speaker-details"
-                      x-small
-                    >{{item.format}}</v-chip>
-                  </v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-flex>
+              <v-flex xs12 md6 v-for="(item, index) in SessionsData" :key="index">
+                <v-list two-line subheader class="pa-0 ma-0">
+                  <v-list-item class="pa-0">
+                    <v-list-item-content>
+                      <v-list-item-title
+                        class="google-font text-wrap"
+                        style="color:#424242;"
+                      >{{ item.title }}</v-list-item-title>
+                      <v-list-item-subtitle class="google-font">
+                        {{ item.track}}
+                        <br />
+                        <v-chip
+                          color="#00BFA5"
+                          label
+                          outlined
+                          class="mt-2 mb-0 speaker-details"
+                          x-small
+                        >{{item.format}}</v-chip>
+                      </v-list-item-subtitle>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-list>
+              </v-flex>
             </v-flex>
           </v-layout>
         </v-card-text>
@@ -81,10 +89,10 @@
 </template>
 
 <script>
-import SessionDetails from "@/assets/data/sessions.json"
+import SessionDetails from "@/assets/data/sessions.json";
 export default {
   components: {
-    socialMediaDetails:() => import('@/components/common/socialMedia')
+    socialMediaDetails: () => import("@/components/common/socialMedia")
   },
   props: {
     data: {
