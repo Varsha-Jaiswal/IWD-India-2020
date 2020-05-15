@@ -1,8 +1,8 @@
 [
     {
         "id": "201",
-        "title": "Keynote",
-        "description": "",
+        "title": "Strong and Kind",
+        "description": "Reflection on how one can build resilience while navigating the pressures of demands of a dynamic workplace and the pivotal role of mindfulness, kindness and compassion.",
         "track": "Leadership",
         "format": "Keynote",
         "date": "May 23rd, 2020",
@@ -257,7 +257,7 @@
     },
     {
         "id": "222",
-        "title": "Tech Talk on Android",
+        "title": "What’s new in Android R",
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
