@@ -52,11 +52,21 @@
           href="https://www.womentechmakers.com/membership"
           target="_blank"
           rounded
-          color="#4285F4"
-          style="text-transform: capitalize;border-radius:5px;"
+          color="#fff"
+          style="text-transform: capitalize;border-radius:5px; font-size:15px;background-color: rgb(23, 172, 182);"
           outlined
           class="ml-0 google-font"
         >Become a Member</v-btn>
+        <!-- <br />
+        <br />
+        <v-btn
+          href="https://www.youtube.com/watch?v=t0nB3B7x41Q&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI"
+          target="_blank"
+          rounded
+          color="#fff" text
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
+          class="ml-0 google-font"
+        >Youtube Livestream</v-btn> -->
       </v-card-text>
     </v-card>
 
@@ -67,6 +77,14 @@
         :src="require('@/assets/img/home-header-new.jpg')"
         :lazy-src="require('@/assets/img/home-header-new.jpg')"
       ></v-img>
+      <!-- <iframe
+        width="100%"
+        height="300"
+        src="https://www.youtube.com/embed/fknJH4qyOIc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
     </v-flex>
   </div>
 </template>

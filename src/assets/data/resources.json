@@ -1,0 +1,34 @@
+{
+    "resources": {
+        "youtubePlaylist": [
+            {
+                "day": "1",
+                "date": "May 23, 2020",
+                "track": "Leadership",
+                "description": "Leadership Track desc",
+                "link": ""
+            },
+            {
+                "day": "2",
+                "date": "May 24, 2020",
+                "track": "Tech - ML & Cloud",
+                "description": "Tech - ML & Cloud track desc",
+                "link": ""
+            },
+            {
+                "day": "3",
+                "date": "May 30, 2020",
+                "track": "Design & Entrepreneurship",
+                "description": "Design & Entrepreneurship track desc",
+                "link": ""
+            },
+            {
+                "day": "4",
+                "date": "May 31, 2020",
+                "track": "Tech - Android & Web",
+                "description": "Tech - Android & Web track desc",
+                "link": ""
+            }
+        ]
+    }
+}
