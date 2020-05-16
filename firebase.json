@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "dev-wtmindia",
     "public": "dist",
     "ignore": [
       "firebase.json",

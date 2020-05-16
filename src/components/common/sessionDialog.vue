@@ -18,14 +18,10 @@
           small
         >{{data.vdata.format}}</v-chip>
         <p class="google-font ma-0 mt-2" style="font-size:110%;">{{data.vdata.title}}</p>
-        <p
-          class="google-font mt-1 mb-0"
-          style="font-size:90%"
-        >{{data.vdata.description | summary(80)}}</p>
         <p class="google-font mt-1 mb-0" style="font-size:80%;color:#424242">
           {{data.vdata.timeDuration}} min
           <b>|</b>
-          {{date}}
+          {{data.vdata.date}}
         </p>
       </div>
     </template>
@@ -104,20 +100,8 @@ export default {
   data() {
     return {
       dialog: false,
-      date: "",
       SpeakersDetails: SpeakersDetails
     };
-  },
-  mounted() {
-    if (this.data.vdata.track === "Leadership") {
-      this.date = "May 23rd, 2020";
-    } else if (this.data.vdata.track === "Tech - ML & Cloud") {
-      this.date = "May 24th, 2020";
-    } else if (this.data.vdata.track === "Design & Entrepreneurship") {
-      this.date = "May 30th, 2020";
-    } else if (this.data.vdata.track === "Tech - Android & Web") {
-      this.date = "May 31st, 2020";
-    }
   },
   methods: {
     getImgUrl(pic) {

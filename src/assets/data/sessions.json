@@ -1,8 +1,8 @@
 [
     {
         "id": "201",
-        "title": "Keynote",
-        "description": "",
+        "title": "Strong and Kind",
+        "description": "Reflection on how one can build resilience while navigating the pressures of demands of a dynamic workplace and the pivotal role of mindfulness, kindness and compassion.",
         "track": "Leadership",
         "format": "Keynote",
         "date": "May 23rd, 2020",
@@ -138,8 +138,8 @@
     },
     {
         "id": "212",
-        "title": "Fireside Chat on Machine Learning",
-        "description": "",
+        "title": "Fireside Chat",
+        "description": "Fireside Chat",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
         "date": "May 24th, 2020",
@@ -257,8 +257,8 @@
     },
     {
         "id": "222",
-        "title": "Tech Talk on Android",
-        "description": "",
+        "title": "What’s new in Android R",
+        "description": "Learn about new features in Android R and how they will impact your app. Also learn about Best Practices for new API’s.",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",

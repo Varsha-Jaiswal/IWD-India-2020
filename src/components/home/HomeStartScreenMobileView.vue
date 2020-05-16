@@ -33,7 +33,7 @@
         >For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you.</p>
         <p class="google-font mt-5 mb-2" style="font-size: 115%;color: #4285F4;font-weight: 200;">
           May 23rd, 24th, 30th, 31st
-          <br />2:00 PM to 5:00 PM
+          <br />2:00 PM to 5:00 PM IST
         </p>
         <p class="google-font mb-8" style="font-size:110%;color:#9e9e9e">
           <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">#{{item}} &nbsp;</span>
@@ -52,11 +52,21 @@
           href="https://www.womentechmakers.com/membership"
           target="_blank"
           rounded
-          color="#4285F4"
-          style="text-transform: capitalize;border-radius:5px;"
+          color="#fff"
+          style="text-transform: capitalize;border-radius:5px; font-size:15px;background-color: rgb(23, 172, 182);"
           outlined
           class="ml-0 google-font"
         >Become a Member</v-btn>
+        <!-- <br />
+        <br />
+        <v-btn
+          href="https://www.youtube.com/watch?v=t0nB3B7x41Q&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI"
+          target="_blank"
+          rounded
+          color="#fff" text
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
+          class="ml-0 google-font"
+        >Youtube Livestream</v-btn> -->
       </v-card-text>
     </v-card>
 
@@ -67,6 +77,14 @@
         :src="require('@/assets/img/home-header-new.jpg')"
         :lazy-src="require('@/assets/img/home-header-new.jpg')"
       ></v-img>
+      <!-- <iframe
+        width="100%"
+        height="300"
+        src="https://www.youtube.com/embed/fknJH4qyOIc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
     </v-flex>
   </div>
 </template>
