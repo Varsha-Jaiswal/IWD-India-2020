@@ -52,17 +52,17 @@
           style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px;background-color: rgb(23, 172, 182);" text
           class="ml-0 google-font"
         >Become a Member</v-btn>
-        <v-btn
+        <!-- <v-btn
           href="https://www.youtube.com/watch?v=t0nB3B7x41Q&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI"
           target="_blank"
           rounded
           color="#fff" text
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
-        >Youtube Livestream</v-btn>
+        >Youtube Livestream</v-btn> -->
       </v-flex>
       <v-flex xs12 sm12 md5 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
-        <!-- <v-img
+        <v-img
           :src="require('@/assets/img/home-header-new.jpg')"
           :lazy-src="require('@/assets/img/home-header-new.jpg')"
           width="100%"
@@ -71,15 +71,15 @@
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
           </v-layout>
-        </v-img>-->
-        <iframe
+        </v-img>
+        <!-- <iframe
           width="100%"
           height="340"
           src="https://www.youtube.com/embed/fknJH4qyOIc"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        ></iframe> -->
       </v-flex>
     </v-layout>
   </v-container>
