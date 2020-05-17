@@ -10,7 +10,7 @@
           <span
             class="google-font"
             style="font-size:80%"
-          >Please provide the image in which you are in center.</span>
+          >Please provide an image in which you are in the center</span>
         </v-tooltip>
       </v-col>
     </v-row>
