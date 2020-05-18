@@ -3,7 +3,7 @@
     <v-row>
       <v-col md6 lg6 xs12 class="google-font" style="font-size:130%;">
         Dark Theme
-        <v-tooltip top color="#424242">
+        <!-- <v-tooltip top color="#424242"  v-if="!image">
           <template v-slot:activator="{ on }">
             <v-icon v-on="on" style="cursor:pointer;">mdi-information</v-icon>
           </template>
@@ -11,13 +11,17 @@
             class="google-font"
             style="font-size:80%"
           >Please provide the image in which you are in center.</span>
-        </v-tooltip>
+        </v-tooltip> -->
       </v-col>
     </v-row>
     <v-row class="pa-0">
       <canvas id="canvas1"></canvas>
       <div style="display:none;">
-        <img id="source1" src="@/assets/img/dark attendee filter.png" width="500px" height="500px" />
+        <img id="source1" contain src="@/assets/img/dark attendee filter.png" width="500px" height="500px" />
+        
+      </div>
+       <div style="width:100%" v-if="!image">
+        <p class="pt-3" style="font-size: 12px;color: rgba(0, 0, 0, 0.87);">Please provide the image in which you are in center.</p>
       </div>
     </v-row>
     <br />
