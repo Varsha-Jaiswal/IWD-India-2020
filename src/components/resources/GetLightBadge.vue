@@ -1,23 +1,18 @@
 <template>
   <v-container id="light" class="text-center">
     <v-row>
-      <v-col md6 lg6 xs12 class="google-font" style="font-size:130%;">
-        Light Theme
-        <v-tooltip top color="#424242">
-          <template v-slot:activator="{ on }">
-            <v-icon v-on="on" style="cursor:pointer;">mdi-information</v-icon>
-          </template>
-          <span
-            class="google-font"
-            style="font-size:80%"
-          >Please provide an image in which you are in the center</span>
-        </v-tooltip>
-      </v-col>
+      <v-col md6 lg6 xs12 class="google-font" style="font-size:130%;">Light Theme</v-col>
     </v-row>
     <v-row class="pa-0">
       <canvas id="canvas2"></canvas>
       <div style="display:none;">
         <img id="source2" src="@/assets/img/light attendee filter.png" width="500px" height="500px" />
+      </div>
+      <div style="width:100%" v-if="!image">
+        <p
+          class="pt-3"
+          style="font-size: 12px;color: rgba(0, 0, 0, 0.87);"
+        >Please provide an image in which you are in the center.</p>
       </div>
     </v-row>
     <br />

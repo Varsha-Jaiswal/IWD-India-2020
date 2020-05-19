@@ -28,7 +28,7 @@
           <v-flex xs6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #4285F4;">2214</span>
+                <span style="color: #4285F4;">2900</span>
               </b>
             </p>
             <p class="google-font">Registrations</p>
