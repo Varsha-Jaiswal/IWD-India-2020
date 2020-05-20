@@ -112,8 +112,8 @@
     },
     {
         "id": "210",
-        "title": "Ice Breaker",
-        "description": "",
+        "title": "Women In Tech",
+        "description": "There are a lot of inspiring women in technology around the us. A small walk through the stories of some inspiring women.",
         "track": "Tech - ML & Cloud",
         "format": "Ice Breaker",
         "date": "May 24th, 2020",
@@ -222,8 +222,8 @@
     },
     {
         "id": "219",
-        "title": "How to Get Startup Ideas",
-        "description": "",
+        "title": "A Wonky Journey",
+        "description": "It's never a straight path to success. Or the commonly accepted definition of \"success\". In the journey of an entrepreneur, things always happen at the worst possible time. What makes it worth it is how you treat the situation. This talk takes you back 7 years and encompassess all the life lessons that Swaathi learnt on her journey. Buckle up!",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
         "date": "May 30th, 2020",
@@ -235,7 +235,7 @@
     },
     {
         "id": "220",
-        "title": "Design Talk",
+        "title": "Role of design in startups",
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
@@ -269,8 +269,8 @@
     },
     {
         "id": "223",
-        "title": "Tech Talk on Flutter",
-        "description": "",
+        "title": "Widgets that stretch and fold: Responsive Design in Flutter",
+        "description": "When we are building Flutter apps for Android & iOS and now even Web, we have to make sure we move away from the practise of using hardcoded widths and heights. It’s important to develop and know about flexible widgets that can stretch all the way and fold in minimal spaces, because when we are developing in Flutter, we are developing for more than 4 varied platforms.The talk is targeted to developers (and maybe even designer turned developers) who know how to work around Flutter widgets, but are struggling to get out of their forced habit of creating strictly sized widgets and want to build apps that are responsive and still beautiful in various other platforms. ",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
@@ -330,7 +330,7 @@
     },
     {
         "id": "228",
-        "title": "Using Animations in Android Application",
+        "title": "Micro-interactions: Enhancing UX",
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
