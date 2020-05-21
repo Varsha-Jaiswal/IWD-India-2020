@@ -38,7 +38,7 @@
     },
     {
         "id": "204",
-        "title": "What’s Your Narrative?",
+        "title": "Owning Your Narrative?",
         "description": "How about a new narrative for the new normal? Or the new (ab)normal? Whatever that is, but why need a narrative? Well, whether or not you own your narrative, there is one that already exists! Whether you are an employee, a freelancer, an intrapreneur, an entrepreneur or a business owner how you choose to sail through the new normal has everything to do with the narrative you choose to create, amplify and manage.",
         "track": "Leadership",
         "format": "Talk",
@@ -50,7 +50,7 @@
     },
     {
         "id": "205",
-        "title": "Nurturing Communities",
+        "title": "Nurturing Communities - Panel Discussion",
         "description": "",
         "track": "Leadership",
         "format": "Panel Discussion",
@@ -145,8 +145,8 @@
         "date": "May 24th, 2020",
         "timeDuration": "30",
         "speakers": [
-            127,
-            128
+            128,
+            127
         ]
     },
     {
@@ -221,21 +221,32 @@
         ]
     },
     {
+        "id": "230",
+        "title": "How to Get Startup Ideas",
+        "description": "",
+        "track": "Design & Entrepreneurship",
+        "format": "Lightning Talk",
+        "date": "May 30th, 2020",
+        "timeDuration": "15",
+        "speakers": [
+            134
+        ]
+    },
+    {
         "id": "219",
         "title": "A Wonky Journey",
         "description": "It's never a straight path to success. Or the commonly accepted definition of \"success\". In the journey of an entrepreneur, things always happen at the worst possible time. What makes it worth it is how you treat the situation. This talk takes you back 7 years and encompassess all the life lessons that Swaathi learnt on her journey. Buckle up!",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
         "date": "May 30th, 2020",
-        "timeDuration": "30",
+        "timeDuration": "15",
         "speakers": [
-            134,
             135
         ]
     },
     {
         "id": "220",
-        "title": "Role of design in startups",
+        "title": "Role of Design in Startups",
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
