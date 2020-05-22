@@ -50,7 +50,7 @@
     },
     {
         "id": "205",
-        "title": "Nurturing Communities - Panel Discussion",
+        "title": "Why Communities Matter?",
         "description": "",
         "track": "Leadership",
         "format": "Panel Discussion",
@@ -76,7 +76,7 @@
     },
     {
         "id": "207",
-        "title": "Data pipelines using Airflow on Kubernetes",
+        "title": "Data Pipelines using Airflow on Kubernetes",
         "description": "Airflow is an opensource platform to create, schedule and monitor workflows. In this talk we will explore \n- What is airflow?   \n- How to create data pipelines? \n- How to exploit kubernetes to achieve performance\n- Pros and cons of the approach",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
@@ -112,7 +112,7 @@
     },
     {
         "id": "210",
-        "title": "Women In Tech",
+        "title": "Ice Breaker",
         "description": "There are a lot of inspiring women in technology around the us. A small walk through the stories of some inspiring women.",
         "track": "Tech - ML & Cloud",
         "format": "Ice Breaker",
