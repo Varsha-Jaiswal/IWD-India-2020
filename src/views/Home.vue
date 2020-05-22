@@ -16,8 +16,8 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-0 hidden-sm-and-up">
-      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+    <v-container fluid class="my-0 py-5 hidden-sm-and-up">
+      <v-layout wrap align-center justify-center row fill-height class="mt-5">
         <v-flex xs12 md10>
           <ResourcesMobileView />
         </v-flex>
