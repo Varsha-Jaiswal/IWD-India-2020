@@ -66,7 +66,7 @@
           color="#fff" text
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
-        >Youtube Livestream</v-btn>
+        >YouTube Livestream</v-btn>
       </v-card-text>
     </v-card>
 
