@@ -4,7 +4,7 @@
      xs12
       v-for="(item,i) in youtubeData"
       :key="i"
-      style="flex-basis: 25%"
+      style="flex-basis: 100%"
     >
       <ResourcesDialog :data="{vdata:item}" />
     </v-flex>
