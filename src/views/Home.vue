@@ -16,7 +16,23 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class=" grey lighten-4 py-5">
+    <v-container fluid class="my-0 py-0 hidden-sm-and-up">
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10>
+          <ResourcesMobileView />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="my-0 py-5 d-none d-sm-block pb-10">
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10>
+          <Resources />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="grey lighten-4 py-5">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class>
           <stats />
@@ -24,7 +40,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 ">
+    <v-container fluid class="my-0 py-3">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10>
           <whatToDo />
@@ -32,7 +48,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 ">
+    <v-container fluid class="my-0 py-3">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10>
           <pastEvents />
@@ -40,7 +56,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 ">
+    <v-container fluid class="my-0 py-3">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10>
           <communityGuidelinesSection class="pa-0" />
@@ -60,7 +76,10 @@ export default {
     communityGuidelinesSection: () =>
       import("@/components/communityGuidelines/guidelines"),
     HomeStartScreenMobileView: () =>
-      import("@/components/home/HomeStartScreenMobileView")
+      import("@/components/home/HomeStartScreenMobileView"),
+    Resources: () => import("@/components/resources/Resources"),
+    ResourcesMobileView: () =>
+      import("@/components/resources/ResourcesMobileView")
   }
 };
 </script>
