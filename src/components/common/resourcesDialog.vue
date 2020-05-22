@@ -1,59 +1,50 @@
 <template>
-  <v-dialog v-model="dialog" width="600">
-    <template v-slot:activator="{ on }">
-      <div v-on="on" style="cursor: pointer;">
-        <div
-          style="border-radius: 5px;border: 1px solid rgb(224, 224, 224);max-height: 150px;min-height:150px;border-left: 8px solid rgb(66, 133, 244) !important;box-shadow: 0px 3px 8px #e9e9e9;"
-          class="ma-1 hidden-sm-and-down"
-        >
-          <div class="pa-3 card-light" style="cursor: pointer;">
-            <p
-              class="google-font mt-2 mb-0"
-              style="font-size: 90%;"
-            >{{data.vdata.date}} | 02:00 - 05:00 PM IST</p>
-            <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
-            <v-btn
-              :href="data.vdata.link"
-              target="_blank"
-              rounded
-              color="#fff"
-              style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#4285F4"
-              class="ml-0 google-font"
-            >Watch Now</v-btn>
-          </div>
-        </div>
-        <div
-          style="border-radius: 5px; border:1px solid #e0e0e0;min-height:auto;"
-          class="ma-1 pa-5 d-md-none d-lg-none d-xl-none"
-        ></div>
-      </div>
-    </template>
-    <v-card color v-if="dialog">
-      <v-card-title
-        class="px-5 py-5 grey lighten-4 google-font"
-        style="color:#4285F4;word-break:normal;font-size:150%"
-      >{{data.vdata.track}}</v-card-title>
-      <v-card-text class="pa-5">
-        Day {{data.vdata.day}} - {{data.vdata.date}}
-        <p class="google-font mt-3" style="font-size:105%">{{data.vdata.description}}</p>
+  <v-container>
+    <div
+      style="border-radius: 5px;border: 1px solid rgb(224, 224, 224);max-height: 170px;min-height:170px;border-left: 8px solid rgb(66, 133, 244) !important;box-shadow: 0px 3px 8px #e9e9e9;"
+      class="ma-1 hidden-sm-and-down mb-0"
+    >
+      <div class="pa-3 card-light" style="cursor: pointer;">
+        <p class="google-font mt-2 mb-0" style="font-size: 90%;">
+          {{data.vdata.date}}
+          <br />02:00 - 05:00 PM IST
+        </p>
+        <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
         <v-btn
           :href="data.vdata.link"
           target="_blank"
           rounded
-          color="#fff"
-          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#4285F4"
+          outlined
+          style="text-transform: capitalize;border-radius:5px;color: #FF0000;font-size:15px;"
           class="ml-0 google-font"
-        >Youtube Livestream</v-btn>
-      </v-card-text>
-
-      <v-divider></v-divider>
-
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog = false">Close</v-btn>
-      </v-card-actions>
-    </v-card>
-  </v-dialog>
+        >
+          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>Watch Now
+        </v-btn>
+      </div>
+    </div>
+    <div
+      style="border-radius: 5px; border:1px solid #e0e0e0;min-height:auto;text-align: center"
+      class="ma-1 pa-5 d-md-none d-lg-none d-xl-none"
+    >
+      <div class="pa-0 card-light" style="cursor: pointer;">
+        <p class="google-font mt-2 mb-0" style="font-size: 90%;">
+          {{data.vdata.date}}
+          <br />02:00 - 05:00 PM IST
+        </p>
+        <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
+        <v-btn
+          :href="data.vdata.link"
+          target="_blank"
+          rounded
+          outlined
+          style="text-transform: capitalize;border-radius:5px;color: #FF0000;font-size:15px;"
+          class="ml-0 google-font"
+        >
+          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>Watch Now
+        </v-btn>
+      </div>
+    </div>
+  </v-container>
 </template>
 
 <script>

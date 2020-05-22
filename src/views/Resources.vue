@@ -1,21 +1,5 @@
 <template>
   <v-content class="pa-0">
-    <!-- <v-container fluid class="my-0 py-0 hidden-sm-and-up">
-      <v-layout wrap align-center justify-center row fill-height class="mt-0">
-        <v-flex xs12 md10>
-          <ResourcesMobileView />
-        </v-flex>
-      </v-layout>
-    </v-container>
-
-    <v-container fluid class="my-0 py-5 d-none d-sm-block pb-10">
-      <v-layout wrap align-center justify-center row fill-height class="mt-0">
-        <v-flex xs12 md10>
-          <Resources />
-        </v-flex>
-      </v-layout>
-    </v-container> -->
-
     <v-container class="pb-10">
       <v-row class="mb-5 align-center justify-center">
         <v-col
@@ -75,14 +59,29 @@
         </v-col>
       </v-row>
     </v-container>
+     <v-container fluid class="my-0 py-0 hidden-sm-and-up">
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10>
+          <ResourcesMobileView />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="my-0 py-5 d-none d-sm-block pb-10">
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10>
+          <Resources />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-content>
 </template>
 
 <script>
 import GetDarkBadge from "@/components/resources/GetDarkBadge";
 import GetLightBadge from "@/components/resources/GetLightBadge";
-// import Resources from "@/components/resources/Resources";
-// import ResourcesMobileView from "@/components/resources/ResourcesMobileView";
+import Resources from "@/components/resources/Resources";
+import ResourcesMobileView from "@/components/resources/ResourcesMobileView";
 export default {
   mounted() {
     if (window.screen.width < 1000) {
@@ -95,8 +94,8 @@ export default {
     };
   },
   components: {
-    // Resources,
-    // ResourcesMobileView,
+    Resources,
+    ResourcesMobileView,
     GetDarkBadge,
     GetLightBadge
   }
