@@ -54,7 +54,7 @@
           class="ml-0 google-font"
         >Become a Member</v-btn>
         <v-btn
-          href="https://www.youtube.com/watch?v=r_9ILSjyEYc"
+          href="https://www.youtube.com/watch?v=Xcj4IhHygMg"
           target="_blank"
           rounded
           color="#fff" text

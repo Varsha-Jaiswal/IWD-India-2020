@@ -18,7 +18,7 @@
           style="text-transform: capitalize;border-radius:5px;color: #FF0000;font-size:15px;cursor: pointer;"
           class="ml-0 google-font"
         >
-          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>Watch Now
+          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>{{data.vdata.name}}
         </v-btn>
       </div>
     </div>
@@ -40,7 +40,7 @@
           style="text-transform: capitalize;border-radius:5px;color: #FF0000;font-size:15px;cursor: pointer;"
           class="ml-0 google-font"
         >
-          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>Watch Now
+          <v-icon size="25px" class="mr-2">mdi-access-point</v-icon>{{data.vdata.name}}
         </v-btn>
       </div>
     </div>

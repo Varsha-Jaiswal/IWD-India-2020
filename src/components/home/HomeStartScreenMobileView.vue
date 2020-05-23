@@ -60,7 +60,7 @@
         <br />
         <br />
         <v-btn
-          href="https://www.youtube.com/watch?v=r_9ILSjyEYc"
+          href="https://www.youtube.com/watch?v=Xcj4IhHygMg"
           target="_blank"
           rounded
           color="#fff" text
