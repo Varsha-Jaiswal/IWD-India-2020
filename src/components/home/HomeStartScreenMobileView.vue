@@ -49,7 +49,7 @@
         <br />
         <br />
         <v-btn
-          href="https://www.womentechmakers.com/membership"
+          href="http://goo.gle/wtm-membership"
           target="_blank"
           rounded
           color="#fff"
