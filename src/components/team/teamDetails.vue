@@ -5,7 +5,7 @@
         <div
           v-on="on"
           class="text-xs-center py-5 team-card"
-          style="text-align:center;border: 1px solid #f5f6f7;min-height:280px;border-radius:7px"
+          style="text-align:center;border: 1px solid #f5f6f7;border-radius:7px"
         >
           <v-avatar size="130">
             <v-img :src="getImgUrl(data.vdata.image)" :lazy-src="getImgUrl(data.vdata.image)">
