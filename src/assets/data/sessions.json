@@ -4,6 +4,7 @@
         "title": "Strong and Kind",
         "description": "Reflection on how one can build resilience while navigating the pressures of demands of a dynamic workplace and the pivotal role of mindfulness, kindness and compassion.",
         "track": "Leadership",
+        "link": "https://www.youtube.com/embed/-zhz5hkf-aw",
         "format": "Keynote",
         "date": "May 23rd, 2020",
         "timeDuration": "30",
@@ -16,6 +17,7 @@
         "title": "How women lead and succeed",
         "description": "I’ve been interacting with successful, very successful women and I have always been curious about what the secret rituals and healthy practices are that make up their lives? How is that they are more successful than many other women on the planet? \n\nAnd what I found out was that it’s about knowing the right techniques and rituals to get to the next level. It's more to do with the habits you are willing to give up and create more space for habits that will multiply our progress speed.\n\nIn this 30 minute talk, I share with you the # 1 ritual of success practiced by the business moguls and super successful leaders. It will help you up-level your results and accelerate your speed of growth.",
         "track": "Leadership",
+        "link": "https://www.youtube.com/embed/0IJk0adevjk",
         "format": "Talk",
         "date": "May 23rd, 2020",
         "timeDuration": "30",
@@ -28,6 +30,7 @@
         "title": "Ice Breaker",
         "description": "",
         "track": "Leadership",
+        "link": "https://www.youtube.com/embed/BB5QsX-oZ_U",
         "format": "Ice Breaker",
         "date": "May 23rd, 2020",
         "timeDuration": "15",
@@ -41,6 +44,7 @@
         "title": "Owning Your Narrative?",
         "description": "How about a new narrative for the new normal? Or the new (ab)normal? Whatever that is, but why need a narrative? Well, whether or not you own your narrative, there is one that already exists! Whether you are an employee, a freelancer, an intrapreneur, an entrepreneur or a business owner how you choose to sail through the new normal has everything to do with the narrative you choose to create, amplify and manage.",
         "track": "Leadership",
+        "link": "https://www.youtube.com/embed/ipumFGJschE",
         "format": "Talk",
         "date": "May 23rd, 2020",
         "timeDuration": "30",
@@ -52,6 +56,7 @@
         "id": "205",
         "title": "Why Communities Matter?",
         "description": "",
+        "link": "https://www.youtube.com/embed/PC9AEVVKqu4",
         "track": "Leadership",
         "format": "Panel Discussion",
         "date": "May 23rd, 2020",
@@ -69,6 +74,7 @@
         "title": "Q & A",
         "description": "",
         "track": "Leadership",
+        "link": "https://www.youtube.com/embed/GTDezvOvYkk",
         "format": "AMA & Closing",
         "date": "May 23rd, 2020",
         "timeDuration": "30",
@@ -79,6 +85,7 @@
         "title": "Data Pipelines using Airflow on Kubernetes",
         "description": "Airflow is an opensource platform to create, schedule and monitor workflows. In this talk we will explore \n- What is airflow?   \n- How to create data pipelines? \n- How to exploit kubernetes to achieve performance\n- Pros and cons of the approach",
         "track": "Tech - ML & Cloud",
+        "link": "https://www.youtube.com/embed/4VBHUB5jLnk",
         "format": "Tech Talk",
         "date": "May 24th, 2020",
         "timeDuration": "20",
@@ -92,6 +99,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Tech Talk",
+        "link": "https://www.youtube.com/embed/aSzXCjdEHHs",
         "date": "May 24th, 2020",
         "timeDuration": "20",
         "speakers": [
@@ -103,6 +111,7 @@
         "title": "Designing Conversations using Dialogflow",
         "description": "",
         "track": "Tech - ML & Cloud",
+        "link": "https://www.youtube.com/embed/1qN_2K-fwuM",
         "format": "Tech Talk",
         "date": "May 24th, 2020",
         "timeDuration": "20",
@@ -116,6 +125,7 @@
         "description": "There are a lot of inspiring women in technology around the us. A small walk through the stories of some inspiring women.",
         "track": "Tech - ML & Cloud",
         "format": "Ice Breaker",
+        "link": "https://www.youtube.com/embed/uDiYTfFhFeA",
         "date": "May 24th, 2020",
         "timeDuration": "15",
         "speakers": [
@@ -129,6 +139,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Workshop",
+        "link": "https://www.youtube.com/embed/3xIrERzLC5M",
         "date": "May 24th, 2020",
         "timeDuration": "45",
         "speakers": [
@@ -142,6 +153,7 @@
         "description": "Fireside Chat",
         "track": "Tech - ML & Cloud",
         "format": "Fireside chat",
+        "link": "https://www.youtube.com/embed/H56zWcO42-E",
         "date": "May 24th, 2020",
         "timeDuration": "30",
         "speakers": [
@@ -155,6 +167,7 @@
         "description": "",
         "track": "Tech - ML & Cloud",
         "format": "Lightning Talk",
+        "link": "https://www.youtube.com/embed/",
         "date": "May 24th, 2020",
         "timeDuration": "10",
         "speakers": [
@@ -162,10 +175,24 @@
         ]
     },
     {
+        "id": "231",
+        "title": "ML Explainability + Trust",
+        "description": "",
+        "link": "https://www.youtube.com/embed/BauB8H82f9U",
+        "track": "Tech - ML & Cloud",
+        "format": "Lightning Talk",
+        "date": "May 24th, 2020",
+        "timeDuration": "15",
+        "speakers": [
+            112
+        ]
+    },
+    {
         "id": "214",
         "title": "Q & A",
         "description": "",
         "track": "Tech - ML & Cloud",
+        "link": "https://www.youtube.com/embed/-OVTLrkozS4",
         "format": "AMA & Closing",
         "date": "May 24th, 2020",
         "timeDuration": "30",
@@ -175,6 +202,7 @@
         "id": "215",
         "title": "Visual Engineering",
         "description": "This talk would cover some aspects of how visuals speak to humans and why we must engineer them.",
+        "link": "https://www.youtube.com/embed/cHR4-A4z08k",
         "track": "Design & Entrepreneurship",
         "format": "Design Talk",
         "date": "May 30th, 2020",
@@ -188,6 +216,7 @@
         "title": "Fail, Gains and Stepping Stones",
         "description": "A reflective talk on some of the fails, learnings and moments in my career which shaped what I do now, with a peak into some design led projects. A real look into how plans can fall apart, but there will be people, communities and insights that help your journey.",
         "track": "Design & Entrepreneurship",
+        "link": "https://www.youtube.com/embed/hVorRxo0bUE",
         "format": "Design Talk",
         "date": "May 30th, 2020",
         "timeDuration": "30",
@@ -202,6 +231,7 @@
         "track": "Design & Entrepreneurship",
         "format": "Ice Breaker",
         "date": "May 30th, 2020",
+        "link": "https://www.youtube.com/embed/iKqLwJut1DQ",
         "timeDuration": "15",
         "speakers": [
             113,
@@ -212,6 +242,7 @@
         "id": "218",
         "title": "An Entrepreneur’s Journey",
         "description": "",
+        "link": "https://www.youtube.com/embed/FQHqr4cGTYg",
         "track": "Design & Entrepreneurship",
         "format": "Talk",
         "date": "May 30th, 2020",
@@ -225,6 +256,7 @@
         "title": "How to Get Startup Ideas",
         "description": "",
         "track": "Design & Entrepreneurship",
+        "link": "https://www.youtube.com/embed/_0DGVENel_Q",
         "format": "Lightning Talk",
         "date": "May 30th, 2020",
         "timeDuration": "15",
@@ -237,6 +269,7 @@
         "title": "A Wonky Journey",
         "description": "It's never a straight path to success. Or the commonly accepted definition of \"success\". In the journey of an entrepreneur, things always happen at the worst possible time. What makes it worth it is how you treat the situation. This talk takes you back 7 years and encompassess all the life lessons that Swaathi learnt on her journey. Buckle up!",
         "track": "Design & Entrepreneurship",
+        "link": "https://www.youtube.com/embed/Y27iek2Agj0",
         "format": "Lightning Talk",
         "date": "May 30th, 2020",
         "timeDuration": "15",
@@ -251,6 +284,7 @@
         "track": "Design & Entrepreneurship",
         "format": "Lightning Talk",
         "date": "May 30th, 2020",
+        "link": "https://www.youtube.com/embed/Vv3WODTiTRQ",
         "timeDuration": "15",
         "speakers": [
             136
@@ -262,6 +296,7 @@
         "description": "",
         "track": "Design & Entrepreneurship",
         "format": "AMA & Closing",
+        "link": "https://www.youtube.com/embed/0qDrz6_GUy4",
         "date": "May 30th, 2020",
         "timeDuration": "30",
         "speakers": []
@@ -270,6 +305,7 @@
         "id": "222",
         "title": "What’s new in Android R",
         "description": "Learn about new features in Android R and how they will impact your app. Also learn about Best Practices for new API’s.",
+        "link": "https://www.youtube.com/embed/pPjvd4vmx0s",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
@@ -285,6 +321,7 @@
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
+        "link": "https://www.youtube.com/embed/ZwJ-hZAUK14",
         "timeDuration": "30",
         "speakers": [
             138
@@ -295,6 +332,7 @@
         "title": "Ice Breaker",
         "description": "",
         "track": "Tech - Android & Web",
+        "link": "https://www.youtube.com/embed/yC3GRu44KQE",
         "format": "Ice Breaker",
         "date": "May 31st, 2020",
         "timeDuration": "15",
@@ -307,6 +345,7 @@
         "id": "225",
         "title": "Framework-agnostic web components, with Angular",
         "description": "Living in the times when technology and frameworks change quite fast, we really need to think through what we are building, why we are building it, and how we are building it. And now that we have done this amount of thinking, we want to be smart, right? Same effort, multiple times? Definitely not! I will be talking about Building reusable web components using Angular elements, and building and publishing the package to be able to use it in applications built using any framework.",
+        "link": "https://www.youtube.com/embed/xzTu83cxo1Y",
         "track": "Tech - Android & Web",
         "format": "Tech Talk",
         "date": "May 31st, 2020",
@@ -321,6 +360,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
+        "link": "https://www.youtube.com/embed/ybnM_NQSw5w",
         "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
@@ -333,6 +373,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "Lightning Talk",
+        "link": "https://www.youtube.com/embed/7351a1n2rLY",
         "date": "May 31st, 2020",
         "timeDuration": "15",
         "speakers": [
@@ -347,6 +388,7 @@
         "format": "Lightning Talk",
         "date": "May 31st, 2020",
         "timeDuration": "15",
+        "link": "https://www.youtube.com/embed/i9Nj1DQ62vE",
         "speakers": [
             140
         ]
@@ -357,6 +399,7 @@
         "description": "",
         "track": "Tech - Android & Web",
         "format": "AMA & Closing",
+        "link": "https://www.youtube.com/embed/FriRzabsYA4",
         "date": "May 31st, 2020",
         "timeDuration": "30",
         "speakers": []
