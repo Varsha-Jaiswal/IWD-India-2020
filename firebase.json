@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "wtmindia-iwd20",
+    "site": "dev-wtmindia",
     "public": "dist",
     "ignore": [
       "firebase.json",
