@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="700">
+  <v-dialog v-model="dialog" width="800">
     <template v-slot:activator="{ on }">
       <div v-on="on" style="cursor: pointer;">
         <v-chip
@@ -27,10 +27,26 @@
     </template>
 
     <v-card color v-if="dialog">
-      <v-card-title
-        class="px-5 py-5 grey lighten-4 google-font"
-        style="color:#4285F4;word-break:normal;"
-      >{{data.vdata.title}}</v-card-title>
+      <v-card-title class="px-5 py-5 hidden-sm-and-down align-center justify-center">
+        <iframe
+          width="750"
+          height="400"
+          :src="data.vdata.link"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </v-card-title>
+      <v-card-title class="hidden-md-and-up align-center justify-center">
+        <iframe
+          width="450"
+          height="200"
+          :src="data.vdata.link"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </v-card-title>
       <v-card-text class="pa-5">
         <v-chip
           color="#4285F4"
@@ -46,6 +62,11 @@
           style="color:white; font-size:90%"
           small
         >{{data.vdata.format}}</v-chip>
+
+        <h1
+          class="mt-5 mb-5 google-font"
+          style="color:#4285F4;word-break:normal;"
+        >{{data.vdata.title}}</h1>
 
         <p class="google-font mt-2 mb-0" style="font-size:110%">
           <b>Time Duration:</b>
