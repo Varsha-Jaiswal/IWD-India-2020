@@ -1,0 +1,67 @@
+{
+    "blogs": [
+        {
+            "authorName": "Ruhi Thomas",
+            "authorProfileURL": "https://medium.com/@ruhiasap",
+            "blogTitle": "#IWDIndia2020 Celebration",
+            "imageURL": "",
+            "date": "May 23, 2020",
+            "link": "https://medium.com/@ruhiasap/iwdindia2020-celebration-f3fd19ee979"
+        },
+        {
+            "authorName": "Nishu Goel",
+            "authorProfileURL": "https://www.linkedin.com/in/nishu-goel/",
+            "blogTitle": "IWD India Summit 2020",
+            "imageURL": "",
+            "date": "May 23, 2020",
+            "link": "https://medium.com/@nishu0505/iwd-india-summit-2020-3161ebc7eb9b"
+        },
+        {
+            "authorName": "Tanvi Shah",
+            "authorProfileURL": "https://www.linkedin.com/in/tanvi-shah-0a622b12b/",
+            "blogTitle": "IWD India 2020 Day 1 Celebration",
+            "imageURL": "",
+            "date": "May 25, 2020",
+            "link": "https://medium.com/@tanvishah1409/iwd-celebration-by-wtm-india-day-1-98df38e7e306"
+        },
+        {
+            "authorName": "Angelin John",
+            "authorProfileURL": "https://www.linkedin.com/in/angelinjohn/",
+            "blogTitle": "Leadership Lessons",
+            "imageURL": "",
+            "date": "May 25, 2020",
+            "link": "https://www.linkedin.com/pulse/leadership-lessons-taking-control-ourselves-building-narrative-john/?trackingId=oRDP4eQCSM60Qp5ZUMpTtA%3D%3D"
+        },
+        {
+            "authorName": "Tanvi Shah",
+            "authorProfileURL": "https://www.linkedin.com/in/tanvi-shah-0a622b12b/",
+            "blogTitle": "IWD India 2020 Day 2 Celebration",
+            "imageURL": "",
+            "date": "May 28, 2020",
+            "link": "https://medium.com/@tanvishah1409/iwd-celebration-by-wtm-india-day-2-178884b21b5c"
+        }
+        
+    ],
+    "tweets": [
+        {
+            "image": "8.png",
+            "authorName": "Varsha",
+            "link": "https://twitter.com/hiralthaker12/status/1267442296225759234"
+        },
+        {
+            "image": "7.png",
+            "authorName": "Priyal",
+            "link": "https://twitter.com/hiralthaker12/status/1267442296225759234"
+        },
+        {
+            "image": "6.jpeg",
+            "authorName": "Lakshya",
+            "link": "https://twitter.com/hiralthaker12/status/1267442296225759234"
+        },
+        {
+            "image": "3.jpeg",
+            "authorName": "Poornima",
+            "link": "https://twitter.com/hiralthaker12/status/1267442296225759234"
+        }
+    ]
+}
