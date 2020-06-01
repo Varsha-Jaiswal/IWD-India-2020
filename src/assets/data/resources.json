@@ -7,31 +7,31 @@
                 "name": "Watch Now",
                 "track": "Leadership",
                 "description": "Leadership Track",
-                "link": "https://www.youtube.com/watch?v=r_9ILSjyEYc"
+                "link": "https://www.youtube.com/playlist?list=PLK8RaaGOJCVmO8bG9sjtqtpFbfVtD8FXU"
             },
             {
                 "day": "2",
                 "date": "May 24th, 2020",
                 "name": "Watch Now",
                 "track": "Tech - ML & Cloud",
-                "description": "Tech - ML & Cloud track",
-                "link": "https://www.youtube.com/watch?v=Xcj4IhHygMg"
+                "description": "Tech - ML & Cloud Track",
+                "link": "https://www.youtube.com/playlist?list=PLK8RaaGOJCVmHsqzT21cABb7SAQsqHsDb"
             },
             {
                 "day": "3",
                 "date": "May 30th, 2020",
                 "name": "Watch Now",
                 "track": "Design & Entrepreneurship",
-                "description": "Design & Entrepreneurship track",
-                "link": "https://www.youtube.com/watch?v=cH3TPtTbOcI"
+                "description": "Design & Entrepreneurship Track",
+                "link": "https://www.youtube.com/playlist?list=PLK8RaaGOJCVlaShtEeh5qIKR6NIbxw282"
             },
             {
                 "day": "4",
                 "date": "May 31st, 2020",
                 "name": "Watch Now",
                 "track": "Tech - Android & Web",
-                "description": "Tech - Android & Web track",
-                "link": "https://www.youtube.com/watch?v=TOPYdiE-Wyw"
+                "description": "Tech - Android & Web Track",
+                "link": "https://www.youtube.com/playlist?list=PLK8RaaGOJCVnmI3nIXFLn2HYhW7JwB9yC"
             }
         ]
     }
