@@ -9,7 +9,7 @@
           {{data.vdata.date}}
           <br />02:00 - 05:00 PM IST
         </p>
-        <p class="google-font ma-0 mt-2 mb-5" style="font-size: 110%;">{{data.vdata.track}}</p>
+        <p class="google-font ma-0 mt-2 mb-5" style="font-size: 109%;">{{data.vdata.track}}</p>
         <v-btn
           :href="data.vdata.link"
           target="_blank"
