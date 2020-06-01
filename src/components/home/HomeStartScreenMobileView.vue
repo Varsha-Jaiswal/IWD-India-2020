@@ -60,7 +60,7 @@
         <br />
         <br />
         <v-btn
-          href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA"
+          href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA/playlists?view=1&sort=da&flow=grid"
           target="_blank"
           rounded
           color="#fff" text
