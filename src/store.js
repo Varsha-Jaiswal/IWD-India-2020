@@ -11,7 +11,8 @@ export default new Vuex.Store({
       { text: 'Agenda', to: '/agenda', icon: 'mdi-format-float-left',visible:true},
       { text: 'Speakers', to: '/speakers', icon:'mdi-account-switch',visible:true},
       { text: 'Team', to: '/team', icon:'mdi-account-settings',visible:true},
-      { text: 'Resources', to: '/resources', icon:'mdi-account-settings',visible:true}
+      { text: 'Resources', to: '/resources', icon:'mdi-account-settings',visible:true},
+      { text: 'Testimonials', to: '/testimonials', icon:'mdi-account-settings',visible:true}
     ]
   },
   getters:{

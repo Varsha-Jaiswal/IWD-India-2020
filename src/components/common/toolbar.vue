@@ -11,7 +11,7 @@
       :key="i"
       :to="link.to"
       text
-      class="ml-0 google-font hidden-sm-and-down mr-2"
+      class="ml-0 google-font hidden-sm-and-down mr-0"
       style="text-transform: capitalize;"
       @click="onClick($event, link)"
       aria-label="Nav Button"

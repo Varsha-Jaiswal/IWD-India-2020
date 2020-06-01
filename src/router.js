@@ -75,6 +75,15 @@ const  router =  new Router({
         title: 'Resources | IWD India Summit 2020',
         color: 'blue'
       }
+    },
+    {
+      path: '/testimonials',
+      name: 'testimonials',
+      component: () => import('./views/Testimonials.vue'),
+      meta: {
+        title: 'Testimonials | IWD India Summit 2020',
+        color: 'blue'
+      }
     }
   ],
 })
