@@ -394,6 +394,17 @@
         ]
     },
     {
+        "id": "232",
+        "title": "#IWDIndia2020 Story",
+        "description": "",
+        "track": "Tech - Android & Web",
+        "format": "Lightning Talk",
+        "link": "https://www.youtube.com/embed/X6B6pazXhNI",
+        "date": "May 31st, 2020",
+        "timeDuration": "15",
+        "speakers": [112]
+    },
+    {
         "id": "229",
         "title": "Q & A",
         "description": "",
