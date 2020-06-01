@@ -3,8 +3,8 @@
     <v-layout class="container pt-10 pl-0 pr-0 schedule-container
     ">
       <v-btn-toggle v-model="selectedTab" tile color="blue accent-3" group mandatory>
-        <v-btn class="mr-3 google-font" @click="selectScheduleTab">Schedule</v-btn>
-        <v-btn @click="selectSessionTab" class="google-font">Sessions</v-btn>
+        <v-btn @click="selectSessionTab" class=" mr-3 google-font">Sessions</v-btn>
+        <v-btn class="google-font" @click="selectScheduleTab">Schedule</v-btn>
       </v-btn-toggle>
     </v-layout>
     <Schedule v-if="schedule" />
@@ -26,7 +26,7 @@ export default {
     };
   },
   mounted() {
-    this.schedule = true;
+    this.session = true;
   },
   methods: {
     selectSessionTab() {
