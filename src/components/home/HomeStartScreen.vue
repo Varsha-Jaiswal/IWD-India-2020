@@ -36,14 +36,14 @@
         <p class="google-font mb-8" style="font-size:110%;color:#9e9e9e">
           <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">#{{item}} &nbsp;</span>
         </p>
-        <v-btn
+        <!-- <v-btn
           id="modal59287007034"
           target="_blank"
           color="#1a73e8"
           class="ma-0 google-font elevation-0"
           href="http://bit.ly/register-iwd2020"
           style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;margin-right: 20px !important;"
-        >Register</v-btn>
+        >Register</v-btn> -->
         <v-btn
           href="http://goo.gle/wtm-membership"
           target="_blank"
@@ -54,13 +54,13 @@
           class="ml-0 google-font"
         >Become a Member</v-btn>
         <v-btn
-          href="https://www.youtube.com/watch?v=Xcj4IhHygMg"
+          href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA"
           target="_blank"
           rounded
           color="#fff" text
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
-        >YouTube Livestream</v-btn>
+        >YouTube Channel</v-btn>
       </v-flex>
       <v-flex xs12 sm12 md5 lg5 xl5 class="text-xs-center d-none d-sm-block header-mobile-image">
         <!-- <v-img
