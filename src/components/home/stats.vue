@@ -24,9 +24,9 @@
       </v-flex>
 
       <v-flex xs12 sm5 md4 lg4 xl6 class="pt-5">
-        <v-layout row wrap class="px-5 stats-center-wrapper">
-          <v-flex xs6>
-            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
+        <v-layout row wrap class="px-0 stats-center-wrapper">
+          <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
               <b>
                 <span style="color: #4285F4;">4.8K</span>
               </b>
@@ -34,29 +34,45 @@
             <p class="google-font">Registrations</p>
           </v-flex>
 
-          <v-flex xs6>
-            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
+          <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
               <b>
                 <span style="color: #4285F4;">35</span>
               </b>
             </p>
             <p class="google-font">Communities</p>
           </v-flex>
-          <v-flex xs6>
-            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
+            <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
+              <b>
+                <span style="color: #4285F4;">6.5K</span>
+              </b>
+            </p>
+            <p class="google-font">Live Viewers</p>
+          </v-flex>
+          <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
               <b>
                 <span style="color: #4285F4;">40</span>
               </b>
             </p>
             <p class="google-font">Speakers</p>
           </v-flex>
-          <v-flex xs6>
-            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
+          <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
               <b>
                 <span style="color: #4285F4;">22</span>
               </b>
             </p>
             <p class="google-font">Sessions</p>
+          </v-flex>
+            <v-flex xs4 class="text-center">
+            <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:280%">
+              <b>
+                <span style="color: #4285F4;">10K+</span>
+              </b>
+            </p>
+            <p class="google-font">Total Viewers</p>
           </v-flex>
         </v-layout>
       </v-flex>
