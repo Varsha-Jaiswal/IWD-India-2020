@@ -68,6 +68,7 @@
             <v-col class="hidden-md-and-down">
               <v-carousel hide-delimiters cycle interval="6000" height="auto">
                 <v-carousel-item
+                  eager
                   v-for="(item) in tweetData"
                   :key="item.image"
                   :src="getImgUrl(item.image)"
@@ -91,6 +92,7 @@
             <v-col cols="12" class="hidden-lg-and-up">
               <v-carousel hide-delimiters cycle interval="6000" height="auto">
                 <v-carousel-item
+                  eager
                   v-for="(item) in tweetData"
                   :key="item.image"
                   :src="getImgUrl(item.image)"
@@ -121,6 +123,7 @@
             <v-col class="hidden-md-and-down">
               <v-carousel hide-delimiters cycle interval="6000" height="auto">
                 <v-carousel-item
+                  eager
                   v-for="(item) in postData"
                   :key="item.image"
                   :src="getPostImgUrl(item.image)"
@@ -144,6 +147,7 @@
             <v-col cols="12" class="hidden-lg-and-up">
               <v-carousel hide-delimiters cycle interval="6000" height="auto">
                 <v-carousel-item
+                  eager
                   v-for="(item) in postData"
                   :key="item.image"
                   :src="getPostImgUrl(item.image)"
