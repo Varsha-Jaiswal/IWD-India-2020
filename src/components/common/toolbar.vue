@@ -11,6 +11,7 @@
       :key="i"
       :to="link.to"
       text
+      :name="link.text"
       class="ml-0 google-font hidden-sm-and-down mr-0"
       style="text-transform: capitalize;"
       @click="onClick($event, link)"
@@ -22,6 +23,7 @@
 <script>
 import { mapGetters, mapMutations } from "vuex";
 export default {
+  name: 'Toolbar',
   props: {
     color: String
   },

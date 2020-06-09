@@ -24,7 +24,7 @@
           <v-icon>mdi-close</v-icon>
         </v-btn>
     </v-snackbar>
-    <CoreToolbar :color="$route.meta.color" />
+    <CoreToolbar :color="$route.meta.color" name="Toolbar"/>
     <CoreDrawer/>
     <CoreView />
     <CoreFooter class="pa-0"/>
