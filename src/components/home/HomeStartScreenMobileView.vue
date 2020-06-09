@@ -45,9 +45,9 @@
           color="#1a73e8"
           class="ma-0 google-font elevation-0"
           style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;"
-        >Register</v-btn> -->
-        <br />
-        <br />
+        >Register</v-btn>-->
+        <!-- <br /> -->
+        <!-- <br /> -->
         <v-btn
           href="http://goo.gle/wtm-membership"
           target="_blank"
@@ -63,7 +63,8 @@
           href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA/playlists?view=1&sort=da&flow=grid"
           target="_blank"
           rounded
-          color="#fff" text
+          color="#fff"
+          text
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
         >YouTube Channel</v-btn>
@@ -76,11 +77,12 @@
         class="mb-10 mt-3"
         :src="require('@/assets/img/home-header-new.jpg')"
         :lazy-src="require('@/assets/img/home-header-new.jpg')"
-      ></v-img> -->
+      ></v-img>-->
+      <!-- src="https://www.youtube.com/embed/j6joNoC6bkM" -->
       <iframe
         width="100%"
         height="300"
-        src="https://www.youtube.com/embed/j6joNoC6bkM"
+        src="https://www.youtube.com/embed/CAfAKHq9DPk"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

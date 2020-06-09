@@ -73,10 +73,11 @@
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
           </v-layout>
         </v-img> -->
+          <!-- src="https://www.youtube.com/embed/j6joNoC6bkM" -->
         <iframe
           width="100%"
           height="340"
-          src="https://www.youtube.com/embed/j6joNoC6bkM"
+          src="https://www.youtube.com/embed/CAfAKHq9DPk"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
