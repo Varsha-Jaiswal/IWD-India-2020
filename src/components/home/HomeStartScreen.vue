@@ -76,7 +76,7 @@
           <!-- src="https://www.youtube.com/embed/j6joNoC6bkM" -->
         <iframe
           width="100%"
-          height="340"
+          height="260px"
           src="https://www.youtube.com/embed/CAfAKHq9DPk"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -97,3 +97,21 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+iframe {
+  height: 260px;
+}
+
+@media only screen and (width: 768px) {
+  iframe { 
+    height: 360px;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  iframe { 
+    height: 200px;
+  }
+}
+</style>
