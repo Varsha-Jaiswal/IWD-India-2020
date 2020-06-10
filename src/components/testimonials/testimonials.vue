@@ -5,7 +5,7 @@
         <h1 class="google-font mb-1 mt-0" style="color:#4285F4;">Blogs:</h1>
       </v-col>
       <v-col cols="4" class="hidden-md-and-down" v-for="(item) in blogData" :key="item.link">
-        <v-card style="min-height:120px; max-height:120px;">
+        <v-card style="min-height:150px; max-height:150px;">
           <v-card-title class="google-font" style="word-break:normal;">
             <a
               :href="item.link"

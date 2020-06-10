@@ -47,6 +47,14 @@
             "blogTitle": "Introduction to Apache Airflow",
             "imageURL": "",
             "link": "https://bhavaniravi.com/blog/apache-airflow-introduction"
+        },
+        {
+            "authorName": "Yukti Rapartiwar",
+            "date": "Jun 06, 2020",
+            "authorProfileURL": "https://www.linkedin.com/in/yuktirapartiwar",
+            "blogTitle": "Experience with WTM IWD India Summit 2020",
+            "imageURL": "",
+            "link": "https://medium.com/@1599.yukti/my-experience-and-learning-from-wtm-iwd-india-summit-2020-b32972a97659"
         }
     ],
     "tweets": [
