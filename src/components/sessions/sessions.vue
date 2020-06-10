@@ -1,5 +1,5 @@
 <template>
-  <v-container class="px-3">
+  <v-container class="pa-0 ma-0">
     <v-layout wrap align-center justify-center row fill-heights>
       <v-flex xs12 sm12 md12 lg12 xl12 class="pa-5">
         <v-layout>
@@ -28,7 +28,7 @@
             </v-select>
           </v-flex>
         </v-layout>
-        <v-layout row wrap class="px-3">
+        <v-layout row wrap class="pa-0 ma-0">
           <v-flex xs12 sm4 md4 lg3 v-for="(item,index) in FilterData()" :key="index">
             <div
               style="border-radius: 5px; border:1px solid #e0e0e0;min-height:200px; max-height:200px;"
