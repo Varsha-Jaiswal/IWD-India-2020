@@ -41,6 +41,7 @@
         <iframe
           width="450"
           height="200"
+          id="mobile"
           :src="data.vdata.link"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -144,3 +145,24 @@ export default {
   }
 };
 </script>
+
+
+<style scoped>
+@media only screen and (width: 320px) {
+  #mobile { 
+    height: 181px;
+    width: 260px;
+  }
+}
+@media only screen and (width: 375px) {
+  #mobile { 
+    height: 181px;
+    width: 300px;
+  }
+}
+@media only screen and (width: 425px) {
+  #mobile { 
+    height: 185px;
+  }
+}
+</style>

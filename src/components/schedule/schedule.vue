@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mx-5">
+  <v-container class="pa-0 ma-0">
     <v-flex v-for="(day,index) in scheduleData" :key="index" class="pa-3">
       <b class="google-font" style="font-size:140%">Day {{day.day}} | {{day.date}}</b>
       <v-layout
