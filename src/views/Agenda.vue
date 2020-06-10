@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="pa-0">
+  <v-container fluid class="pa-0 ma-0">
     <v-layout class="container pt-10 pl-0 pr-0 schedule-container
     ">
       <v-btn-toggle v-model="selectedTab" tile color="blue accent-3" group mandatory>
