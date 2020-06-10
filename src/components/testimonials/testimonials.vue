@@ -81,7 +81,7 @@
                           rel="noreferrer"
                           target="_blank"
                           class="google-font headline white--text"
-                          style="font-size:180%"
+                          style="font-size:180%;text-decoration: none;"
                         >{{item.authorName}}</a>
                       </v-card>
                     </v-flex>
@@ -90,7 +90,7 @@
               </v-carousel>
             </v-col>
             <v-col cols="12" class="hidden-lg-and-up">
-              <v-carousel hide-delimiters cycle interval="6000" height="auto">
+              <v-carousel hide-delimiters cycle interval="6000" height="auto" :show-arrows="false">
                 <v-carousel-item
                   eager
                   v-for="(item) in tweetData"
@@ -99,13 +99,13 @@
                 >
                   <v-layout fill-height align-end>
                     <v-flex>
-                      <v-card color="slider-wrapper" class="pa-2 text-center">
+                      <v-card color="slider-wrapper" class="pa-0 text-center">
                         <a
                           :href="item.link"
                           rel="noreferrer"
                           target="_blank"
                           class="google-font headline white--text"
-                          style="font-size:150%"
+                          style="font-size:90%;text-decoration: none;"
                         >{{item.authorName}}</a>
                       </v-card>
                     </v-flex>
@@ -136,7 +136,7 @@
                           rel="noreferrer"
                           target="_blank"
                           class="google-font headline white--text"
-                          style="font-size:180%"
+                          style="font-size:180%;text-decoration: none;"
                         >{{item.authorName}}</a>
                       </v-card>
                     </v-flex>
@@ -145,7 +145,7 @@
               </v-carousel>
             </v-col>
             <v-col cols="12" class="hidden-lg-and-up">
-              <v-carousel hide-delimiters cycle interval="6000" height="auto">
+              <v-carousel hide-delimiters cycle interval="6000" height="auto" :show-arrows="false">
                 <v-carousel-item
                   eager
                   v-for="(item) in postData"
@@ -154,13 +154,13 @@
                 >
                   <v-layout fill-height align-end>
                     <v-flex>
-                      <v-card color="slider-wrapper" class="pa-2 text-center">
+                      <v-card color="slider-wrapper" class="pa-0 text-center">
                         <a
                           :href="item.link"
                           rel="noreferrer"
                           target="_blank"
                           class="google-font headline white--text"
-                          style="font-size:150%"
+                          style="font-size:90%;text-decoration: none;"
                         >{{item.authorName}}</a>
                       </v-card>
                     </v-flex>
