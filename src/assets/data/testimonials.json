@@ -49,12 +49,28 @@
             "link": "https://bhavaniravi.com/blog/apache-airflow-introduction"
         },
         {
+            "authorName": "Harika Kasimahanthi",
+            "date": "May 31, 2020",
+            "authorProfileURL": "https://www.linkedin.com/in/harika-kasimahanthi-ab290216a/",
+            "blogTitle": "",
+            "imageURL": "",
+            "link": "https://www.linkedin.com/pulse/together-we-rise-harika-kasimahanthi/"
+        },
+        {
             "authorName": "Yukti Rapartiwar",
             "date": "Jun 06, 2020",
             "authorProfileURL": "https://www.linkedin.com/in/yuktirapartiwar",
             "blogTitle": "Experience with WTM IWD India Summit 2020",
             "imageURL": "",
             "link": "https://medium.com/@1599.yukti/my-experience-and-learning-from-wtm-iwd-india-summit-2020-b32972a97659"
+        },
+        {
+            "authorName": "Sreelakshmi K.B",
+            "authorProfileURL": "https://www.linkedin.com/in/sreelakshmikb/",
+            "date": "Jun 10, 2020",
+            "blogTitle": "IWD India 2020 - A Joyride",
+            "imageURL": "",
+            "link": "https://www.linkedin.com/pulse/iwd-2020-joyride-sreelakshmi-k-b"
         }
     ],
     "tweets": [
