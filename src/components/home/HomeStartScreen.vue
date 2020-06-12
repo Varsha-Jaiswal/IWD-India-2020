@@ -43,21 +43,31 @@
           class="ma-0 google-font elevation-0"
           href="http://bit.ly/register-iwd2020"
           style="text-transform: capitalize;border-radius: 5px;color: white;background-color: #4285F4; font-size:15px; padding: 7px;margin-right: 20px !important;"
-        >Register</v-btn> -->
+        >Register</v-btn>-->
         <v-btn
           href="http://goo.gle/wtm-membership"
           target="_blank"
           rounded
           color="#fff"
-          style="text-transform: capitalize;border-radius:5px; margin-right: 20px;font-size:15px;background-color: rgb(23, 172, 182);"
+          style="text-transform: capitalize;border-radius:5px; margin-right: 5px;font-size:15px;background-color: rgb(23, 172, 182);"
           text
           class="ml-0 google-font"
         >Become a Member</v-btn>
         <v-btn
+          href="/report"
+          target="_blank"
+          rounded
+          color="#fff"
+          text
+          style="text-transform: capitalize;border-radius:5px;margin-right: 5px;color: white;font-size:15px;background-color:#4285F4"
+          class="ml-0 google-font"
+        >IWD India Report</v-btn>
+        <v-btn
           href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA/playlists?view=1&sort=da&flow=grid"
           target="_blank"
           rounded
-          color="#fff" text
+          color="#fff"
+          text
           style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#c4302b"
           class="ml-0 google-font"
         >YouTube Channel</v-btn>
@@ -72,8 +82,8 @@
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
           </v-layout>
-        </v-img> -->
-          <!-- src="https://www.youtube.com/embed/j6joNoC6bkM" -->
+        </v-img>-->
+        <!-- src="https://www.youtube.com/embed/j6joNoC6bkM" -->
         <iframe
           width="100%"
           height="260px"
@@ -104,13 +114,13 @@ iframe {
 }
 
 @media only screen and (width: 768px) {
-  iframe { 
+  iframe {
     height: 360px;
   }
 }
 
 @media only screen and (width: 1024px) {
-  iframe { 
+  iframe {
     height: 200px;
   }
 }

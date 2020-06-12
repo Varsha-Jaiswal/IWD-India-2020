@@ -84,6 +84,11 @@ const  router =  new Router({
         title: 'Testimonials | IWD India Summit 2020',
         color: 'blue'
       }
+    },
+    {
+      path: '/report',
+      name: 'report',
+      beforeEnter() {location.href = 'https://drive.google.com/file/d/14_oTnjyHmnq4I6vQoJAPlifryTUAxbyT/view'}
     }
   ],
 })
