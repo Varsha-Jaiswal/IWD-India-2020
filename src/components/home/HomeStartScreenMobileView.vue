@@ -60,6 +60,17 @@
         <br />
         <br />
         <v-btn
+          href="/report"
+          target="_blank"
+          rounded
+          color="#fff"
+          text
+          style="text-transform: capitalize;border-radius:5px;color: white;font-size:15px;background-color:#4285F4"
+          class="ml-0 google-font"
+        >IWD India Report</v-btn>
+        <br />
+        <br />
+        <v-btn
           href="https://www.youtube.com/channel/UCOpGX93bBiVxa2zoKrmjqXA/playlists?view=1&sort=da&flow=grid"
           target="_blank"
           rounded
