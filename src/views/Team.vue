@@ -40,6 +40,30 @@
         >
           <organizingTeam />
         </v-flex>
+        <v-flex xs12 md10 lg10 class>
+          <p
+            class="google-font mt-2"
+            style="color:#37474F;font-size:150%"
+          >Our Allies:</p>
+         <v-divider></v-divider>
+        </v-flex>
+        <v-flex xs12 md10 lg10 wrap row fill-height class="ma-0 pa-0 mt-3 hidden-sm-and-up">
+          <mobileTeam />
+        </v-flex>
+
+        <v-flex
+          xs12
+          md10
+          lg10
+          wrap
+          align-center
+          justify-center
+          row
+          fill-height
+          class="mt-3 d-none d-sm-block"
+        >
+          <alliesTeam />
+        </v-flex>
       </v-layout>
     </v-container>
   </v-slide-y-reverse-transition>
@@ -47,9 +71,11 @@
 
 <script>
 import organizingTeam from "@/components/team/organizingTeam";
+import alliesTeam from "@/components/team/alliesTeam";
 export default {
   components: {
     organizingTeam,
+    alliesTeam,
     mobileTeam: () => import("@/components/team/mobileTeam")
   },
   data() {
