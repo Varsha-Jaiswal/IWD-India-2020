@@ -69,7 +69,7 @@
       justify-center
       row
       fill-height
-      class="hidden-sm-and-up"
+      class="d-md-none d-lg-none d-xl-none"
       style="padding-top:5%;padding-bottom:5%;background:#fafafa"
     >
       <v-flex xs12 sm5 md3 lg3 xl3 class="px-5">
