@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Vrijraj Singh",
+        "community": {
+          "name": "GDG Jalandhar",
+          "designation": "Community Organizer & GDE For Web"
+        },
+        "company": {
+          "name": "GDG Jalandhar",
+          "designation": "Community Organizer"
+        },
+        "image": "vrijraj.jpg",
+        "bio": "Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
+        "social": {
+          "twitter": "https://twitter.com/VrijrajSingh",
+          "linkedin": "https://www.linkedin.com/in/vrijraj/"
+        }
+    },
+    {
+        "name": "Dhrumil Shah",
+        "community": {
+            "name": "GDG Ahmedabad & GDE for Flutter & Dart",
+            "designation": "Community Organizer"
+        },
+        "company": {
+            "name": "HighLevel",
+            "designation": "Senior Mobile Application Developer"
+        },
+        "image": "dhrumil.jpeg",
+        "bio": "Senior Mobile Application Developer, at HighLevel | GDE Flutter & Dart | Co-organiser @GDG Ahmedabad | Speaker & Mentor",
+        "social": {
+            "twitter": "https://twitter.com/dhuma1981",
+            "linkedin": "https://www.linkedin.com/in/dhuma1981/"
+        }
+    },
+    {
+        "name": "Sneh Pandya",
+        "community": {
+            "name": "GDG Baroda",
+            "designation": "Co Organizer"
+        },
+        "company": {
+            "name": "Androcid",
+            "designation": "Product Manager"
+        },
+        "image": "sneh.jpeg",
+        "bio": "Product Manager | Software Architect | DevOps | Growth | UX | Google Developers | Podcast Host | Public Speaker | Mentor",
+        "social": {
+            "twitter": "https://twitter.com/SnehPandya18",
+            "linkedin": "https://www.linkedin.com/in/snehpandya18/"
+        }
+    },
+    {
+        "name": "Devesh Lashkari",
+        "community": {
+            "name": "GDG Indore",
+            "designation": "Community Organizer"
+        },
+        "company": {
+            "name": "Techcoopers",
+            "designation": "Associate Software Engineer"
+        },
+        "image": "devesh.jpeg",
+        "bio": "React | Salesforce | Node.js | Developer | Student | EDM Lover | Gamer Community Enthusiast",
+        "social": {
+            "twitter": "https://twitter.com/devesh_lashkari",
+            "linkedin": "https://www.linkedin.com/in/deveshlashkari/"
+        }
+    }
+]
