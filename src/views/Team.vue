@@ -47,10 +47,6 @@
           >Our Allies:</p>
          <v-divider></v-divider>
         </v-flex>
-        <v-flex xs12 md10 lg10 wrap row fill-height class="ma-0 pa-0 mt-3 hidden-sm-and-up">
-          <mobileTeam />
-        </v-flex>
-
         <v-flex
           xs12
           md10
@@ -60,7 +56,7 @@
           justify-center
           row
           fill-height
-          class="mt-3 d-none d-sm-block"
+          class="mt-3"
         >
           <alliesTeam />
         </v-flex>
