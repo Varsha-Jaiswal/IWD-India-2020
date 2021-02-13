@@ -22,12 +22,10 @@
         >Together We Rise</p>
 
         <p
-          class="google-font mb-0"
-          style="font-size: 100%;padding-top: 20px;color: #757575;text-align:justify"
+          class="google-font mb-0 home-content1"
         >Women Techmakers community provides visibility, community and resources for women in tech to join, thrive and lead in the industry. As a part of our International Women’s Day celebrations, we invite women and allies to join us in this celebration along with their communities.</p>
         <p
-          class="google-font mb-0"
-          style="font-size: 100%;padding-top: 20px;color: #757575;text-align:justify"
+          class="google-font mb-0 home-content1"
         >For the first time ever, 35 communities across the country are coming together to host a combined online summit to conduct inspiring sessions, tech talks and fun activities for you. The summit had industry leaders, Google Developer Experts, entrepreneurs and community leaders talking about the latest in tech, design, entrepreneurship and leadership.</p>
         <p
           class="google-font mt-5 mb-2"
@@ -123,5 +121,13 @@ iframe {
   iframe {
     height: 200px;
   }
+}
+
+.home-content1 {
+  font-size: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: #757575;
+  text-align:justify
 }
 </style>
